@@ -1,10 +1,10 @@
-package com.accolite.bookstore;
+package com.accolite.opportunity;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class BookstoreApplicationTests {
+class OpportunityManagementApplicationTests {
 
 	@Test
 	void contextLoads() {

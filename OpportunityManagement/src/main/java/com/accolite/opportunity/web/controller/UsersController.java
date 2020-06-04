@@ -8,7 +8,7 @@ import com.accolite.opportunity.model.Users;
 import com.accolite.opportunity.mysql.dao.UsersDao;
 
 import org.springframework.web.bind.annotation.*;
-@CrossOrigin(origins = "*", allowedHeaders = "*")
+@CrossOrigin(origins = "*")
 @RestController
 public class UsersController {
 	
