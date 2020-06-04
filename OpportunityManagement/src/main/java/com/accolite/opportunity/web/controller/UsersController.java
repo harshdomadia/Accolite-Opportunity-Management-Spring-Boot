@@ -1,52 +1,19 @@
 package com.accolite.opportunity.web.controller;
 import java.util.List;
 
-
 import org.springframework.beans.factory.annotation.Autowired;
 
-import com.accolite.opportunity.model.Opportunity;
 
-import com.accolite.opportunity.mysql.dao.OpportunityDao;
+import com.accolite.opportunity.model.Users;
+import com.accolite.opportunity.mysql.dao.UsersDao;
 
 import org.springframework.web.bind.annotation.*;
-
 @CrossOrigin(origins = "*", allowedHeaders = "*")
 @RestController
-public class OpportunityController {
-	@Autowired 
-	private OpportunityDao dao;
-	@PostMapping("/api/create")
-	@CrossOrigin(origins = "http://localhost:4200")
-	public List<Opportunity> addData(@RequestBody Opportunity opportunity) {
-		dao.save(opportunity);
-		return (List<Opportunity>) dao.findAll();
-		
-		
-	}
-	@GetMapping("/api/get")
-	@CrossOrigin(origins = "http://localhost:4200")
-	public List<Opportunity> getData(){
-		return (List<Opportunity>) dao.findAll();
-	}
+public class UsersController {
 	
 	
-	@DeleteMapping("/api/delete/{id}")
-	@CrossOrigin(origins = "http://localhost:4200")
-	public List<Opportunity> deleteData(@PathVariable Integer id) {
-		dao.deleteById(id);
-		return (List<Opportunity>) dao.findAll();
-	}
 	
-	@PutMapping("/api/update")
-	@CrossOrigin(origins = "http://localhost:4200")
-	public List<Opportunity> updateData(@RequestBody Opportunity opportunity){
-		dao.save(opportunity);
-		return (List<Opportunity>) dao.findAll();
-		
-	}
-	
-	///////////////////////////
-	/*
 	@Autowired 
 	private UsersDao dao1;
 	@PostMapping("/api/addUser")
@@ -83,8 +50,7 @@ public class OpportunityController {
 		return (List<Users>) dao1.findAll();
 		
 	}
-	*/
-	//////////////////////////////////
+	
 	
 
 }
