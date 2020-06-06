@@ -1,9 +1,9 @@
 package com.accolite.opportunity;
 
-import org.junit.Test;
-import org.junit.runner.RunWith;
 
-
+import static org.hamcrest.CoreMatchers.any;
+import static org.mockito.Mockito.times;
+import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
@@ -18,6 +18,7 @@ import java.util.List;
 import org.hamcrest.Matchers;
 import org.junit.Assert;
 import org.junit.Before;
+import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
@@ -37,66 +38,52 @@ import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 import org.springframework.web.context.WebApplicationContext;
 
 import com.accolite.opportunity.model.Opportunity;
+import com.accolite.opportunity.model.Users;
 import com.accolite.opportunity.mysql.dao.OpportunityDao;
+import com.accolite.opportunity.mysql.dao.UsersDao;
 import com.accolite.opportunity.web.controller.OpportunityController;
+import com.accolite.opportunity.web.controller.UsersController;
 import com.accolite.response.Response;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-
-
 @RunWith(SpringRunner.class)
-//@WebMvcTest(controllers = {OpportunityController.class})
-//@SpringBootTest
-class OpportunityManagementApplicationTests {
-	/*@Autowired
+@WebMvcTest(controllers = {UsersController.class})
+public class UserControllerTest {
+	
+	@Autowired
 	private MockMvc mockMvc;
 	
 	@MockBean
-	private OpportunityDao mockDao;
-	
-
+	private UsersDao mockDao;
 	
 	ObjectMapper om = new ObjectMapper();
-	
-	
-	
-	
-	
-	
-	
 	
 	@Before
 	public void setUp() {
 		
 		 
 		 //mockMvc = MockMvcBuilders.webAppContextSetup(webApplicationContext).build();
-		
 		 
 	}
+	
+	
 	@Test
-	public void addOpportunityDataTest() throws Exception {
-		Opportunity opp = new Opportunity();
-		opp.setOpportunityid(1);
-		opp.setOpportunitydescription("Kotlin Project");
-		opp.setLocation("Delhi");
-		opp.setSkills("Kotlin");
-		opp.setExperience(3);
-		opp.setOpeningcount(2);
-		opp.setProjectduration(4);
-		opp.setLastdatetoapply("2020-07-07");
-		opp.setManagername("Harsh");
-		opp.setManageremail("harshdomadia@accoliteindia.com");
-		opp.setCreateremail("harshdomadia@accoliteindia.com");
+	public void addUsersDataTest() throws Exception {
+		Users user = new Users();
+		user.setUserid(12);
+		user.setEmailid("harshdomadia@accoliteindia.com");
+		user.setToken("hfsfiorfgiofhuiadofhdisahfiofhdioshafuisdfodhafusdhguisdhsidudfhidfuidghuiashfiushifgrdia");
+		
 		String jsonRequest = null;
 		
 		
-			jsonRequest = om.writeValueAsString(opp);
+			jsonRequest = om.writeValueAsString(user);
 			System.out.println("req = "+jsonRequest);
 			
-			mockMvc.perform(post("/api/create").content(jsonRequest).contentType(MediaType.APPLICATION_JSON_VALUE));
+			mockMvc.perform(post("/api/addUser").content(jsonRequest).contentType(MediaType.APPLICATION_JSON_VALUE));
 			//andExpect(status().isOk());
 		
 		
@@ -120,11 +107,29 @@ class OpportunityManagementApplicationTests {
 		System.out.println("[Result:] "+results);
 	}
 	
-	@Test
-	public void deleteTheOpportunityById() throws Exception{
+	
+	/*@Test
+	public void getUserWithEmailTest() throws Exception{
+		
+		
 		when(mockDao.findAll()).thenReturn(Mockito.anyList());
 		
-		String results = mockMvc.perform(MockMvcRequestBuilders.delete("/api/delete/2"))
+		
+	String results = mockMvc.perform(get("/api/getUser").param("emailid", "harshdoamdia@accoliteindia.com"))
+		.andExpect(status().isOk())
+		.andDo(print())
+		.andReturn().getResponse().getContentAsString();
+		System.out.println("[Result:] "+results);
+		
+		//mockMvc.perform(get("/api/addUser").content(jsonRequest).contentType(MediaType.APPLICATION_JSON_VALUE));
+	}*/
+	
+	
+	@Test
+	public void deleteTheUserById() throws Exception{
+		when(mockDao.findAll()).thenReturn(Mockito.anyList());
+		
+		String results = mockMvc.perform(MockMvcRequestBuilders.delete("/api/deleteUser/2"))
 		.andExpect(MockMvcResultMatchers.status().isOk())
 		.andDo(print())
 		.andReturn().getResponse().getContentAsString();
@@ -137,27 +142,22 @@ class OpportunityManagementApplicationTests {
 	
 	
 	
+	
+	
 	@Test
-	public void updateOpportunityDataTest() throws Exception {
-		Opportunity opp = new Opportunity();
-		opp.setOpportunityid(1);
-		opp.setOpportunitydescription("Kotlin Project");
-		opp.setLocation("Delhi");
-		opp.setSkills("Kotlin");
-		opp.setExperience(3);
-		opp.setOpeningcount(2);
-		opp.setProjectduration(4);
-		opp.setLastdatetoapply("2020-07-07");
-		opp.setManagername("Harsh1");
-		opp.setManageremail("harshdomadia1@accoliteindia.com");
-		opp.setCreateremail("harshdomadia@accoliteindia.com");
+	public void updateUserPassDataTest() throws Exception {
+		Users user = new Users();
+		user.setUserid(3);
+		user.setEmailid("harshdomadia@accoliteindia.com");
+		user.setToken("hfsfiorfgiofhuiadofhdisahfiofhdioshafuisdfodhafusdhguisdhsidudfhidfuidghuiashfiushifgrdia");
+		
 		String jsonRequest = null;
 		
 		
-			jsonRequest = om.writeValueAsString(opp);
+			jsonRequest = om.writeValueAsString(user);
 			System.out.println("req1 = "+jsonRequest);
 			
-			mockMvc.perform(put("/api/update").content(jsonRequest).contentType(MediaType.APPLICATION_JSON_VALUE));
+			mockMvc.perform(put("/api/updateUser").content(jsonRequest).contentType(MediaType.APPLICATION_JSON_VALUE));
 			//andExpect(status().isOk());
 		
 		
@@ -167,7 +167,6 @@ class OpportunityManagementApplicationTests {
 		
 		
 	}
-	*/
 	
 	
 	
@@ -178,11 +177,5 @@ class OpportunityManagementApplicationTests {
 	
 	
 	
-	
-	
-
-	@Test
-	void contextLoads() {
-	}
 
 }

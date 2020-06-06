@@ -1,0 +1,1569 @@
+2020-06-06 13:15:17 INFO  Log4jLogger:42 - Inside Opportunity Get Class
+2020-06-06 13:15:17 INFO  Log4jLogger:45 - Trying to Find User in DB by retreiving all data
+2020-06-06 13:15:17 WARN  Log4jLogger:51 - Exception Occured while Finding
+2020-06-06 13:15:17 ERROR Log4jLogger:52 - Error in Finding Opportunity:org.mockito.exceptions.misusing.InvalidUseOfMatchersException: 
+Invalid use of argument matchers!
+0 matchers expected, 1 recorded:
+-> at com.accolite.opportunity.OpportunityManagementApplicationTests.getAll(OpportunityManagementApplicationTests.java:110)
+
+This exception may occur if matchers are combined with raw values:
+    //incorrect:
+    someMethod(anyObject(), "raw String");
+When using matchers, all arguments have to be provided by matchers.
+For example:
+    //correct:
+    someMethod(anyObject(), eq("String by matcher"));
+
+For more info see javadoc for Matchers class.
+
+2020-06-06 13:15:17 WARN  Log4jLogger:55 - No Opportunity Found
+2020-06-06 13:15:17 INFO  Log4jLogger:25 - Inside Opportunity Add Class
+2020-06-06 13:15:17 INFO  Log4jLogger:32 - Opportunity Registered into DB
+2020-06-06 13:15:55 INFO  Log4jLogger:42 - Inside Opportunity Get Class
+2020-06-06 13:15:55 INFO  Log4jLogger:45 - Trying to Find User in DB by retreiving all data
+2020-06-06 13:15:55 WARN  Log4jLogger:51 - Exception Occured while Finding
+2020-06-06 13:15:55 ERROR Log4jLogger:52 - Error in Finding Opportunity:org.mockito.exceptions.misusing.InvalidUseOfMatchersException: 
+Invalid use of argument matchers!
+0 matchers expected, 1 recorded:
+-> at com.accolite.opportunity.OpportunityManagementApplicationTests.getAll(OpportunityManagementApplicationTests.java:110)
+
+This exception may occur if matchers are combined with raw values:
+    //incorrect:
+    someMethod(anyObject(), "raw String");
+When using matchers, all arguments have to be provided by matchers.
+For example:
+    //correct:
+    someMethod(anyObject(), eq("String by matcher"));
+
+For more info see javadoc for Matchers class.
+
+2020-06-06 13:15:55 WARN  Log4jLogger:55 - No Opportunity Found
+2020-06-06 13:15:55 INFO  Log4jLogger:25 - Inside Opportunity Add Class
+2020-06-06 13:15:55 INFO  Log4jLogger:32 - Opportunity Registered into DB
+2020-06-06 13:24:56 INFO  Log4jLogger:65 - Inside Opportunity Delete Class
+2020-06-06 13:24:56 INFO  Log4jLogger:67 - Trying to remove opportunity
+2020-06-06 13:24:56 INFO  Log4jLogger:75 - Opportunity Removed from DB
+2020-06-06 13:24:57 INFO  Log4jLogger:42 - Inside Opportunity Get Class
+2020-06-06 13:24:57 INFO  Log4jLogger:45 - Trying to Find User in DB by retreiving all data
+2020-06-06 13:24:57 WARN  Log4jLogger:51 - Exception Occured while Finding
+2020-06-06 13:24:57 ERROR Log4jLogger:52 - Error in Finding Opportunity:org.mockito.exceptions.misusing.InvalidUseOfMatchersException: 
+Invalid use of argument matchers!
+0 matchers expected, 1 recorded:
+-> at com.accolite.opportunity.OpportunityManagementApplicationTests.getAll(OpportunityManagementApplicationTests.java:110)
+
+This exception may occur if matchers are combined with raw values:
+    //incorrect:
+    someMethod(anyObject(), "raw String");
+When using matchers, all arguments have to be provided by matchers.
+For example:
+    //correct:
+    someMethod(anyObject(), eq("String by matcher"));
+
+For more info see javadoc for Matchers class.
+
+2020-06-06 13:24:57 WARN  Log4jLogger:55 - No Opportunity Found
+2020-06-06 13:24:57 INFO  Log4jLogger:25 - Inside Opportunity Add Class
+2020-06-06 13:24:57 INFO  Log4jLogger:32 - Opportunity Registered into DB
+2020-06-06 13:27:00 INFO  Log4jLogger:25 - Inside Opportunity Add Class
+2020-06-06 13:27:00 INFO  Log4jLogger:32 - Opportunity Registered into DB
+2020-06-06 13:27:00 INFO  Log4jLogger:65 - Inside Opportunity Delete Class
+2020-06-06 13:27:00 INFO  Log4jLogger:67 - Trying to remove opportunity
+2020-06-06 13:27:00 INFO  Log4jLogger:75 - Opportunity Removed from DB
+2020-06-06 13:27:00 INFO  Log4jLogger:42 - Inside Opportunity Get Class
+2020-06-06 13:27:00 INFO  Log4jLogger:45 - Trying to Find User in DB by retreiving all data
+2020-06-06 13:27:00 WARN  Log4jLogger:51 - Exception Occured while Finding
+2020-06-06 13:27:00 ERROR Log4jLogger:52 - Error in Finding Opportunity:org.mockito.exceptions.misusing.InvalidUseOfMatchersException: 
+Invalid use of argument matchers!
+0 matchers expected, 1 recorded:
+-> at com.accolite.opportunity.OpportunityManagementApplicationTests.getAllTheOpportunity(OpportunityManagementApplicationTests.java:110)
+
+This exception may occur if matchers are combined with raw values:
+    //incorrect:
+    someMethod(anyObject(), "raw String");
+When using matchers, all arguments have to be provided by matchers.
+For example:
+    //correct:
+    someMethod(anyObject(), eq("String by matcher"));
+
+For more info see javadoc for Matchers class.
+
+2020-06-06 13:27:00 WARN  Log4jLogger:55 - No Opportunity Found
+2020-06-06 13:29:28 INFO  Log4jLogger:25 - Inside Opportunity Add Class
+2020-06-06 13:29:28 INFO  Log4jLogger:32 - Opportunity Registered into DB
+2020-06-06 13:29:28 INFO  Log4jLogger:65 - Inside Opportunity Delete Class
+2020-06-06 13:29:28 INFO  Log4jLogger:67 - Trying to remove opportunity
+2020-06-06 13:29:28 INFO  Log4jLogger:75 - Opportunity Removed from DB
+2020-06-06 13:29:28 INFO  Log4jLogger:42 - Inside Opportunity Get Class
+2020-06-06 13:29:28 INFO  Log4jLogger:45 - Trying to Find User in DB by retreiving all data
+2020-06-06 13:29:28 WARN  Log4jLogger:51 - Exception Occured while Finding
+2020-06-06 13:29:28 ERROR Log4jLogger:52 - Error in Finding Opportunity:org.mockito.exceptions.misusing.InvalidUseOfMatchersException: 
+Invalid use of argument matchers!
+0 matchers expected, 1 recorded:
+-> at com.accolite.opportunity.OpportunityManagementApplicationTests.getAllTheOpportunity(OpportunityManagementApplicationTests.java:111)
+
+This exception may occur if matchers are combined with raw values:
+    //incorrect:
+    someMethod(anyObject(), "raw String");
+When using matchers, all arguments have to be provided by matchers.
+For example:
+    //correct:
+    someMethod(anyObject(), eq("String by matcher"));
+
+For more info see javadoc for Matchers class.
+
+2020-06-06 13:29:28 WARN  Log4jLogger:55 - No Opportunity Found
+2020-06-06 13:29:28 INFO  Log4jLogger:82 - Inside Opportunity Update Class
+2020-06-06 13:29:28 INFO  Log4jLogger:84 - Trying to Update Opportunity
+2020-06-06 13:29:28 INFO  Log4jLogger:93 - Opportunity Updated in DB
+2020-06-06 13:47:56 INFO  Log4jLogger:25 - Inside Opportunity Add Class
+2020-06-06 13:47:56 INFO  Log4jLogger:32 - Opportunity Registered into DB
+2020-06-06 13:47:57 INFO  Log4jLogger:65 - Inside Opportunity Delete Class
+2020-06-06 13:47:57 INFO  Log4jLogger:67 - Trying to remove opportunity
+2020-06-06 13:47:57 INFO  Log4jLogger:75 - Opportunity Removed from DB
+2020-06-06 13:47:57 INFO  Log4jLogger:42 - Inside Opportunity Get Class
+2020-06-06 13:47:57 INFO  Log4jLogger:45 - Trying to Find User in DB by retreiving all data
+2020-06-06 13:47:57 WARN  Log4jLogger:51 - Exception Occured while Finding
+2020-06-06 13:47:57 ERROR Log4jLogger:52 - Error in Finding Opportunity:org.mockito.exceptions.misusing.InvalidUseOfMatchersException: 
+Invalid use of argument matchers!
+0 matchers expected, 1 recorded:
+-> at com.accolite.opportunity.OpportunityManagementApplicationTests.getAllTheOpportunity(OpportunityManagementApplicationTests.java:111)
+
+This exception may occur if matchers are combined with raw values:
+    //incorrect:
+    someMethod(anyObject(), "raw String");
+When using matchers, all arguments have to be provided by matchers.
+For example:
+    //correct:
+    someMethod(anyObject(), eq("String by matcher"));
+
+For more info see javadoc for Matchers class.
+
+2020-06-06 13:47:57 WARN  Log4jLogger:55 - No Opportunity Found
+2020-06-06 13:47:57 INFO  Log4jLogger:82 - Inside Opportunity Update Class
+2020-06-06 13:47:57 INFO  Log4jLogger:84 - Trying to Update Opportunity
+2020-06-06 13:47:57 INFO  Log4jLogger:93 - Opportunity Updated in DB
+2020-06-06 13:52:24 INFO  Log4jLogger:25 - Inside Opportunity Add Class
+2020-06-06 13:52:24 INFO  Log4jLogger:32 - Opportunity Registered into DB
+2020-06-06 13:52:24 INFO  Log4jLogger:65 - Inside Opportunity Delete Class
+2020-06-06 13:52:24 INFO  Log4jLogger:67 - Trying to remove opportunity
+2020-06-06 13:52:24 INFO  Log4jLogger:75 - Opportunity Removed from DB
+2020-06-06 13:52:24 INFO  Log4jLogger:42 - Inside Opportunity Get Class
+2020-06-06 13:52:24 INFO  Log4jLogger:45 - Trying to Find User in DB by retreiving all data
+2020-06-06 13:52:24 WARN  Log4jLogger:51 - Exception Occured while Finding
+2020-06-06 13:52:24 ERROR Log4jLogger:52 - Error in Finding Opportunity:org.mockito.exceptions.misusing.InvalidUseOfMatchersException: 
+Invalid use of argument matchers!
+0 matchers expected, 1 recorded:
+-> at com.accolite.opportunity.OpportunityManagementApplicationTests.getAllTheOpportunity(OpportunityManagementApplicationTests.java:111)
+
+This exception may occur if matchers are combined with raw values:
+    //incorrect:
+    someMethod(anyObject(), "raw String");
+When using matchers, all arguments have to be provided by matchers.
+For example:
+    //correct:
+    someMethod(anyObject(), eq("String by matcher"));
+
+For more info see javadoc for Matchers class.
+
+2020-06-06 13:52:24 WARN  Log4jLogger:55 - No Opportunity Found
+2020-06-06 13:52:24 INFO  Log4jLogger:82 - Inside Opportunity Update Class
+2020-06-06 13:52:24 INFO  Log4jLogger:84 - Trying to Update Opportunity
+2020-06-06 13:52:24 INFO  Log4jLogger:93 - Opportunity Updated in DB
+2020-06-06 13:56:29 INFO  Log4jLogger:25 - Inside Opportunity Add Class
+2020-06-06 13:56:29 INFO  Log4jLogger:32 - Opportunity Registered into DB
+2020-06-06 13:56:29 INFO  Log4jLogger:65 - Inside Opportunity Delete Class
+2020-06-06 13:56:29 INFO  Log4jLogger:67 - Trying to remove opportunity
+2020-06-06 13:56:29 INFO  Log4jLogger:75 - Opportunity Removed from DB
+2020-06-06 13:56:29 INFO  Log4jLogger:42 - Inside Opportunity Get Class
+2020-06-06 13:56:29 INFO  Log4jLogger:45 - Trying to Find User in DB by retreiving all data
+2020-06-06 13:56:29 WARN  Log4jLogger:51 - Exception Occured while Finding
+2020-06-06 13:56:29 ERROR Log4jLogger:52 - Error in Finding Opportunity:org.mockito.exceptions.misusing.InvalidUseOfMatchersException: 
+Invalid use of argument matchers!
+0 matchers expected, 1 recorded:
+-> at com.accolite.opportunity.OpportunityManagementApplicationTests.getAllTheOpportunity(OpportunityManagementApplicationTests.java:111)
+
+This exception may occur if matchers are combined with raw values:
+    //incorrect:
+    someMethod(anyObject(), "raw String");
+When using matchers, all arguments have to be provided by matchers.
+For example:
+    //correct:
+    someMethod(anyObject(), eq("String by matcher"));
+
+For more info see javadoc for Matchers class.
+
+2020-06-06 13:56:29 WARN  Log4jLogger:55 - No Opportunity Found
+2020-06-06 13:56:29 INFO  Log4jLogger:82 - Inside Opportunity Update Class
+2020-06-06 13:56:29 INFO  Log4jLogger:84 - Trying to Update Opportunity
+2020-06-06 13:56:29 INFO  Log4jLogger:93 - Opportunity Updated in DB
+2020-06-06 13:57:24 INFO  Log4jLogger:25 - Inside Opportunity Add Class
+2020-06-06 13:57:24 INFO  Log4jLogger:32 - Opportunity Registered into DB
+2020-06-06 13:57:24 INFO  Log4jLogger:65 - Inside Opportunity Delete Class
+2020-06-06 13:57:24 INFO  Log4jLogger:67 - Trying to remove opportunity
+2020-06-06 13:57:24 INFO  Log4jLogger:75 - Opportunity Removed from DB
+2020-06-06 13:57:24 INFO  Log4jLogger:42 - Inside Opportunity Get Class
+2020-06-06 13:57:24 INFO  Log4jLogger:45 - Trying to Find User in DB by retreiving all data
+2020-06-06 13:57:24 WARN  Log4jLogger:51 - Exception Occured while Finding
+2020-06-06 13:57:24 ERROR Log4jLogger:52 - Error in Finding Opportunity:org.mockito.exceptions.misusing.InvalidUseOfMatchersException: 
+Invalid use of argument matchers!
+0 matchers expected, 1 recorded:
+-> at com.accolite.opportunity.OpportunityManagementApplicationTests.getAllTheOpportunity(OpportunityManagementApplicationTests.java:111)
+
+This exception may occur if matchers are combined with raw values:
+    //incorrect:
+    someMethod(anyObject(), "raw String");
+When using matchers, all arguments have to be provided by matchers.
+For example:
+    //correct:
+    someMethod(anyObject(), eq("String by matcher"));
+
+For more info see javadoc for Matchers class.
+
+2020-06-06 13:57:24 WARN  Log4jLogger:55 - No Opportunity Found
+2020-06-06 13:57:24 INFO  Log4jLogger:82 - Inside Opportunity Update Class
+2020-06-06 13:57:24 INFO  Log4jLogger:84 - Trying to Update Opportunity
+2020-06-06 13:57:24 INFO  Log4jLogger:93 - Opportunity Updated in DB
+2020-06-06 14:16:58 INFO  Log4jLogger:25 - Inside Opportunity Add Class
+2020-06-06 14:16:59 INFO  Log4jLogger:32 - Opportunity Registered into DB
+2020-06-06 14:16:59 INFO  Log4jLogger:65 - Inside Opportunity Delete Class
+2020-06-06 14:16:59 INFO  Log4jLogger:67 - Trying to remove opportunity
+2020-06-06 14:16:59 INFO  Log4jLogger:75 - Opportunity Removed from DB
+2020-06-06 14:16:59 INFO  Log4jLogger:42 - Inside Opportunity Get Class
+2020-06-06 14:16:59 INFO  Log4jLogger:45 - Trying to Find User in DB by retreiving all data
+2020-06-06 14:16:59 WARN  Log4jLogger:51 - Exception Occured while Finding
+2020-06-06 14:16:59 ERROR Log4jLogger:52 - Error in Finding Opportunity:org.mockito.exceptions.misusing.InvalidUseOfMatchersException: 
+Invalid use of argument matchers!
+0 matchers expected, 1 recorded:
+-> at com.accolite.opportunity.OpportunityControllerTest.getAllTheOpportunity(OpportunityControllerTest.java:108)
+
+This exception may occur if matchers are combined with raw values:
+    //incorrect:
+    someMethod(anyObject(), "raw String");
+When using matchers, all arguments have to be provided by matchers.
+For example:
+    //correct:
+    someMethod(anyObject(), eq("String by matcher"));
+
+For more info see javadoc for Matchers class.
+
+2020-06-06 14:16:59 WARN  Log4jLogger:55 - No Opportunity Found
+2020-06-06 14:16:59 INFO  Log4jLogger:82 - Inside Opportunity Update Class
+2020-06-06 14:16:59 INFO  Log4jLogger:84 - Trying to Update Opportunity
+2020-06-06 14:16:59 INFO  Log4jLogger:93 - Opportunity Updated in DB
+2020-06-06 14:16:59 INFO  Log4jLogger:25 - Inside Opportunity Add Class
+2020-06-06 14:16:59 INFO  Log4jLogger:32 - Opportunity Registered into DB
+2020-06-06 14:16:59 INFO  Log4jLogger:65 - Inside Opportunity Delete Class
+2020-06-06 14:16:59 INFO  Log4jLogger:67 - Trying to remove opportunity
+2020-06-06 14:16:59 INFO  Log4jLogger:75 - Opportunity Removed from DB
+2020-06-06 14:16:59 INFO  Log4jLogger:42 - Inside Opportunity Get Class
+2020-06-06 14:16:59 INFO  Log4jLogger:45 - Trying to Find User in DB by retreiving all data
+2020-06-06 14:16:59 WARN  Log4jLogger:51 - Exception Occured while Finding
+2020-06-06 14:16:59 ERROR Log4jLogger:52 - Error in Finding Opportunity:org.mockito.exceptions.misusing.InvalidUseOfMatchersException: 
+Invalid use of argument matchers!
+0 matchers expected, 1 recorded:
+-> at com.accolite.opportunity.OpportunityManagementApplicationTests.getAllTheOpportunity(OpportunityManagementApplicationTests.java:111)
+
+This exception may occur if matchers are combined with raw values:
+    //incorrect:
+    someMethod(anyObject(), "raw String");
+When using matchers, all arguments have to be provided by matchers.
+For example:
+    //correct:
+    someMethod(anyObject(), eq("String by matcher"));
+
+For more info see javadoc for Matchers class.
+
+2020-06-06 14:16:59 WARN  Log4jLogger:55 - No Opportunity Found
+2020-06-06 14:16:59 INFO  Log4jLogger:82 - Inside Opportunity Update Class
+2020-06-06 14:16:59 INFO  Log4jLogger:84 - Trying to Update Opportunity
+2020-06-06 14:16:59 INFO  Log4jLogger:93 - Opportunity Updated in DB
+2020-06-06 14:17:53 INFO  Log4jLogger:25 - Inside Opportunity Add Class
+2020-06-06 14:17:53 INFO  Log4jLogger:32 - Opportunity Registered into DB
+2020-06-06 14:17:53 INFO  Log4jLogger:65 - Inside Opportunity Delete Class
+2020-06-06 14:17:53 INFO  Log4jLogger:67 - Trying to remove opportunity
+2020-06-06 14:17:53 INFO  Log4jLogger:75 - Opportunity Removed from DB
+2020-06-06 14:17:53 INFO  Log4jLogger:42 - Inside Opportunity Get Class
+2020-06-06 14:17:53 INFO  Log4jLogger:45 - Trying to Find User in DB by retreiving all data
+2020-06-06 14:17:53 WARN  Log4jLogger:51 - Exception Occured while Finding
+2020-06-06 14:17:53 ERROR Log4jLogger:52 - Error in Finding Opportunity:org.mockito.exceptions.misusing.InvalidUseOfMatchersException: 
+Invalid use of argument matchers!
+0 matchers expected, 1 recorded:
+-> at com.accolite.opportunity.OpportunityManagementApplicationTests.getAllTheOpportunity(OpportunityManagementApplicationTests.java:111)
+
+This exception may occur if matchers are combined with raw values:
+    //incorrect:
+    someMethod(anyObject(), "raw String");
+When using matchers, all arguments have to be provided by matchers.
+For example:
+    //correct:
+    someMethod(anyObject(), eq("String by matcher"));
+
+For more info see javadoc for Matchers class.
+
+2020-06-06 14:17:53 WARN  Log4jLogger:55 - No Opportunity Found
+2020-06-06 14:17:53 INFO  Log4jLogger:82 - Inside Opportunity Update Class
+2020-06-06 14:17:53 INFO  Log4jLogger:84 - Trying to Update Opportunity
+2020-06-06 14:17:53 INFO  Log4jLogger:93 - Opportunity Updated in DB
+2020-06-06 14:19:12 INFO  Log4jLogger:25 - Inside Opportunity Add Class
+2020-06-06 14:19:12 INFO  Log4jLogger:32 - Opportunity Registered into DB
+2020-06-06 14:19:12 INFO  Log4jLogger:65 - Inside Opportunity Delete Class
+2020-06-06 14:19:12 INFO  Log4jLogger:67 - Trying to remove opportunity
+2020-06-06 14:19:12 INFO  Log4jLogger:75 - Opportunity Removed from DB
+2020-06-06 14:19:12 INFO  Log4jLogger:42 - Inside Opportunity Get Class
+2020-06-06 14:19:12 INFO  Log4jLogger:45 - Trying to Find User in DB by retreiving all data
+2020-06-06 14:19:12 WARN  Log4jLogger:51 - Exception Occured while Finding
+2020-06-06 14:19:12 ERROR Log4jLogger:52 - Error in Finding Opportunity:org.mockito.exceptions.misusing.InvalidUseOfMatchersException: 
+Invalid use of argument matchers!
+0 matchers expected, 1 recorded:
+-> at com.accolite.opportunity.OpportunityControllerTest.getAllTheOpportunity(OpportunityControllerTest.java:108)
+
+This exception may occur if matchers are combined with raw values:
+    //incorrect:
+    someMethod(anyObject(), "raw String");
+When using matchers, all arguments have to be provided by matchers.
+For example:
+    //correct:
+    someMethod(anyObject(), eq("String by matcher"));
+
+For more info see javadoc for Matchers class.
+
+2020-06-06 14:19:12 WARN  Log4jLogger:55 - No Opportunity Found
+2020-06-06 14:19:12 INFO  Log4jLogger:82 - Inside Opportunity Update Class
+2020-06-06 14:19:12 INFO  Log4jLogger:84 - Trying to Update Opportunity
+2020-06-06 14:19:12 INFO  Log4jLogger:93 - Opportunity Updated in DB
+2020-06-06 14:22:41 INFO  Log4jLogger:25 - Inside Opportunity Add Class
+2020-06-06 14:22:41 INFO  Log4jLogger:32 - Opportunity Registered into DB
+2020-06-06 14:22:41 INFO  Log4jLogger:65 - Inside Opportunity Delete Class
+2020-06-06 14:22:41 INFO  Log4jLogger:67 - Trying to remove opportunity
+2020-06-06 14:22:41 INFO  Log4jLogger:75 - Opportunity Removed from DB
+2020-06-06 14:22:41 INFO  Log4jLogger:42 - Inside Opportunity Get Class
+2020-06-06 14:22:41 INFO  Log4jLogger:45 - Trying to Find User in DB by retreiving all data
+2020-06-06 14:22:41 WARN  Log4jLogger:51 - Exception Occured while Finding
+2020-06-06 14:22:41 ERROR Log4jLogger:52 - Error in Finding Opportunity:org.mockito.exceptions.misusing.InvalidUseOfMatchersException: 
+Invalid use of argument matchers!
+0 matchers expected, 1 recorded:
+-> at com.accolite.opportunity.OpportunityControllerTest.getAllTheOpportunity(OpportunityControllerTest.java:97)
+
+This exception may occur if matchers are combined with raw values:
+    //incorrect:
+    someMethod(anyObject(), "raw String");
+When using matchers, all arguments have to be provided by matchers.
+For example:
+    //correct:
+    someMethod(anyObject(), eq("String by matcher"));
+
+For more info see javadoc for Matchers class.
+
+2020-06-06 14:22:41 WARN  Log4jLogger:55 - No Opportunity Found
+2020-06-06 14:22:41 INFO  Log4jLogger:82 - Inside Opportunity Update Class
+2020-06-06 14:22:41 INFO  Log4jLogger:84 - Trying to Update Opportunity
+2020-06-06 14:22:41 INFO  Log4jLogger:93 - Opportunity Updated in DB
+2020-06-06 14:30:21 INFO  Log4jLogger:24 - Inside User Add Class for Interceptor
+2020-06-06 14:30:21 INFO  Log4jLogger:26 - Trying to Register User into DB
+2020-06-06 14:30:21 INFO  Log4jLogger:35 - User Registered into DB
+2020-06-06 14:35:20 INFO  Log4jLogger:24 - Inside User Add Class for Interceptor
+2020-06-06 14:35:20 INFO  Log4jLogger:26 - Trying to Register User into DB
+2020-06-06 14:35:20 INFO  Log4jLogger:35 - User Registered into DB
+2020-06-06 14:36:09 INFO  Log4jLogger:25 - Inside Opportunity Add Class
+2020-06-06 14:36:09 INFO  Log4jLogger:32 - Opportunity Registered into DB
+2020-06-06 14:36:09 INFO  Log4jLogger:65 - Inside Opportunity Delete Class
+2020-06-06 14:36:09 INFO  Log4jLogger:67 - Trying to remove opportunity
+2020-06-06 14:36:09 INFO  Log4jLogger:75 - Opportunity Removed from DB
+2020-06-06 14:36:09 INFO  Log4jLogger:42 - Inside Opportunity Get Class
+2020-06-06 14:36:09 INFO  Log4jLogger:45 - Trying to Find User in DB by retreiving all data
+2020-06-06 14:36:09 WARN  Log4jLogger:51 - Exception Occured while Finding
+2020-06-06 14:36:09 ERROR Log4jLogger:52 - Error in Finding Opportunity:org.mockito.exceptions.misusing.InvalidUseOfMatchersException: 
+Invalid use of argument matchers!
+0 matchers expected, 1 recorded:
+-> at com.accolite.opportunity.OpportunityManagementApplicationTests.getAllTheOpportunity(OpportunityManagementApplicationTests.java:111)
+
+This exception may occur if matchers are combined with raw values:
+    //incorrect:
+    someMethod(anyObject(), "raw String");
+When using matchers, all arguments have to be provided by matchers.
+For example:
+    //correct:
+    someMethod(anyObject(), eq("String by matcher"));
+
+For more info see javadoc for Matchers class.
+
+2020-06-06 14:36:09 WARN  Log4jLogger:55 - No Opportunity Found
+2020-06-06 14:36:09 INFO  Log4jLogger:82 - Inside Opportunity Update Class
+2020-06-06 14:36:09 INFO  Log4jLogger:84 - Trying to Update Opportunity
+2020-06-06 14:36:09 INFO  Log4jLogger:93 - Opportunity Updated in DB
+2020-06-06 14:36:10 INFO  Log4jLogger:24 - Inside User Add Class for Interceptor
+2020-06-06 14:36:10 INFO  Log4jLogger:26 - Trying to Register User into DB
+2020-06-06 14:36:10 INFO  Log4jLogger:35 - User Registered into DB
+2020-06-06 14:37:35 INFO  Log4jLogger:24 - Inside User Add Class for Interceptor
+2020-06-06 14:37:35 INFO  Log4jLogger:26 - Trying to Register User into DB
+2020-06-06 14:37:35 INFO  Log4jLogger:35 - User Registered into DB
+2020-06-06 14:38:16 INFO  Log4jLogger:24 - Inside User Add Class for Interceptor
+2020-06-06 14:38:16 INFO  Log4jLogger:26 - Trying to Register User into DB
+2020-06-06 14:38:16 INFO  Log4jLogger:35 - User Registered into DB
+2020-06-06 14:39:23 INFO  Log4jLogger:24 - Inside User Add Class for Interceptor
+2020-06-06 14:39:23 INFO  Log4jLogger:26 - Trying to Register User into DB
+2020-06-06 14:39:23 INFO  Log4jLogger:35 - User Registered into DB
+2020-06-06 14:40:08 INFO  Log4jLogger:25 - Inside Opportunity Add Class
+2020-06-06 14:40:08 INFO  Log4jLogger:32 - Opportunity Registered into DB
+2020-06-06 14:40:08 INFO  Log4jLogger:65 - Inside Opportunity Delete Class
+2020-06-06 14:40:08 INFO  Log4jLogger:67 - Trying to remove opportunity
+2020-06-06 14:40:08 INFO  Log4jLogger:75 - Opportunity Removed from DB
+2020-06-06 14:40:08 INFO  Log4jLogger:42 - Inside Opportunity Get Class
+2020-06-06 14:40:08 INFO  Log4jLogger:45 - Trying to Find User in DB by retreiving all data
+2020-06-06 14:40:08 WARN  Log4jLogger:51 - Exception Occured while Finding
+2020-06-06 14:40:08 ERROR Log4jLogger:52 - Error in Finding Opportunity:org.mockito.exceptions.misusing.InvalidUseOfMatchersException: 
+Invalid use of argument matchers!
+0 matchers expected, 1 recorded:
+-> at com.accolite.opportunity.OpportunityControllerTest.getAllTheOpportunity(OpportunityControllerTest.java:95)
+
+This exception may occur if matchers are combined with raw values:
+    //incorrect:
+    someMethod(anyObject(), "raw String");
+When using matchers, all arguments have to be provided by matchers.
+For example:
+    //correct:
+    someMethod(anyObject(), eq("String by matcher"));
+
+For more info see javadoc for Matchers class.
+
+2020-06-06 14:40:08 WARN  Log4jLogger:55 - No Opportunity Found
+2020-06-06 14:40:08 INFO  Log4jLogger:82 - Inside Opportunity Update Class
+2020-06-06 14:40:08 INFO  Log4jLogger:84 - Trying to Update Opportunity
+2020-06-06 14:40:08 INFO  Log4jLogger:93 - Opportunity Updated in DB
+2020-06-06 14:40:09 INFO  Log4jLogger:24 - Inside User Add Class for Interceptor
+2020-06-06 14:40:09 INFO  Log4jLogger:26 - Trying to Register User into DB
+2020-06-06 14:40:09 INFO  Log4jLogger:35 - User Registered into DB
+2020-06-06 14:40:35 INFO  Log4jLogger:25 - Inside Opportunity Add Class
+2020-06-06 14:40:35 INFO  Log4jLogger:32 - Opportunity Registered into DB
+2020-06-06 14:40:35 INFO  Log4jLogger:65 - Inside Opportunity Delete Class
+2020-06-06 14:40:35 INFO  Log4jLogger:67 - Trying to remove opportunity
+2020-06-06 14:40:35 INFO  Log4jLogger:75 - Opportunity Removed from DB
+2020-06-06 14:40:35 INFO  Log4jLogger:42 - Inside Opportunity Get Class
+2020-06-06 14:40:35 INFO  Log4jLogger:45 - Trying to Find User in DB by retreiving all data
+2020-06-06 14:40:35 WARN  Log4jLogger:51 - Exception Occured while Finding
+2020-06-06 14:40:35 ERROR Log4jLogger:52 - Error in Finding Opportunity:org.mockito.exceptions.misusing.InvalidUseOfMatchersException: 
+Invalid use of argument matchers!
+0 matchers expected, 1 recorded:
+-> at com.accolite.opportunity.OpportunityControllerTest.getAllTheOpportunity(OpportunityControllerTest.java:95)
+
+This exception may occur if matchers are combined with raw values:
+    //incorrect:
+    someMethod(anyObject(), "raw String");
+When using matchers, all arguments have to be provided by matchers.
+For example:
+    //correct:
+    someMethod(anyObject(), eq("String by matcher"));
+
+For more info see javadoc for Matchers class.
+
+2020-06-06 14:40:35 WARN  Log4jLogger:55 - No Opportunity Found
+2020-06-06 14:40:35 INFO  Log4jLogger:82 - Inside Opportunity Update Class
+2020-06-06 14:40:35 INFO  Log4jLogger:84 - Trying to Update Opportunity
+2020-06-06 14:40:35 INFO  Log4jLogger:93 - Opportunity Updated in DB
+2020-06-06 14:40:36 INFO  Log4jLogger:24 - Inside User Add Class for Interceptor
+2020-06-06 14:40:36 INFO  Log4jLogger:26 - Trying to Register User into DB
+2020-06-06 14:40:36 INFO  Log4jLogger:35 - User Registered into DB
+2020-06-06 14:44:05 INFO  Log4jLogger:25 - Inside Opportunity Add Class
+2020-06-06 14:44:05 INFO  Log4jLogger:32 - Opportunity Registered into DB
+2020-06-06 14:44:05 INFO  Log4jLogger:65 - Inside Opportunity Delete Class
+2020-06-06 14:44:05 INFO  Log4jLogger:67 - Trying to remove opportunity
+2020-06-06 14:44:05 INFO  Log4jLogger:75 - Opportunity Removed from DB
+2020-06-06 14:44:05 INFO  Log4jLogger:42 - Inside Opportunity Get Class
+2020-06-06 14:44:05 INFO  Log4jLogger:45 - Trying to Find User in DB by retreiving all data
+2020-06-06 14:44:05 WARN  Log4jLogger:51 - Exception Occured while Finding
+2020-06-06 14:44:05 ERROR Log4jLogger:52 - Error in Finding Opportunity:org.mockito.exceptions.misusing.InvalidUseOfMatchersException: 
+Invalid use of argument matchers!
+0 matchers expected, 1 recorded:
+-> at com.accolite.opportunity.OpportunityControllerTest.getAllTheOpportunity(OpportunityControllerTest.java:95)
+
+This exception may occur if matchers are combined with raw values:
+    //incorrect:
+    someMethod(anyObject(), "raw String");
+When using matchers, all arguments have to be provided by matchers.
+For example:
+    //correct:
+    someMethod(anyObject(), eq("String by matcher"));
+
+For more info see javadoc for Matchers class.
+
+2020-06-06 14:44:05 WARN  Log4jLogger:55 - No Opportunity Found
+2020-06-06 14:44:05 INFO  Log4jLogger:82 - Inside Opportunity Update Class
+2020-06-06 14:44:05 INFO  Log4jLogger:84 - Trying to Update Opportunity
+2020-06-06 14:44:05 INFO  Log4jLogger:93 - Opportunity Updated in DB
+2020-06-06 14:44:07 INFO  Log4jLogger:24 - Inside User Add Class for Interceptor
+2020-06-06 14:44:07 INFO  Log4jLogger:26 - Trying to Register User into DB
+2020-06-06 14:44:07 INFO  Log4jLogger:35 - User Registered into DB
+2020-06-06 14:45:51 INFO  Log4jLogger:25 - Inside Opportunity Add Class
+2020-06-06 14:45:51 INFO  Log4jLogger:32 - Opportunity Registered into DB
+2020-06-06 14:45:51 INFO  Log4jLogger:65 - Inside Opportunity Delete Class
+2020-06-06 14:45:51 INFO  Log4jLogger:67 - Trying to remove opportunity
+2020-06-06 14:45:51 INFO  Log4jLogger:75 - Opportunity Removed from DB
+2020-06-06 14:45:51 INFO  Log4jLogger:42 - Inside Opportunity Get Class
+2020-06-06 14:45:51 INFO  Log4jLogger:45 - Trying to Find User in DB by retreiving all data
+2020-06-06 14:45:51 WARN  Log4jLogger:51 - Exception Occured while Finding
+2020-06-06 14:45:51 ERROR Log4jLogger:52 - Error in Finding Opportunity:org.mockito.exceptions.misusing.InvalidUseOfMatchersException: 
+Invalid use of argument matchers!
+0 matchers expected, 1 recorded:
+-> at com.accolite.opportunity.OpportunityControllerTest.getAllTheOpportunity(OpportunityControllerTest.java:95)
+
+This exception may occur if matchers are combined with raw values:
+    //incorrect:
+    someMethod(anyObject(), "raw String");
+When using matchers, all arguments have to be provided by matchers.
+For example:
+    //correct:
+    someMethod(anyObject(), eq("String by matcher"));
+
+For more info see javadoc for Matchers class.
+
+2020-06-06 14:45:51 WARN  Log4jLogger:55 - No Opportunity Found
+2020-06-06 14:45:51 INFO  Log4jLogger:82 - Inside Opportunity Update Class
+2020-06-06 14:45:51 INFO  Log4jLogger:84 - Trying to Update Opportunity
+2020-06-06 14:45:51 INFO  Log4jLogger:93 - Opportunity Updated in DB
+2020-06-06 14:45:52 INFO  Log4jLogger:24 - Inside User Add Class for Interceptor
+2020-06-06 14:45:52 INFO  Log4jLogger:26 - Trying to Register User into DB
+2020-06-06 14:45:52 INFO  Log4jLogger:35 - User Registered into DB
+2020-06-06 14:49:46 INFO  Log4jLogger:25 - Inside Opportunity Add Class
+2020-06-06 14:49:46 INFO  Log4jLogger:32 - Opportunity Registered into DB
+2020-06-06 14:49:46 INFO  Log4jLogger:65 - Inside Opportunity Delete Class
+2020-06-06 14:49:46 INFO  Log4jLogger:67 - Trying to remove opportunity
+2020-06-06 14:49:46 INFO  Log4jLogger:75 - Opportunity Removed from DB
+2020-06-06 14:49:46 INFO  Log4jLogger:42 - Inside Opportunity Get Class
+2020-06-06 14:49:46 INFO  Log4jLogger:45 - Trying to Find User in DB by retreiving all data
+2020-06-06 14:49:46 WARN  Log4jLogger:51 - Exception Occured while Finding
+2020-06-06 14:49:46 ERROR Log4jLogger:52 - Error in Finding Opportunity:org.mockito.exceptions.misusing.InvalidUseOfMatchersException: 
+Invalid use of argument matchers!
+0 matchers expected, 1 recorded:
+-> at com.accolite.opportunity.OpportunityControllerTest.getAllTheOpportunity(OpportunityControllerTest.java:95)
+
+This exception may occur if matchers are combined with raw values:
+    //incorrect:
+    someMethod(anyObject(), "raw String");
+When using matchers, all arguments have to be provided by matchers.
+For example:
+    //correct:
+    someMethod(anyObject(), eq("String by matcher"));
+
+For more info see javadoc for Matchers class.
+
+2020-06-06 14:49:46 WARN  Log4jLogger:55 - No Opportunity Found
+2020-06-06 14:49:46 INFO  Log4jLogger:82 - Inside Opportunity Update Class
+2020-06-06 14:49:46 INFO  Log4jLogger:84 - Trying to Update Opportunity
+2020-06-06 14:49:46 INFO  Log4jLogger:93 - Opportunity Updated in DB
+2020-06-06 14:49:48 INFO  Log4jLogger:24 - Inside User Add Class for Interceptor
+2020-06-06 14:49:48 INFO  Log4jLogger:26 - Trying to Register User into DB
+2020-06-06 14:49:48 INFO  Log4jLogger:35 - User Registered into DB
+2020-06-06 14:51:57 INFO  Log4jLogger:25 - Inside Opportunity Add Class
+2020-06-06 14:51:57 INFO  Log4jLogger:32 - Opportunity Registered into DB
+2020-06-06 14:51:57 INFO  Log4jLogger:65 - Inside Opportunity Delete Class
+2020-06-06 14:51:57 INFO  Log4jLogger:67 - Trying to remove opportunity
+2020-06-06 14:51:57 INFO  Log4jLogger:75 - Opportunity Removed from DB
+2020-06-06 14:51:57 INFO  Log4jLogger:42 - Inside Opportunity Get Class
+2020-06-06 14:51:57 INFO  Log4jLogger:45 - Trying to Find User in DB by retreiving all data
+2020-06-06 14:51:57 WARN  Log4jLogger:51 - Exception Occured while Finding
+2020-06-06 14:51:57 ERROR Log4jLogger:52 - Error in Finding Opportunity:org.mockito.exceptions.misusing.InvalidUseOfMatchersException: 
+Invalid use of argument matchers!
+0 matchers expected, 1 recorded:
+-> at com.accolite.opportunity.OpportunityControllerTest.getAllTheOpportunity(OpportunityControllerTest.java:95)
+
+This exception may occur if matchers are combined with raw values:
+    //incorrect:
+    someMethod(anyObject(), "raw String");
+When using matchers, all arguments have to be provided by matchers.
+For example:
+    //correct:
+    someMethod(anyObject(), eq("String by matcher"));
+
+For more info see javadoc for Matchers class.
+
+2020-06-06 14:51:57 WARN  Log4jLogger:55 - No Opportunity Found
+2020-06-06 14:51:57 INFO  Log4jLogger:82 - Inside Opportunity Update Class
+2020-06-06 14:51:57 INFO  Log4jLogger:84 - Trying to Update Opportunity
+2020-06-06 14:51:57 INFO  Log4jLogger:93 - Opportunity Updated in DB
+2020-06-06 14:51:58 INFO  Log4jLogger:24 - Inside User Add Class for Interceptor
+2020-06-06 14:51:58 INFO  Log4jLogger:26 - Trying to Register User into DB
+2020-06-06 14:51:58 INFO  Log4jLogger:35 - User Registered into DB
+2020-06-06 15:03:51 INFO  Log4jLogger:25 - Inside Opportunity Add Class
+2020-06-06 15:03:51 INFO  Log4jLogger:32 - Opportunity Registered into DB
+2020-06-06 15:03:51 INFO  Log4jLogger:65 - Inside Opportunity Delete Class
+2020-06-06 15:03:51 INFO  Log4jLogger:67 - Trying to remove opportunity
+2020-06-06 15:03:51 INFO  Log4jLogger:75 - Opportunity Removed from DB
+2020-06-06 15:03:51 INFO  Log4jLogger:42 - Inside Opportunity Get Class
+2020-06-06 15:03:51 INFO  Log4jLogger:45 - Trying to Find User in DB by retreiving all data
+2020-06-06 15:03:51 WARN  Log4jLogger:51 - Exception Occured while Finding
+2020-06-06 15:03:51 ERROR Log4jLogger:52 - Error in Finding Opportunity:org.mockito.exceptions.misusing.InvalidUseOfMatchersException: 
+Invalid use of argument matchers!
+0 matchers expected, 1 recorded:
+-> at com.accolite.opportunity.OpportunityControllerTest.getAllTheOpportunity(OpportunityControllerTest.java:95)
+
+This exception may occur if matchers are combined with raw values:
+    //incorrect:
+    someMethod(anyObject(), "raw String");
+When using matchers, all arguments have to be provided by matchers.
+For example:
+    //correct:
+    someMethod(anyObject(), eq("String by matcher"));
+
+For more info see javadoc for Matchers class.
+
+2020-06-06 15:03:51 WARN  Log4jLogger:55 - No Opportunity Found
+2020-06-06 15:03:51 INFO  Log4jLogger:82 - Inside Opportunity Update Class
+2020-06-06 15:03:51 INFO  Log4jLogger:84 - Trying to Update Opportunity
+2020-06-06 15:03:51 INFO  Log4jLogger:93 - Opportunity Updated in DB
+2020-06-06 15:03:53 INFO  Log4jLogger:24 - Inside User Add Class for Interceptor
+2020-06-06 15:03:53 INFO  Log4jLogger:26 - Trying to Register User into DB
+2020-06-06 15:03:53 INFO  Log4jLogger:35 - User Registered into DB
+2020-06-06 15:05:33 INFO  Log4jLogger:25 - Inside Opportunity Add Class
+2020-06-06 15:05:33 INFO  Log4jLogger:32 - Opportunity Registered into DB
+2020-06-06 15:05:33 INFO  Log4jLogger:65 - Inside Opportunity Delete Class
+2020-06-06 15:05:33 INFO  Log4jLogger:67 - Trying to remove opportunity
+2020-06-06 15:05:33 INFO  Log4jLogger:75 - Opportunity Removed from DB
+2020-06-06 15:05:33 INFO  Log4jLogger:42 - Inside Opportunity Get Class
+2020-06-06 15:05:33 INFO  Log4jLogger:45 - Trying to Find User in DB by retreiving all data
+2020-06-06 15:05:33 WARN  Log4jLogger:51 - Exception Occured while Finding
+2020-06-06 15:05:33 ERROR Log4jLogger:52 - Error in Finding Opportunity:org.mockito.exceptions.misusing.InvalidUseOfMatchersException: 
+Invalid use of argument matchers!
+0 matchers expected, 1 recorded:
+-> at com.accolite.opportunity.OpportunityControllerTest.getAllTheOpportunity(OpportunityControllerTest.java:95)
+
+This exception may occur if matchers are combined with raw values:
+    //incorrect:
+    someMethod(anyObject(), "raw String");
+When using matchers, all arguments have to be provided by matchers.
+For example:
+    //correct:
+    someMethod(anyObject(), eq("String by matcher"));
+
+For more info see javadoc for Matchers class.
+
+2020-06-06 15:05:33 WARN  Log4jLogger:55 - No Opportunity Found
+2020-06-06 15:05:34 INFO  Log4jLogger:82 - Inside Opportunity Update Class
+2020-06-06 15:05:34 INFO  Log4jLogger:84 - Trying to Update Opportunity
+2020-06-06 15:05:34 INFO  Log4jLogger:93 - Opportunity Updated in DB
+2020-06-06 15:05:35 INFO  Log4jLogger:24 - Inside User Add Class for Interceptor
+2020-06-06 15:05:35 INFO  Log4jLogger:26 - Trying to Register User into DB
+2020-06-06 15:05:35 INFO  Log4jLogger:35 - User Registered into DB
+2020-06-06 15:08:06 INFO  Log4jLogger:25 - Inside Opportunity Add Class
+2020-06-06 15:08:06 INFO  Log4jLogger:32 - Opportunity Registered into DB
+2020-06-06 15:08:06 INFO  Log4jLogger:65 - Inside Opportunity Delete Class
+2020-06-06 15:08:06 INFO  Log4jLogger:67 - Trying to remove opportunity
+2020-06-06 15:08:06 INFO  Log4jLogger:75 - Opportunity Removed from DB
+2020-06-06 15:08:06 INFO  Log4jLogger:42 - Inside Opportunity Get Class
+2020-06-06 15:08:06 INFO  Log4jLogger:45 - Trying to Find User in DB by retreiving all data
+2020-06-06 15:08:06 WARN  Log4jLogger:51 - Exception Occured while Finding
+2020-06-06 15:08:06 ERROR Log4jLogger:52 - Error in Finding Opportunity:org.mockito.exceptions.misusing.InvalidUseOfMatchersException: 
+Invalid use of argument matchers!
+0 matchers expected, 1 recorded:
+-> at com.accolite.opportunity.OpportunityControllerTest.getAllTheOpportunity(OpportunityControllerTest.java:95)
+
+This exception may occur if matchers are combined with raw values:
+    //incorrect:
+    someMethod(anyObject(), "raw String");
+When using matchers, all arguments have to be provided by matchers.
+For example:
+    //correct:
+    someMethod(anyObject(), eq("String by matcher"));
+
+For more info see javadoc for Matchers class.
+
+2020-06-06 15:08:06 WARN  Log4jLogger:55 - No Opportunity Found
+2020-06-06 15:08:06 INFO  Log4jLogger:82 - Inside Opportunity Update Class
+2020-06-06 15:08:06 INFO  Log4jLogger:84 - Trying to Update Opportunity
+2020-06-06 15:08:06 INFO  Log4jLogger:93 - Opportunity Updated in DB
+2020-06-06 15:08:07 INFO  Log4jLogger:24 - Inside User Add Class for Interceptor
+2020-06-06 15:08:07 INFO  Log4jLogger:26 - Trying to Register User into DB
+2020-06-06 15:08:07 INFO  Log4jLogger:35 - User Registered into DB
+2020-06-06 15:22:05 INFO  Log4jLogger:24 - Inside User Add Class for Interceptor
+2020-06-06 15:22:05 INFO  Log4jLogger:26 - Trying to Register User into DB
+2020-06-06 15:22:06 INFO  Log4jLogger:42 - Inside Opportunity Get Class
+2020-06-06 15:22:06 INFO  Log4jLogger:45 - Trying to Find User in DB by retreiving all data
+2020-06-06 15:22:06 INFO  Log4jLogger:35 - User Registered into DB
+2020-06-06 15:22:06 INFO  Log4jLogger:47 - Found Opportunities Returning its Data
+2020-06-06 15:22:18 INFO  Log4jLogger:69 - Inside User Delete Class for Removing User
+2020-06-06 15:22:18 INFO  Log4jLogger:72 - Trying to remove User
+2020-06-06 15:22:18 INFO  Log4jLogger:81 - User Removed from DB
+2020-06-06 15:27:11 INFO  Log4jLogger:25 - Inside Opportunity Add Class
+2020-06-06 15:27:11 INFO  Log4jLogger:32 - Opportunity Registered into DB
+2020-06-06 15:27:12 INFO  Log4jLogger:65 - Inside Opportunity Delete Class
+2020-06-06 15:27:12 INFO  Log4jLogger:67 - Trying to remove opportunity
+2020-06-06 15:27:12 INFO  Log4jLogger:75 - Opportunity Removed from DB
+2020-06-06 15:27:12 INFO  Log4jLogger:42 - Inside Opportunity Get Class
+2020-06-06 15:27:12 INFO  Log4jLogger:45 - Trying to Find User in DB by retreiving all data
+2020-06-06 15:27:12 WARN  Log4jLogger:51 - Exception Occured while Finding
+2020-06-06 15:27:12 ERROR Log4jLogger:52 - Error in Finding Opportunity:org.mockito.exceptions.misusing.InvalidUseOfMatchersException: 
+Invalid use of argument matchers!
+0 matchers expected, 1 recorded:
+-> at com.accolite.opportunity.OpportunityControllerTest.getAllTheOpportunity(OpportunityControllerTest.java:95)
+
+This exception may occur if matchers are combined with raw values:
+    //incorrect:
+    someMethod(anyObject(), "raw String");
+When using matchers, all arguments have to be provided by matchers.
+For example:
+    //correct:
+    someMethod(anyObject(), eq("String by matcher"));
+
+For more info see javadoc for Matchers class.
+
+2020-06-06 15:27:12 WARN  Log4jLogger:55 - No Opportunity Found
+2020-06-06 15:27:12 INFO  Log4jLogger:82 - Inside Opportunity Update Class
+2020-06-06 15:27:12 INFO  Log4jLogger:84 - Trying to Update Opportunity
+2020-06-06 15:27:12 INFO  Log4jLogger:93 - Opportunity Updated in DB
+2020-06-06 15:27:13 INFO  Log4jLogger:24 - Inside User Add Class for Interceptor
+2020-06-06 15:27:13 INFO  Log4jLogger:26 - Trying to Register User into DB
+2020-06-06 15:27:13 INFO  Log4jLogger:35 - User Registered into DB
+2020-06-06 15:27:13 INFO  Log4jLogger:43 - Inside User Get Class for finding User by EmailId
+2020-06-06 15:27:13 INFO  Log4jLogger:46 - Trying to Find User in DB by retreiving all data
+2020-06-06 15:27:13 WARN  Log4jLogger:50 - Exception Occured while Finding
+2020-06-06 15:27:13 ERROR Log4jLogger:51 - Error in Finding User:org.mockito.exceptions.misusing.InvalidUseOfMatchersException: 
+Invalid use of argument matchers!
+0 matchers expected, 1 recorded:
+-> at com.accolite.opportunity.UserControllerTest.getUserWithEmailTest(UserControllerTest.java:112)
+
+This exception may occur if matchers are combined with raw values:
+    //incorrect:
+    someMethod(anyObject(), "raw String");
+When using matchers, all arguments have to be provided by matchers.
+For example:
+    //correct:
+    someMethod(anyObject(), eq("String by matcher"));
+
+For more info see javadoc for Matchers class.
+
+2020-06-06 15:32:30 INFO  Log4jLogger:25 - Inside Opportunity Add Class
+2020-06-06 15:32:30 INFO  Log4jLogger:32 - Opportunity Registered into DB
+2020-06-06 15:32:30 INFO  Log4jLogger:65 - Inside Opportunity Delete Class
+2020-06-06 15:32:30 INFO  Log4jLogger:67 - Trying to remove opportunity
+2020-06-06 15:32:30 INFO  Log4jLogger:75 - Opportunity Removed from DB
+2020-06-06 15:32:30 INFO  Log4jLogger:42 - Inside Opportunity Get Class
+2020-06-06 15:32:30 INFO  Log4jLogger:45 - Trying to Find User in DB by retreiving all data
+2020-06-06 15:32:30 WARN  Log4jLogger:51 - Exception Occured while Finding
+2020-06-06 15:32:30 ERROR Log4jLogger:52 - Error in Finding Opportunity:org.mockito.exceptions.misusing.InvalidUseOfMatchersException: 
+Invalid use of argument matchers!
+0 matchers expected, 1 recorded:
+-> at com.accolite.opportunity.OpportunityControllerTest.getAllTheOpportunity(OpportunityControllerTest.java:95)
+
+This exception may occur if matchers are combined with raw values:
+    //incorrect:
+    someMethod(anyObject(), "raw String");
+When using matchers, all arguments have to be provided by matchers.
+For example:
+    //correct:
+    someMethod(anyObject(), eq("String by matcher"));
+
+For more info see javadoc for Matchers class.
+
+2020-06-06 15:32:30 WARN  Log4jLogger:55 - No Opportunity Found
+2020-06-06 15:32:30 INFO  Log4jLogger:82 - Inside Opportunity Update Class
+2020-06-06 15:32:30 INFO  Log4jLogger:84 - Trying to Update Opportunity
+2020-06-06 15:32:30 INFO  Log4jLogger:93 - Opportunity Updated in DB
+2020-06-06 15:32:32 INFO  Log4jLogger:24 - Inside User Add Class for Interceptor
+2020-06-06 15:32:32 INFO  Log4jLogger:26 - Trying to Register User into DB
+2020-06-06 15:32:32 INFO  Log4jLogger:35 - User Registered into DB
+2020-06-06 15:32:32 INFO  Log4jLogger:43 - Inside User Get Class for finding User by EmailId
+2020-06-06 15:32:32 INFO  Log4jLogger:46 - Trying to Find User in DB by retreiving all data
+2020-06-06 15:32:32 WARN  Log4jLogger:50 - Exception Occured while Finding
+2020-06-06 15:32:32 ERROR Log4jLogger:51 - Error in Finding User:org.mockito.exceptions.misusing.InvalidUseOfMatchersException: 
+Invalid use of argument matchers!
+0 matchers expected, 1 recorded:
+-> at com.accolite.opportunity.UserControllerTest.getUserWithEmailTest(UserControllerTest.java:112)
+
+This exception may occur if matchers are combined with raw values:
+    //incorrect:
+    someMethod(anyObject(), "raw String");
+When using matchers, all arguments have to be provided by matchers.
+For example:
+    //correct:
+    someMethod(anyObject(), eq("String by matcher"));
+
+For more info see javadoc for Matchers class.
+
+2020-06-06 15:32:50 INFO  Log4jLogger:25 - Inside Opportunity Add Class
+2020-06-06 15:32:50 INFO  Log4jLogger:32 - Opportunity Registered into DB
+2020-06-06 15:32:50 INFO  Log4jLogger:65 - Inside Opportunity Delete Class
+2020-06-06 15:32:50 INFO  Log4jLogger:67 - Trying to remove opportunity
+2020-06-06 15:32:50 INFO  Log4jLogger:75 - Opportunity Removed from DB
+2020-06-06 15:32:50 INFO  Log4jLogger:42 - Inside Opportunity Get Class
+2020-06-06 15:32:50 INFO  Log4jLogger:45 - Trying to Find User in DB by retreiving all data
+2020-06-06 15:32:50 WARN  Log4jLogger:51 - Exception Occured while Finding
+2020-06-06 15:32:50 ERROR Log4jLogger:52 - Error in Finding Opportunity:org.mockito.exceptions.misusing.InvalidUseOfMatchersException: 
+Invalid use of argument matchers!
+0 matchers expected, 1 recorded:
+-> at com.accolite.opportunity.OpportunityControllerTest.getAllTheOpportunity(OpportunityControllerTest.java:95)
+
+This exception may occur if matchers are combined with raw values:
+    //incorrect:
+    someMethod(anyObject(), "raw String");
+When using matchers, all arguments have to be provided by matchers.
+For example:
+    //correct:
+    someMethod(anyObject(), eq("String by matcher"));
+
+For more info see javadoc for Matchers class.
+
+2020-06-06 15:32:50 WARN  Log4jLogger:55 - No Opportunity Found
+2020-06-06 15:32:50 INFO  Log4jLogger:82 - Inside Opportunity Update Class
+2020-06-06 15:32:50 INFO  Log4jLogger:84 - Trying to Update Opportunity
+2020-06-06 15:32:50 INFO  Log4jLogger:93 - Opportunity Updated in DB
+2020-06-06 15:32:52 INFO  Log4jLogger:24 - Inside User Add Class for Interceptor
+2020-06-06 15:32:52 INFO  Log4jLogger:26 - Trying to Register User into DB
+2020-06-06 15:32:52 INFO  Log4jLogger:35 - User Registered into DB
+2020-06-06 15:32:52 INFO  Log4jLogger:43 - Inside User Get Class for finding User by EmailId
+2020-06-06 15:32:52 INFO  Log4jLogger:46 - Trying to Find User in DB by retreiving all data
+2020-06-06 15:32:52 WARN  Log4jLogger:50 - Exception Occured while Finding
+2020-06-06 15:32:52 ERROR Log4jLogger:51 - Error in Finding User:org.mockito.exceptions.misusing.InvalidUseOfMatchersException: 
+Invalid use of argument matchers!
+0 matchers expected, 1 recorded:
+-> at com.accolite.opportunity.UserControllerTest.getUserWithEmailTest(UserControllerTest.java:112)
+
+This exception may occur if matchers are combined with raw values:
+    //incorrect:
+    someMethod(anyObject(), "raw String");
+When using matchers, all arguments have to be provided by matchers.
+For example:
+    //correct:
+    someMethod(anyObject(), eq("String by matcher"));
+
+For more info see javadoc for Matchers class.
+
+2020-06-06 15:34:11 INFO  Log4jLogger:25 - Inside Opportunity Add Class
+2020-06-06 15:34:11 INFO  Log4jLogger:32 - Opportunity Registered into DB
+2020-06-06 15:34:11 INFO  Log4jLogger:65 - Inside Opportunity Delete Class
+2020-06-06 15:34:11 INFO  Log4jLogger:67 - Trying to remove opportunity
+2020-06-06 15:34:11 INFO  Log4jLogger:75 - Opportunity Removed from DB
+2020-06-06 15:34:12 INFO  Log4jLogger:42 - Inside Opportunity Get Class
+2020-06-06 15:34:12 INFO  Log4jLogger:45 - Trying to Find User in DB by retreiving all data
+2020-06-06 15:34:12 WARN  Log4jLogger:51 - Exception Occured while Finding
+2020-06-06 15:34:12 ERROR Log4jLogger:52 - Error in Finding Opportunity:org.mockito.exceptions.misusing.InvalidUseOfMatchersException: 
+Invalid use of argument matchers!
+0 matchers expected, 1 recorded:
+-> at com.accolite.opportunity.OpportunityControllerTest.getAllTheOpportunity(OpportunityControllerTest.java:95)
+
+This exception may occur if matchers are combined with raw values:
+    //incorrect:
+    someMethod(anyObject(), "raw String");
+When using matchers, all arguments have to be provided by matchers.
+For example:
+    //correct:
+    someMethod(anyObject(), eq("String by matcher"));
+
+For more info see javadoc for Matchers class.
+
+2020-06-06 15:34:12 WARN  Log4jLogger:55 - No Opportunity Found
+2020-06-06 15:34:12 INFO  Log4jLogger:82 - Inside Opportunity Update Class
+2020-06-06 15:34:12 INFO  Log4jLogger:84 - Trying to Update Opportunity
+2020-06-06 15:34:12 INFO  Log4jLogger:93 - Opportunity Updated in DB
+2020-06-06 15:34:13 INFO  Log4jLogger:24 - Inside User Add Class for Interceptor
+2020-06-06 15:34:13 INFO  Log4jLogger:26 - Trying to Register User into DB
+2020-06-06 15:34:13 INFO  Log4jLogger:35 - User Registered into DB
+2020-06-06 15:34:13 INFO  Log4jLogger:43 - Inside User Get Class for finding User by EmailId
+2020-06-06 15:34:13 INFO  Log4jLogger:46 - Trying to Find User in DB by retreiving all data
+2020-06-06 15:34:13 WARN  Log4jLogger:50 - Exception Occured while Finding
+2020-06-06 15:34:13 ERROR Log4jLogger:51 - Error in Finding User:org.mockito.exceptions.misusing.InvalidUseOfMatchersException: 
+Invalid use of argument matchers!
+0 matchers expected, 1 recorded:
+-> at com.accolite.opportunity.UserControllerTest.getUserWithEmailTest(UserControllerTest.java:112)
+
+This exception may occur if matchers are combined with raw values:
+    //incorrect:
+    someMethod(anyObject(), "raw String");
+When using matchers, all arguments have to be provided by matchers.
+For example:
+    //correct:
+    someMethod(anyObject(), eq("String by matcher"));
+
+For more info see javadoc for Matchers class.
+
+2020-06-06 15:35:12 INFO  Log4jLogger:25 - Inside Opportunity Add Class
+2020-06-06 15:35:12 INFO  Log4jLogger:32 - Opportunity Registered into DB
+2020-06-06 15:35:12 INFO  Log4jLogger:65 - Inside Opportunity Delete Class
+2020-06-06 15:35:12 INFO  Log4jLogger:67 - Trying to remove opportunity
+2020-06-06 15:35:12 INFO  Log4jLogger:75 - Opportunity Removed from DB
+2020-06-06 15:35:12 INFO  Log4jLogger:42 - Inside Opportunity Get Class
+2020-06-06 15:35:12 INFO  Log4jLogger:45 - Trying to Find User in DB by retreiving all data
+2020-06-06 15:35:12 WARN  Log4jLogger:51 - Exception Occured while Finding
+2020-06-06 15:35:12 ERROR Log4jLogger:52 - Error in Finding Opportunity:org.mockito.exceptions.misusing.InvalidUseOfMatchersException: 
+Invalid use of argument matchers!
+0 matchers expected, 1 recorded:
+-> at com.accolite.opportunity.OpportunityControllerTest.getAllTheOpportunity(OpportunityControllerTest.java:95)
+
+This exception may occur if matchers are combined with raw values:
+    //incorrect:
+    someMethod(anyObject(), "raw String");
+When using matchers, all arguments have to be provided by matchers.
+For example:
+    //correct:
+    someMethod(anyObject(), eq("String by matcher"));
+
+For more info see javadoc for Matchers class.
+
+2020-06-06 15:35:12 WARN  Log4jLogger:55 - No Opportunity Found
+2020-06-06 15:35:12 INFO  Log4jLogger:82 - Inside Opportunity Update Class
+2020-06-06 15:35:12 INFO  Log4jLogger:84 - Trying to Update Opportunity
+2020-06-06 15:35:12 INFO  Log4jLogger:93 - Opportunity Updated in DB
+2020-06-06 15:35:14 INFO  Log4jLogger:24 - Inside User Add Class for Interceptor
+2020-06-06 15:35:14 INFO  Log4jLogger:26 - Trying to Register User into DB
+2020-06-06 15:35:14 INFO  Log4jLogger:35 - User Registered into DB
+2020-06-06 15:35:14 INFO  Log4jLogger:43 - Inside User Get Class for finding User by EmailId
+2020-06-06 15:35:14 INFO  Log4jLogger:46 - Trying to Find User in DB by retreiving all data
+2020-06-06 15:35:14 WARN  Log4jLogger:50 - Exception Occured while Finding
+2020-06-06 15:35:14 ERROR Log4jLogger:51 - Error in Finding User:org.mockito.exceptions.misusing.InvalidUseOfMatchersException: 
+Invalid use of argument matchers!
+0 matchers expected, 1 recorded:
+-> at com.accolite.opportunity.UserControllerTest.getUserWithEmailTest(UserControllerTest.java:112)
+
+This exception may occur if matchers are combined with raw values:
+    //incorrect:
+    someMethod(anyObject(), "raw String");
+When using matchers, all arguments have to be provided by matchers.
+For example:
+    //correct:
+    someMethod(anyObject(), eq("String by matcher"));
+
+For more info see javadoc for Matchers class.
+
+2020-06-06 15:39:26 INFO  Log4jLogger:25 - Inside Opportunity Add Class
+2020-06-06 15:39:26 INFO  Log4jLogger:32 - Opportunity Registered into DB
+2020-06-06 15:39:26 INFO  Log4jLogger:65 - Inside Opportunity Delete Class
+2020-06-06 15:39:26 INFO  Log4jLogger:67 - Trying to remove opportunity
+2020-06-06 15:39:26 INFO  Log4jLogger:75 - Opportunity Removed from DB
+2020-06-06 15:39:26 INFO  Log4jLogger:42 - Inside Opportunity Get Class
+2020-06-06 15:39:26 INFO  Log4jLogger:45 - Trying to Find User in DB by retreiving all data
+2020-06-06 15:39:26 WARN  Log4jLogger:51 - Exception Occured while Finding
+2020-06-06 15:39:26 ERROR Log4jLogger:52 - Error in Finding Opportunity:org.mockito.exceptions.misusing.InvalidUseOfMatchersException: 
+Invalid use of argument matchers!
+0 matchers expected, 1 recorded:
+-> at com.accolite.opportunity.OpportunityControllerTest.getAllTheOpportunity(OpportunityControllerTest.java:95)
+
+This exception may occur if matchers are combined with raw values:
+    //incorrect:
+    someMethod(anyObject(), "raw String");
+When using matchers, all arguments have to be provided by matchers.
+For example:
+    //correct:
+    someMethod(anyObject(), eq("String by matcher"));
+
+For more info see javadoc for Matchers class.
+
+2020-06-06 15:39:26 WARN  Log4jLogger:55 - No Opportunity Found
+2020-06-06 15:39:26 INFO  Log4jLogger:82 - Inside Opportunity Update Class
+2020-06-06 15:39:26 INFO  Log4jLogger:84 - Trying to Update Opportunity
+2020-06-06 15:39:26 INFO  Log4jLogger:93 - Opportunity Updated in DB
+2020-06-06 15:39:28 INFO  Log4jLogger:24 - Inside User Add Class for Interceptor
+2020-06-06 15:39:28 INFO  Log4jLogger:26 - Trying to Register User into DB
+2020-06-06 15:39:28 INFO  Log4jLogger:35 - User Registered into DB
+2020-06-06 15:39:28 INFO  Log4jLogger:69 - Inside User Delete Class for Removing User
+2020-06-06 15:39:28 INFO  Log4jLogger:72 - Trying to remove User
+2020-06-06 15:39:28 INFO  Log4jLogger:81 - User Removed from DB
+2020-06-06 15:39:28 INFO  Log4jLogger:88 - Inside User Update Class for Updating User
+2020-06-06 15:39:28 INFO  Log4jLogger:90 - Trying to Update User
+2020-06-06 15:39:28 INFO  Log4jLogger:98 - User Updated in DB
+2020-06-06 15:39:28 INFO  Log4jLogger:43 - Inside User Get Class for finding User by EmailId
+2020-06-06 15:39:28 INFO  Log4jLogger:46 - Trying to Find User in DB by retreiving all data
+2020-06-06 15:39:28 WARN  Log4jLogger:50 - Exception Occured while Finding
+2020-06-06 15:39:28 ERROR Log4jLogger:51 - Error in Finding User:org.mockito.exceptions.misusing.InvalidUseOfMatchersException: 
+Invalid use of argument matchers!
+0 matchers expected, 1 recorded:
+-> at com.accolite.opportunity.UserControllerTest.getUserWithEmailTest(UserControllerTest.java:112)
+
+This exception may occur if matchers are combined with raw values:
+    //incorrect:
+    someMethod(anyObject(), "raw String");
+When using matchers, all arguments have to be provided by matchers.
+For example:
+    //correct:
+    someMethod(anyObject(), eq("String by matcher"));
+
+For more info see javadoc for Matchers class.
+
+2020-06-06 15:41:31 INFO  Log4jLogger:25 - Inside Opportunity Add Class
+2020-06-06 15:41:31 INFO  Log4jLogger:32 - Opportunity Registered into DB
+2020-06-06 15:41:31 INFO  Log4jLogger:65 - Inside Opportunity Delete Class
+2020-06-06 15:41:31 INFO  Log4jLogger:67 - Trying to remove opportunity
+2020-06-06 15:41:31 INFO  Log4jLogger:75 - Opportunity Removed from DB
+2020-06-06 15:41:31 INFO  Log4jLogger:42 - Inside Opportunity Get Class
+2020-06-06 15:41:31 INFO  Log4jLogger:45 - Trying to Find User in DB by retreiving all data
+2020-06-06 15:41:31 WARN  Log4jLogger:51 - Exception Occured while Finding
+2020-06-06 15:41:31 ERROR Log4jLogger:52 - Error in Finding Opportunity:org.mockito.exceptions.misusing.InvalidUseOfMatchersException: 
+Invalid use of argument matchers!
+0 matchers expected, 1 recorded:
+-> at com.accolite.opportunity.OpportunityControllerTest.getAllTheOpportunity(OpportunityControllerTest.java:95)
+
+This exception may occur if matchers are combined with raw values:
+    //incorrect:
+    someMethod(anyObject(), "raw String");
+When using matchers, all arguments have to be provided by matchers.
+For example:
+    //correct:
+    someMethod(anyObject(), eq("String by matcher"));
+
+For more info see javadoc for Matchers class.
+
+2020-06-06 15:41:31 WARN  Log4jLogger:55 - No Opportunity Found
+2020-06-06 15:41:31 INFO  Log4jLogger:82 - Inside Opportunity Update Class
+2020-06-06 15:41:31 INFO  Log4jLogger:84 - Trying to Update Opportunity
+2020-06-06 15:41:31 INFO  Log4jLogger:93 - Opportunity Updated in DB
+2020-06-06 15:41:33 INFO  Log4jLogger:24 - Inside User Add Class for Interceptor
+2020-06-06 15:41:33 INFO  Log4jLogger:26 - Trying to Register User into DB
+2020-06-06 15:41:33 INFO  Log4jLogger:35 - User Registered into DB
+2020-06-06 15:41:33 INFO  Log4jLogger:69 - Inside User Delete Class for Removing User
+2020-06-06 15:41:33 INFO  Log4jLogger:72 - Trying to remove User
+2020-06-06 15:41:33 INFO  Log4jLogger:81 - User Removed from DB
+2020-06-06 15:41:33 INFO  Log4jLogger:88 - Inside User Update Class for Updating User
+2020-06-06 15:41:33 INFO  Log4jLogger:90 - Trying to Update User
+2020-06-06 15:41:33 INFO  Log4jLogger:98 - User Updated in DB
+2020-06-06 15:41:33 INFO  Log4jLogger:43 - Inside User Get Class for finding User by EmailId
+2020-06-06 15:41:33 INFO  Log4jLogger:46 - Trying to Find User in DB by retreiving all data
+2020-06-06 15:41:33 WARN  Log4jLogger:50 - Exception Occured while Finding
+2020-06-06 15:41:33 ERROR Log4jLogger:51 - Error in Finding User:org.mockito.exceptions.misusing.InvalidUseOfMatchersException: 
+Invalid use of argument matchers!
+0 matchers expected, 1 recorded:
+-> at com.accolite.opportunity.UserControllerTest.getUserWithEmailTest(UserControllerTest.java:112)
+
+This exception may occur if matchers are combined with raw values:
+    //incorrect:
+    someMethod(anyObject(), "raw String");
+When using matchers, all arguments have to be provided by matchers.
+For example:
+    //correct:
+    someMethod(anyObject(), eq("String by matcher"));
+
+For more info see javadoc for Matchers class.
+
+2020-06-06 15:42:51 INFO  Log4jLogger:25 - Inside Opportunity Add Class
+2020-06-06 15:42:51 INFO  Log4jLogger:32 - Opportunity Registered into DB
+2020-06-06 15:42:51 INFO  Log4jLogger:65 - Inside Opportunity Delete Class
+2020-06-06 15:42:51 INFO  Log4jLogger:67 - Trying to remove opportunity
+2020-06-06 15:42:51 INFO  Log4jLogger:75 - Opportunity Removed from DB
+2020-06-06 15:42:51 INFO  Log4jLogger:42 - Inside Opportunity Get Class
+2020-06-06 15:42:51 INFO  Log4jLogger:45 - Trying to Find User in DB by retreiving all data
+2020-06-06 15:42:51 WARN  Log4jLogger:51 - Exception Occured while Finding
+2020-06-06 15:42:51 ERROR Log4jLogger:52 - Error in Finding Opportunity:org.mockito.exceptions.misusing.InvalidUseOfMatchersException: 
+Invalid use of argument matchers!
+0 matchers expected, 1 recorded:
+-> at com.accolite.opportunity.OpportunityControllerTest.getAllTheOpportunity(OpportunityControllerTest.java:95)
+
+This exception may occur if matchers are combined with raw values:
+    //incorrect:
+    someMethod(anyObject(), "raw String");
+When using matchers, all arguments have to be provided by matchers.
+For example:
+    //correct:
+    someMethod(anyObject(), eq("String by matcher"));
+
+For more info see javadoc for Matchers class.
+
+2020-06-06 15:42:51 WARN  Log4jLogger:55 - No Opportunity Found
+2020-06-06 15:42:51 INFO  Log4jLogger:82 - Inside Opportunity Update Class
+2020-06-06 15:42:51 INFO  Log4jLogger:84 - Trying to Update Opportunity
+2020-06-06 15:42:51 INFO  Log4jLogger:93 - Opportunity Updated in DB
+2020-06-06 15:42:53 INFO  Log4jLogger:24 - Inside User Add Class for Interceptor
+2020-06-06 15:42:53 INFO  Log4jLogger:26 - Trying to Register User into DB
+2020-06-06 15:42:53 INFO  Log4jLogger:35 - User Registered into DB
+2020-06-06 15:42:53 INFO  Log4jLogger:69 - Inside User Delete Class for Removing User
+2020-06-06 15:42:53 INFO  Log4jLogger:72 - Trying to remove User
+2020-06-06 15:42:53 INFO  Log4jLogger:81 - User Removed from DB
+2020-06-06 15:42:53 INFO  Log4jLogger:88 - Inside User Update Class for Updating User
+2020-06-06 15:42:53 INFO  Log4jLogger:90 - Trying to Update User
+2020-06-06 15:42:53 INFO  Log4jLogger:98 - User Updated in DB
+2020-06-06 15:42:53 INFO  Log4jLogger:69 - Inside User Delete Class for Removing User
+2020-06-06 15:42:53 INFO  Log4jLogger:72 - Trying to remove User
+2020-06-06 15:42:53 INFO  Log4jLogger:81 - User Removed from DB
+2020-06-06 15:42:53 INFO  Log4jLogger:43 - Inside User Get Class for finding User by EmailId
+2020-06-06 15:42:53 INFO  Log4jLogger:46 - Trying to Find User in DB by retreiving all data
+2020-06-06 15:42:53 WARN  Log4jLogger:50 - Exception Occured while Finding
+2020-06-06 15:42:53 ERROR Log4jLogger:51 - Error in Finding User:org.mockito.exceptions.misusing.InvalidUseOfMatchersException: 
+Invalid use of argument matchers!
+0 matchers expected, 1 recorded:
+-> at com.accolite.opportunity.UserControllerTest.getUserWithEmailTest(UserControllerTest.java:112)
+
+This exception may occur if matchers are combined with raw values:
+    //incorrect:
+    someMethod(anyObject(), "raw String");
+When using matchers, all arguments have to be provided by matchers.
+For example:
+    //correct:
+    someMethod(anyObject(), eq("String by matcher"));
+
+For more info see javadoc for Matchers class.
+
+2020-06-06 15:44:13 INFO  Log4jLogger:25 - Inside Opportunity Add Class
+2020-06-06 15:44:13 INFO  Log4jLogger:32 - Opportunity Registered into DB
+2020-06-06 15:44:13 INFO  Log4jLogger:65 - Inside Opportunity Delete Class
+2020-06-06 15:44:13 INFO  Log4jLogger:67 - Trying to remove opportunity
+2020-06-06 15:44:13 INFO  Log4jLogger:75 - Opportunity Removed from DB
+2020-06-06 15:44:13 INFO  Log4jLogger:42 - Inside Opportunity Get Class
+2020-06-06 15:44:13 INFO  Log4jLogger:45 - Trying to Find User in DB by retreiving all data
+2020-06-06 15:44:14 WARN  Log4jLogger:51 - Exception Occured while Finding
+2020-06-06 15:44:14 ERROR Log4jLogger:52 - Error in Finding Opportunity:org.mockito.exceptions.misusing.InvalidUseOfMatchersException: 
+Invalid use of argument matchers!
+0 matchers expected, 1 recorded:
+-> at com.accolite.opportunity.OpportunityControllerTest.getAllTheOpportunity(OpportunityControllerTest.java:95)
+
+This exception may occur if matchers are combined with raw values:
+    //incorrect:
+    someMethod(anyObject(), "raw String");
+When using matchers, all arguments have to be provided by matchers.
+For example:
+    //correct:
+    someMethod(anyObject(), eq("String by matcher"));
+
+For more info see javadoc for Matchers class.
+
+2020-06-06 15:44:14 WARN  Log4jLogger:55 - No Opportunity Found
+2020-06-06 15:44:14 INFO  Log4jLogger:82 - Inside Opportunity Update Class
+2020-06-06 15:44:14 INFO  Log4jLogger:84 - Trying to Update Opportunity
+2020-06-06 15:44:14 INFO  Log4jLogger:93 - Opportunity Updated in DB
+2020-06-06 15:44:15 INFO  Log4jLogger:24 - Inside User Add Class for Interceptor
+2020-06-06 15:44:15 INFO  Log4jLogger:26 - Trying to Register User into DB
+2020-06-06 15:44:15 INFO  Log4jLogger:35 - User Registered into DB
+2020-06-06 15:44:15 INFO  Log4jLogger:69 - Inside User Delete Class for Removing User
+2020-06-06 15:44:15 INFO  Log4jLogger:72 - Trying to remove User
+2020-06-06 15:44:15 INFO  Log4jLogger:81 - User Removed from DB
+2020-06-06 15:44:15 INFO  Log4jLogger:88 - Inside User Update Class for Updating User
+2020-06-06 15:44:15 INFO  Log4jLogger:90 - Trying to Update User
+2020-06-06 15:44:15 INFO  Log4jLogger:98 - User Updated in DB
+2020-06-06 15:44:15 INFO  Log4jLogger:43 - Inside User Get Class for finding User by EmailId
+2020-06-06 15:44:15 INFO  Log4jLogger:46 - Trying to Find User in DB by retreiving all data
+2020-06-06 15:44:15 WARN  Log4jLogger:50 - Exception Occured while Finding
+2020-06-06 15:44:15 ERROR Log4jLogger:51 - Error in Finding User:org.mockito.exceptions.misusing.InvalidUseOfMatchersException: 
+Invalid use of argument matchers!
+0 matchers expected, 1 recorded:
+-> at com.accolite.opportunity.UserControllerTest.getUserWithEmailTest(UserControllerTest.java:112)
+
+This exception may occur if matchers are combined with raw values:
+    //incorrect:
+    someMethod(anyObject(), "raw String");
+When using matchers, all arguments have to be provided by matchers.
+For example:
+    //correct:
+    someMethod(anyObject(), eq("String by matcher"));
+
+For more info see javadoc for Matchers class.
+
+2020-06-06 15:45:37 INFO  Log4jLogger:25 - Inside Opportunity Add Class
+2020-06-06 15:45:37 INFO  Log4jLogger:32 - Opportunity Registered into DB
+2020-06-06 15:45:37 INFO  Log4jLogger:65 - Inside Opportunity Delete Class
+2020-06-06 15:45:37 INFO  Log4jLogger:67 - Trying to remove opportunity
+2020-06-06 15:45:37 INFO  Log4jLogger:75 - Opportunity Removed from DB
+2020-06-06 15:45:37 INFO  Log4jLogger:42 - Inside Opportunity Get Class
+2020-06-06 15:45:37 INFO  Log4jLogger:45 - Trying to Find User in DB by retreiving all data
+2020-06-06 15:45:37 WARN  Log4jLogger:51 - Exception Occured while Finding
+2020-06-06 15:45:37 ERROR Log4jLogger:52 - Error in Finding Opportunity:org.mockito.exceptions.misusing.InvalidUseOfMatchersException: 
+Invalid use of argument matchers!
+0 matchers expected, 1 recorded:
+-> at com.accolite.opportunity.OpportunityControllerTest.getAllTheOpportunity(OpportunityControllerTest.java:95)
+
+This exception may occur if matchers are combined with raw values:
+    //incorrect:
+    someMethod(anyObject(), "raw String");
+When using matchers, all arguments have to be provided by matchers.
+For example:
+    //correct:
+    someMethod(anyObject(), eq("String by matcher"));
+
+For more info see javadoc for Matchers class.
+
+2020-06-06 15:45:37 WARN  Log4jLogger:55 - No Opportunity Found
+2020-06-06 15:45:37 INFO  Log4jLogger:82 - Inside Opportunity Update Class
+2020-06-06 15:45:37 INFO  Log4jLogger:84 - Trying to Update Opportunity
+2020-06-06 15:45:37 INFO  Log4jLogger:93 - Opportunity Updated in DB
+2020-06-06 15:45:39 INFO  Log4jLogger:24 - Inside User Add Class for Interceptor
+2020-06-06 15:45:39 INFO  Log4jLogger:26 - Trying to Register User into DB
+2020-06-06 15:45:39 INFO  Log4jLogger:35 - User Registered into DB
+2020-06-06 15:45:39 INFO  Log4jLogger:69 - Inside User Delete Class for Removing User
+2020-06-06 15:45:39 INFO  Log4jLogger:72 - Trying to remove User
+2020-06-06 15:45:39 INFO  Log4jLogger:81 - User Removed from DB
+2020-06-06 15:45:39 INFO  Log4jLogger:88 - Inside User Update Class for Updating User
+2020-06-06 15:45:39 INFO  Log4jLogger:90 - Trying to Update User
+2020-06-06 15:45:39 INFO  Log4jLogger:98 - User Updated in DB
+2020-06-06 15:45:39 INFO  Log4jLogger:43 - Inside User Get Class for finding User by EmailId
+2020-06-06 15:45:39 INFO  Log4jLogger:46 - Trying to Find User in DB by retreiving all data
+2020-06-06 15:45:39 WARN  Log4jLogger:50 - Exception Occured while Finding
+2020-06-06 15:45:39 ERROR Log4jLogger:51 - Error in Finding User:org.mockito.exceptions.misusing.InvalidUseOfMatchersException: 
+Invalid use of argument matchers!
+0 matchers expected, 1 recorded:
+-> at com.accolite.opportunity.UserControllerTest.getUserWithEmailTest(UserControllerTest.java:112)
+
+This exception may occur if matchers are combined with raw values:
+    //incorrect:
+    someMethod(anyObject(), "raw String");
+When using matchers, all arguments have to be provided by matchers.
+For example:
+    //correct:
+    someMethod(anyObject(), eq("String by matcher"));
+
+For more info see javadoc for Matchers class.
+
+2020-06-06 15:46:55 INFO  Log4jLogger:25 - Inside Opportunity Add Class
+2020-06-06 15:46:55 INFO  Log4jLogger:32 - Opportunity Registered into DB
+2020-06-06 15:46:55 INFO  Log4jLogger:65 - Inside Opportunity Delete Class
+2020-06-06 15:46:55 INFO  Log4jLogger:67 - Trying to remove opportunity
+2020-06-06 15:46:55 INFO  Log4jLogger:75 - Opportunity Removed from DB
+2020-06-06 15:46:55 INFO  Log4jLogger:42 - Inside Opportunity Get Class
+2020-06-06 15:46:55 INFO  Log4jLogger:45 - Trying to Find User in DB by retreiving all data
+2020-06-06 15:46:55 WARN  Log4jLogger:51 - Exception Occured while Finding
+2020-06-06 15:46:55 ERROR Log4jLogger:52 - Error in Finding Opportunity:org.mockito.exceptions.misusing.InvalidUseOfMatchersException: 
+Invalid use of argument matchers!
+0 matchers expected, 1 recorded:
+-> at com.accolite.opportunity.OpportunityControllerTest.getAllTheOpportunity(OpportunityControllerTest.java:95)
+
+This exception may occur if matchers are combined with raw values:
+    //incorrect:
+    someMethod(anyObject(), "raw String");
+When using matchers, all arguments have to be provided by matchers.
+For example:
+    //correct:
+    someMethod(anyObject(), eq("String by matcher"));
+
+For more info see javadoc for Matchers class.
+
+2020-06-06 15:46:55 WARN  Log4jLogger:55 - No Opportunity Found
+2020-06-06 15:46:55 INFO  Log4jLogger:82 - Inside Opportunity Update Class
+2020-06-06 15:46:55 INFO  Log4jLogger:84 - Trying to Update Opportunity
+2020-06-06 15:46:55 INFO  Log4jLogger:93 - Opportunity Updated in DB
+2020-06-06 15:46:57 INFO  Log4jLogger:24 - Inside User Add Class for Interceptor
+2020-06-06 15:46:57 INFO  Log4jLogger:26 - Trying to Register User into DB
+2020-06-06 15:46:57 INFO  Log4jLogger:35 - User Registered into DB
+2020-06-06 15:46:57 INFO  Log4jLogger:69 - Inside User Delete Class for Removing User
+2020-06-06 15:46:57 INFO  Log4jLogger:72 - Trying to remove User
+2020-06-06 15:46:57 INFO  Log4jLogger:81 - User Removed from DB
+2020-06-06 15:46:57 INFO  Log4jLogger:88 - Inside User Update Class for Updating User
+2020-06-06 15:46:57 INFO  Log4jLogger:90 - Trying to Update User
+2020-06-06 15:46:57 INFO  Log4jLogger:98 - User Updated in DB
+2020-06-06 15:46:57 INFO  Log4jLogger:69 - Inside User Delete Class for Removing User
+2020-06-06 15:46:57 INFO  Log4jLogger:72 - Trying to remove User
+2020-06-06 15:46:57 INFO  Log4jLogger:81 - User Removed from DB
+2020-06-06 15:46:57 INFO  Log4jLogger:43 - Inside User Get Class for finding User by EmailId
+2020-06-06 15:46:57 INFO  Log4jLogger:46 - Trying to Find User in DB by retreiving all data
+2020-06-06 15:46:57 WARN  Log4jLogger:50 - Exception Occured while Finding
+2020-06-06 15:46:57 ERROR Log4jLogger:51 - Error in Finding User:org.mockito.exceptions.misusing.InvalidUseOfMatchersException: 
+Invalid use of argument matchers!
+0 matchers expected, 1 recorded:
+-> at com.accolite.opportunity.UserControllerTest.getUserWithEmailTest(UserControllerTest.java:112)
+
+This exception may occur if matchers are combined with raw values:
+    //incorrect:
+    someMethod(anyObject(), "raw String");
+When using matchers, all arguments have to be provided by matchers.
+For example:
+    //correct:
+    someMethod(anyObject(), eq("String by matcher"));
+
+For more info see javadoc for Matchers class.
+
+2020-06-06 15:56:01 INFO  Log4jLogger:25 - Inside Opportunity Add Class
+2020-06-06 15:56:01 INFO  Log4jLogger:32 - Opportunity Registered into DB
+2020-06-06 15:56:01 INFO  Log4jLogger:65 - Inside Opportunity Delete Class
+2020-06-06 15:56:01 INFO  Log4jLogger:67 - Trying to remove opportunity
+2020-06-06 15:56:01 INFO  Log4jLogger:75 - Opportunity Removed from DB
+2020-06-06 15:56:01 INFO  Log4jLogger:42 - Inside Opportunity Get Class
+2020-06-06 15:56:01 INFO  Log4jLogger:45 - Trying to Find User in DB by retreiving all data
+2020-06-06 15:56:01 WARN  Log4jLogger:51 - Exception Occured while Finding
+2020-06-06 15:56:01 ERROR Log4jLogger:52 - Error in Finding Opportunity:org.mockito.exceptions.misusing.InvalidUseOfMatchersException: 
+Invalid use of argument matchers!
+0 matchers expected, 1 recorded:
+-> at com.accolite.opportunity.OpportunityControllerTest.getAllTheOpportunity(OpportunityControllerTest.java:95)
+
+This exception may occur if matchers are combined with raw values:
+    //incorrect:
+    someMethod(anyObject(), "raw String");
+When using matchers, all arguments have to be provided by matchers.
+For example:
+    //correct:
+    someMethod(anyObject(), eq("String by matcher"));
+
+For more info see javadoc for Matchers class.
+
+2020-06-06 15:56:01 WARN  Log4jLogger:55 - No Opportunity Found
+2020-06-06 15:56:01 INFO  Log4jLogger:82 - Inside Opportunity Update Class
+2020-06-06 15:56:01 INFO  Log4jLogger:84 - Trying to Update Opportunity
+2020-06-06 15:56:01 INFO  Log4jLogger:93 - Opportunity Updated in DB
+2020-06-06 15:56:03 INFO  Log4jLogger:24 - Inside User Add Class for Interceptor
+2020-06-06 15:56:03 INFO  Log4jLogger:26 - Trying to Register User into DB
+2020-06-06 15:56:03 INFO  Log4jLogger:35 - User Registered into DB
+2020-06-06 15:56:03 INFO  Log4jLogger:69 - Inside User Delete Class for Removing User
+2020-06-06 15:56:03 INFO  Log4jLogger:72 - Trying to remove User
+2020-06-06 15:56:03 INFO  Log4jLogger:81 - User Removed from DB
+2020-06-06 15:56:03 INFO  Log4jLogger:69 - Inside User Delete Class for Removing User
+2020-06-06 15:56:03 INFO  Log4jLogger:72 - Trying to remove User
+2020-06-06 15:56:03 INFO  Log4jLogger:81 - User Removed from DB
+2020-06-06 15:56:03 INFO  Log4jLogger:43 - Inside User Get Class for finding User by EmailId
+2020-06-06 15:56:03 INFO  Log4jLogger:46 - Trying to Find User in DB by retreiving all data
+2020-06-06 15:56:03 WARN  Log4jLogger:50 - Exception Occured while Finding
+2020-06-06 15:56:03 ERROR Log4jLogger:51 - Error in Finding User:org.mockito.exceptions.misusing.InvalidUseOfMatchersException: 
+Invalid use of argument matchers!
+0 matchers expected, 1 recorded:
+-> at com.accolite.opportunity.UserControllerTest.getUserWithEmailTest(UserControllerTest.java:112)
+
+This exception may occur if matchers are combined with raw values:
+    //incorrect:
+    someMethod(anyObject(), "raw String");
+When using matchers, all arguments have to be provided by matchers.
+For example:
+    //correct:
+    someMethod(anyObject(), eq("String by matcher"));
+
+For more info see javadoc for Matchers class.
+
+2020-06-06 15:56:03 INFO  Log4jLogger:88 - Inside User Update Class for Updating User
+2020-06-06 15:56:03 INFO  Log4jLogger:90 - Trying to Update User
+2020-06-06 15:56:03 INFO  Log4jLogger:98 - User Updated in DB
+2020-06-06 15:56:44 INFO  Log4jLogger:25 - Inside Opportunity Add Class
+2020-06-06 15:56:45 INFO  Log4jLogger:32 - Opportunity Registered into DB
+2020-06-06 15:56:45 INFO  Log4jLogger:65 - Inside Opportunity Delete Class
+2020-06-06 15:56:45 INFO  Log4jLogger:67 - Trying to remove opportunity
+2020-06-06 15:56:45 INFO  Log4jLogger:75 - Opportunity Removed from DB
+2020-06-06 15:56:45 INFO  Log4jLogger:42 - Inside Opportunity Get Class
+2020-06-06 15:56:45 INFO  Log4jLogger:45 - Trying to Find User in DB by retreiving all data
+2020-06-06 15:56:45 WARN  Log4jLogger:51 - Exception Occured while Finding
+2020-06-06 15:56:45 ERROR Log4jLogger:52 - Error in Finding Opportunity:org.mockito.exceptions.misusing.InvalidUseOfMatchersException: 
+Invalid use of argument matchers!
+0 matchers expected, 1 recorded:
+-> at com.accolite.opportunity.OpportunityControllerTest.getAllTheOpportunity(OpportunityControllerTest.java:95)
+
+This exception may occur if matchers are combined with raw values:
+    //incorrect:
+    someMethod(anyObject(), "raw String");
+When using matchers, all arguments have to be provided by matchers.
+For example:
+    //correct:
+    someMethod(anyObject(), eq("String by matcher"));
+
+For more info see javadoc for Matchers class.
+
+2020-06-06 15:56:45 WARN  Log4jLogger:55 - No Opportunity Found
+2020-06-06 15:56:45 INFO  Log4jLogger:82 - Inside Opportunity Update Class
+2020-06-06 15:56:45 INFO  Log4jLogger:84 - Trying to Update Opportunity
+2020-06-06 15:56:45 INFO  Log4jLogger:93 - Opportunity Updated in DB
+2020-06-06 15:56:46 INFO  Log4jLogger:24 - Inside User Add Class for Interceptor
+2020-06-06 15:56:46 INFO  Log4jLogger:26 - Trying to Register User into DB
+2020-06-06 15:56:46 INFO  Log4jLogger:35 - User Registered into DB
+2020-06-06 15:56:46 INFO  Log4jLogger:69 - Inside User Delete Class for Removing User
+2020-06-06 15:56:46 INFO  Log4jLogger:72 - Trying to remove User
+2020-06-06 15:56:46 INFO  Log4jLogger:81 - User Removed from DB
+2020-06-06 15:56:46 INFO  Log4jLogger:69 - Inside User Delete Class for Removing User
+2020-06-06 15:56:46 INFO  Log4jLogger:72 - Trying to remove User
+2020-06-06 15:56:46 INFO  Log4jLogger:81 - User Removed from DB
+2020-06-06 15:56:46 INFO  Log4jLogger:43 - Inside User Get Class for finding User by EmailId
+2020-06-06 15:56:46 INFO  Log4jLogger:46 - Trying to Find User in DB by retreiving all data
+2020-06-06 15:56:46 WARN  Log4jLogger:50 - Exception Occured while Finding
+2020-06-06 15:56:46 ERROR Log4jLogger:51 - Error in Finding User:org.mockito.exceptions.misusing.InvalidUseOfMatchersException: 
+Invalid use of argument matchers!
+0 matchers expected, 1 recorded:
+-> at com.accolite.opportunity.UserControllerTest.getUserWithEmailTest(UserControllerTest.java:112)
+
+This exception may occur if matchers are combined with raw values:
+    //incorrect:
+    someMethod(anyObject(), "raw String");
+When using matchers, all arguments have to be provided by matchers.
+For example:
+    //correct:
+    someMethod(anyObject(), eq("String by matcher"));
+
+For more info see javadoc for Matchers class.
+
+2020-06-06 15:56:46 INFO  Log4jLogger:88 - Inside User Update Class for Updating User
+2020-06-06 15:56:46 INFO  Log4jLogger:90 - Trying to Update User
+2020-06-06 15:56:46 INFO  Log4jLogger:98 - User Updated in DB
+2020-06-06 16:06:06 INFO  Log4jLogger:25 - Inside Opportunity Add Class
+2020-06-06 16:06:07 INFO  Log4jLogger:32 - Opportunity Registered into DB
+2020-06-06 16:06:07 INFO  Log4jLogger:65 - Inside Opportunity Delete Class
+2020-06-06 16:06:07 INFO  Log4jLogger:67 - Trying to remove opportunity
+2020-06-06 16:06:07 INFO  Log4jLogger:75 - Opportunity Removed from DB
+2020-06-06 16:06:07 INFO  Log4jLogger:42 - Inside Opportunity Get Class
+2020-06-06 16:06:07 INFO  Log4jLogger:45 - Trying to Find User in DB by retreiving all data
+2020-06-06 16:06:07 WARN  Log4jLogger:51 - Exception Occured while Finding
+2020-06-06 16:06:07 ERROR Log4jLogger:52 - Error in Finding Opportunity:org.mockito.exceptions.misusing.InvalidUseOfMatchersException: 
+Invalid use of argument matchers!
+0 matchers expected, 1 recorded:
+-> at com.accolite.opportunity.OpportunityControllerTest.getAllTheOpportunity(OpportunityControllerTest.java:95)
+
+This exception may occur if matchers are combined with raw values:
+    //incorrect:
+    someMethod(anyObject(), "raw String");
+When using matchers, all arguments have to be provided by matchers.
+For example:
+    //correct:
+    someMethod(anyObject(), eq("String by matcher"));
+
+For more info see javadoc for Matchers class.
+
+2020-06-06 16:06:07 WARN  Log4jLogger:55 - No Opportunity Found
+2020-06-06 16:06:07 INFO  Log4jLogger:82 - Inside Opportunity Update Class
+2020-06-06 16:06:07 INFO  Log4jLogger:84 - Trying to Update Opportunity
+2020-06-06 16:06:07 INFO  Log4jLogger:93 - Opportunity Updated in DB
+2020-06-06 16:06:08 INFO  Log4jLogger:24 - Inside User Add Class for Interceptor
+2020-06-06 16:06:08 INFO  Log4jLogger:26 - Trying to Register User into DB
+2020-06-06 16:06:08 INFO  Log4jLogger:35 - User Registered into DB
+2020-06-06 16:06:09 INFO  Log4jLogger:69 - Inside User Delete Class for Removing User
+2020-06-06 16:06:09 INFO  Log4jLogger:72 - Trying to remove User
+2020-06-06 16:06:09 INFO  Log4jLogger:81 - User Removed from DB
+2020-06-06 16:06:09 INFO  Log4jLogger:69 - Inside User Delete Class for Removing User
+2020-06-06 16:06:09 INFO  Log4jLogger:72 - Trying to remove User
+2020-06-06 16:06:09 INFO  Log4jLogger:81 - User Removed from DB
+2020-06-06 16:06:09 INFO  Log4jLogger:43 - Inside User Get Class for finding User by EmailId
+2020-06-06 16:06:09 INFO  Log4jLogger:46 - Trying to Find User in DB by retreiving all data
+2020-06-06 16:06:09 WARN  Log4jLogger:50 - Exception Occured while Finding
+2020-06-06 16:06:09 ERROR Log4jLogger:51 - Error in Finding User:org.mockito.exceptions.misusing.InvalidUseOfMatchersException: 
+Invalid use of argument matchers!
+0 matchers expected, 1 recorded:
+-> at com.accolite.opportunity.UserControllerTest.getUserWithEmailTest(UserControllerTest.java:112)
+
+This exception may occur if matchers are combined with raw values:
+    //incorrect:
+    someMethod(anyObject(), "raw String");
+When using matchers, all arguments have to be provided by matchers.
+For example:
+    //correct:
+    someMethod(anyObject(), eq("String by matcher"));
+
+For more info see javadoc for Matchers class.
+
+2020-06-06 16:06:09 INFO  Log4jLogger:88 - Inside User Update Class for Updating User
+2020-06-06 16:06:09 INFO  Log4jLogger:90 - Trying to Update User
+2020-06-06 16:06:09 INFO  Log4jLogger:98 - User Updated in DB
+2020-06-06 16:23:13 INFO  Log4jLogger:25 - Inside Opportunity Add Class
+2020-06-06 16:23:13 INFO  Log4jLogger:32 - Opportunity Registered into DB
+2020-06-06 16:23:13 INFO  Log4jLogger:65 - Inside Opportunity Delete Class
+2020-06-06 16:23:13 INFO  Log4jLogger:67 - Trying to remove opportunity
+2020-06-06 16:23:13 INFO  Log4jLogger:75 - Opportunity Removed from DB
+2020-06-06 16:23:13 INFO  Log4jLogger:42 - Inside Opportunity Get Class
+2020-06-06 16:23:13 INFO  Log4jLogger:45 - Trying to Find User in DB by retreiving all data
+2020-06-06 16:23:13 WARN  Log4jLogger:51 - Exception Occured while Finding
+2020-06-06 16:23:13 ERROR Log4jLogger:52 - Error in Finding Opportunity:org.mockito.exceptions.misusing.InvalidUseOfMatchersException: 
+Invalid use of argument matchers!
+0 matchers expected, 1 recorded:
+-> at com.accolite.opportunity.OpportunityControllerTest.getAllTheOpportunity(OpportunityControllerTest.java:95)
+
+This exception may occur if matchers are combined with raw values:
+    //incorrect:
+    someMethod(anyObject(), "raw String");
+When using matchers, all arguments have to be provided by matchers.
+For example:
+    //correct:
+    someMethod(anyObject(), eq("String by matcher"));
+
+For more info see javadoc for Matchers class.
+
+2020-06-06 16:23:13 WARN  Log4jLogger:55 - No Opportunity Found
+2020-06-06 16:23:13 INFO  Log4jLogger:82 - Inside Opportunity Update Class
+2020-06-06 16:23:13 INFO  Log4jLogger:84 - Trying to Update Opportunity
+2020-06-06 16:23:13 INFO  Log4jLogger:93 - Opportunity Updated in DB
+2020-06-06 16:23:14 INFO  Log4jLogger:24 - Inside User Add Class for Interceptor
+2020-06-06 16:23:14 INFO  Log4jLogger:26 - Trying to Register User into DB
+2020-06-06 16:23:14 INFO  Log4jLogger:35 - User Registered into DB
+2020-06-06 16:23:15 INFO  Log4jLogger:69 - Inside User Delete Class for Removing User
+2020-06-06 16:23:15 INFO  Log4jLogger:72 - Trying to remove User
+2020-06-06 16:23:15 INFO  Log4jLogger:81 - User Removed from DB
+2020-06-06 16:23:15 INFO  Log4jLogger:88 - Inside User Update Class for Updating User
+2020-06-06 16:23:15 INFO  Log4jLogger:90 - Trying to Update User
+2020-06-06 16:23:15 INFO  Log4jLogger:98 - User Updated in DB
+2020-06-06 16:25:54 INFO  Log4jLogger:25 - Inside Opportunity Add Class
+2020-06-06 16:25:55 INFO  Log4jLogger:32 - Opportunity Registered into DB
+2020-06-06 16:25:55 INFO  Log4jLogger:65 - Inside Opportunity Delete Class
+2020-06-06 16:25:55 INFO  Log4jLogger:67 - Trying to remove opportunity
+2020-06-06 16:25:55 INFO  Log4jLogger:75 - Opportunity Removed from DB
+2020-06-06 16:25:55 INFO  Log4jLogger:42 - Inside Opportunity Get Class
+2020-06-06 16:25:55 INFO  Log4jLogger:45 - Trying to Find User in DB by retreiving all data
+2020-06-06 16:25:55 WARN  Log4jLogger:51 - Exception Occured while Finding
+2020-06-06 16:25:55 ERROR Log4jLogger:52 - Error in Finding Opportunity:org.mockito.exceptions.misusing.InvalidUseOfMatchersException: 
+Invalid use of argument matchers!
+0 matchers expected, 1 recorded:
+-> at com.accolite.opportunity.OpportunityControllerTest.getAllTheOpportunity(OpportunityControllerTest.java:95)
+
+This exception may occur if matchers are combined with raw values:
+    //incorrect:
+    someMethod(anyObject(), "raw String");
+When using matchers, all arguments have to be provided by matchers.
+For example:
+    //correct:
+    someMethod(anyObject(), eq("String by matcher"));
+
+For more info see javadoc for Matchers class.
+
+2020-06-06 16:25:55 WARN  Log4jLogger:55 - No Opportunity Found
+2020-06-06 16:25:55 INFO  Log4jLogger:82 - Inside Opportunity Update Class
+2020-06-06 16:25:55 INFO  Log4jLogger:84 - Trying to Update Opportunity
+2020-06-06 16:25:55 INFO  Log4jLogger:93 - Opportunity Updated in DB
+2020-06-06 16:25:56 INFO  Log4jLogger:24 - Inside User Add Class for Interceptor
+2020-06-06 16:25:56 INFO  Log4jLogger:26 - Trying to Register User into DB
+2020-06-06 16:25:56 INFO  Log4jLogger:35 - User Registered into DB
+2020-06-06 16:25:56 INFO  Log4jLogger:69 - Inside User Delete Class for Removing User
+2020-06-06 16:25:56 INFO  Log4jLogger:72 - Trying to remove User
+2020-06-06 16:25:56 INFO  Log4jLogger:81 - User Removed from DB
+2020-06-06 16:25:56 INFO  Log4jLogger:88 - Inside User Update Class for Updating User
+2020-06-06 16:25:56 INFO  Log4jLogger:90 - Trying to Update User
+2020-06-06 16:25:57 INFO  Log4jLogger:98 - User Updated in DB
+2020-06-06 16:27:42 INFO  Log4jLogger:25 - Inside Opportunity Add Class
+2020-06-06 16:27:42 INFO  Log4jLogger:32 - Opportunity Registered into DB
+2020-06-06 16:27:43 INFO  Log4jLogger:65 - Inside Opportunity Delete Class
+2020-06-06 16:27:43 INFO  Log4jLogger:67 - Trying to remove opportunity
+2020-06-06 16:27:43 INFO  Log4jLogger:75 - Opportunity Removed from DB
+2020-06-06 16:27:43 INFO  Log4jLogger:42 - Inside Opportunity Get Class
+2020-06-06 16:27:43 INFO  Log4jLogger:45 - Trying to Find User in DB by retreiving all data
+2020-06-06 16:27:43 WARN  Log4jLogger:51 - Exception Occured while Finding
+2020-06-06 16:27:43 ERROR Log4jLogger:52 - Error in Finding Opportunity:org.mockito.exceptions.misusing.InvalidUseOfMatchersException: 
+Invalid use of argument matchers!
+0 matchers expected, 1 recorded:
+-> at com.accolite.opportunity.OpportunityControllerTest.getAllTheOpportunity(OpportunityControllerTest.java:95)
+
+This exception may occur if matchers are combined with raw values:
+    //incorrect:
+    someMethod(anyObject(), "raw String");
+When using matchers, all arguments have to be provided by matchers.
+For example:
+    //correct:
+    someMethod(anyObject(), eq("String by matcher"));
+
+For more info see javadoc for Matchers class.
+
+2020-06-06 16:27:43 WARN  Log4jLogger:55 - No Opportunity Found
+2020-06-06 16:27:43 INFO  Log4jLogger:82 - Inside Opportunity Update Class
+2020-06-06 16:27:43 INFO  Log4jLogger:84 - Trying to Update Opportunity
+2020-06-06 16:27:43 INFO  Log4jLogger:93 - Opportunity Updated in DB
+2020-06-06 16:27:44 INFO  Log4jLogger:24 - Inside User Add Class for Interceptor
+2020-06-06 16:27:44 INFO  Log4jLogger:26 - Trying to Register User into DB
+2020-06-06 16:27:44 INFO  Log4jLogger:35 - User Registered into DB
+2020-06-06 16:27:44 INFO  Log4jLogger:69 - Inside User Delete Class for Removing User
+2020-06-06 16:27:44 INFO  Log4jLogger:72 - Trying to remove User
+2020-06-06 16:27:44 INFO  Log4jLogger:81 - User Removed from DB
+2020-06-06 16:27:44 INFO  Log4jLogger:88 - Inside User Update Class for Updating User
+2020-06-06 16:27:44 INFO  Log4jLogger:90 - Trying to Update User
+2020-06-06 16:27:44 INFO  Log4jLogger:98 - User Updated in DB
+2020-06-06 16:29:14 INFO  Log4jLogger:25 - Inside Opportunity Add Class
+2020-06-06 16:29:15 INFO  Log4jLogger:32 - Opportunity Registered into DB
+2020-06-06 16:29:15 INFO  Log4jLogger:65 - Inside Opportunity Delete Class
+2020-06-06 16:29:15 INFO  Log4jLogger:67 - Trying to remove opportunity
+2020-06-06 16:29:15 INFO  Log4jLogger:75 - Opportunity Removed from DB
+2020-06-06 16:29:15 INFO  Log4jLogger:42 - Inside Opportunity Get Class
+2020-06-06 16:29:15 INFO  Log4jLogger:45 - Trying to Find User in DB by retreiving all data
+2020-06-06 16:29:15 WARN  Log4jLogger:51 - Exception Occured while Finding
+2020-06-06 16:29:15 ERROR Log4jLogger:52 - Error in Finding Opportunity:org.mockito.exceptions.misusing.InvalidUseOfMatchersException: 
+Invalid use of argument matchers!
+0 matchers expected, 1 recorded:
+-> at com.accolite.opportunity.OpportunityControllerTest.getAllTheOpportunity(OpportunityControllerTest.java:95)
+
+This exception may occur if matchers are combined with raw values:
+    //incorrect:
+    someMethod(anyObject(), "raw String");
+When using matchers, all arguments have to be provided by matchers.
+For example:
+    //correct:
+    someMethod(anyObject(), eq("String by matcher"));
+
+For more info see javadoc for Matchers class.
+
+2020-06-06 16:29:15 WARN  Log4jLogger:55 - No Opportunity Found
+2020-06-06 16:29:15 INFO  Log4jLogger:82 - Inside Opportunity Update Class
+2020-06-06 16:29:15 INFO  Log4jLogger:84 - Trying to Update Opportunity
+2020-06-06 16:29:15 INFO  Log4jLogger:93 - Opportunity Updated in DB
+2020-06-06 16:29:16 INFO  Log4jLogger:24 - Inside User Add Class for Interceptor
+2020-06-06 16:29:16 INFO  Log4jLogger:26 - Trying to Register User into DB
+2020-06-06 16:29:16 INFO  Log4jLogger:35 - User Registered into DB
+2020-06-06 16:29:16 INFO  Log4jLogger:69 - Inside User Delete Class for Removing User
+2020-06-06 16:29:16 INFO  Log4jLogger:72 - Trying to remove User
+2020-06-06 16:29:16 INFO  Log4jLogger:81 - User Removed from DB
+2020-06-06 16:29:16 INFO  Log4jLogger:88 - Inside User Update Class for Updating User
+2020-06-06 16:29:16 INFO  Log4jLogger:90 - Trying to Update User
+2020-06-06 16:29:16 INFO  Log4jLogger:98 - User Updated in DB
