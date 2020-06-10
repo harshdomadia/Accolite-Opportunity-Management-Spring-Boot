@@ -1567,3 +1567,250 @@ For more info see javadoc for Matchers class.
 2020-06-06 16:29:16 INFO  Log4jLogger:88 - Inside User Update Class for Updating User
 2020-06-06 16:29:16 INFO  Log4jLogger:90 - Trying to Update User
 2020-06-06 16:29:16 INFO  Log4jLogger:98 - User Updated in DB
+2020-06-08 13:06:41 INFO  Log4jLogger:42 - Inside Opportunity Get Class
+2020-06-08 13:06:41 INFO  Log4jLogger:45 - Trying to Find User in DB by retreiving all data
+2020-06-08 13:06:49 INFO  Log4jLogger:24 - Inside User Add Class for Interceptor
+2020-06-08 13:06:49 INFO  Log4jLogger:26 - Trying to Register User into DB
+2020-06-08 13:06:57 INFO  Log4jLogger:47 - Found Opportunities Returning its Data
+2020-06-08 13:06:57 INFO  Log4jLogger:35 - User Registered into DB
+2020-06-08 13:08:11 INFO  Log4jLogger:42 - Inside Opportunity Get Class
+2020-06-08 13:08:11 INFO  Log4jLogger:45 - Trying to Find User in DB by retreiving all data
+2020-06-08 13:08:11 INFO  Log4jLogger:47 - Found Opportunities Returning its Data
+2020-06-08 13:08:15 INFO  Log4jLogger:69 - Inside User Delete Class for Removing User
+2020-06-08 13:08:15 INFO  Log4jLogger:72 - Trying to remove User
+2020-06-08 13:08:16 INFO  Log4jLogger:81 - User Removed from DB
+2020-06-09 18:58:10 INFO  Log4jLogger:24 - Inside User Add Class for Interceptor
+2020-06-09 18:58:10 INFO  Log4jLogger:26 - Trying to Register User into DB
+2020-06-09 18:58:11 INFO  Log4jLogger:35 - User Registered into DB
+2020-06-09 18:58:11 INFO  Log4jLogger:42 - Inside Opportunity Get Class
+2020-06-09 18:58:11 INFO  Log4jLogger:45 - Trying to Find User in DB by retreiving all data
+2020-06-09 18:58:12 INFO  Log4jLogger:47 - Found Opportunities Returning its Data
+2020-06-09 18:58:38 INFO  Log4jLogger:69 - Inside User Delete Class for Removing User
+2020-06-09 18:58:38 INFO  Log4jLogger:72 - Trying to remove User
+2020-06-09 18:58:39 INFO  Log4jLogger:81 - User Removed from DB
+2020-06-09 18:58:44 INFO  Log4jLogger:24 - Inside User Add Class for Interceptor
+2020-06-09 18:58:44 INFO  Log4jLogger:26 - Trying to Register User into DB
+2020-06-09 18:58:45 INFO  Log4jLogger:35 - User Registered into DB
+2020-06-09 18:58:46 INFO  Log4jLogger:42 - Inside Opportunity Get Class
+2020-06-09 18:58:46 INFO  Log4jLogger:45 - Trying to Find User in DB by retreiving all data
+2020-06-09 18:58:46 INFO  Log4jLogger:47 - Found Opportunities Returning its Data
+2020-06-09 18:59:01 INFO  Log4jLogger:42 - Inside Opportunity Get Class
+2020-06-09 18:59:01 INFO  Log4jLogger:45 - Trying to Find User in DB by retreiving all data
+2020-06-09 18:59:01 INFO  Log4jLogger:47 - Found Opportunities Returning its Data
+2020-06-09 19:19:01 INFO  Log4jLogger:49 - Inside Opportunity Get Class
+2020-06-09 19:19:01 INFO  Log4jLogger:50 - verifying user
+2020-06-09 19:19:01 INFO  Log4jLogger:53 - Trying to Find User in DB by retreiving all data
+2020-06-09 19:19:02 INFO  Log4jLogger:63 - Found User Returning its Data
+2020-06-09 19:19:02 INFO  Log4jLogger:65 - Trying to Find User in DB by retreiving all data
+2020-06-09 19:19:02 INFO  Log4jLogger:67 - Found Opportunities Returning its Data
+2020-06-09 19:19:31 INFO  Log4jLogger:69 - Inside User Delete Class for Removing User
+2020-06-09 19:19:31 INFO  Log4jLogger:72 - Trying to remove User
+2020-06-09 19:19:32 INFO  Log4jLogger:81 - User Removed from DB
+2020-06-09 19:20:05 INFO  Log4jLogger:24 - Inside User Add Class for Interceptor
+2020-06-09 19:20:05 INFO  Log4jLogger:26 - Trying to Register User into DB
+2020-06-09 19:20:05 INFO  Log4jLogger:35 - User Registered into DB
+2020-06-09 19:20:30 INFO  Log4jLogger:49 - Inside Opportunity Get Class
+2020-06-09 19:20:30 INFO  Log4jLogger:50 - verifying user
+2020-06-09 19:20:30 INFO  Log4jLogger:53 - Trying to Find User in DB by retreiving all data
+2020-06-09 19:20:30 INFO  Log4jLogger:63 - Found User Returning its Data
+2020-06-09 19:20:30 INFO  Log4jLogger:65 - Trying to Find User in DB by retreiving all data
+2020-06-09 19:20:30 INFO  Log4jLogger:67 - Found Opportunities Returning its Data
+2020-06-09 19:20:51 INFO  Log4jLogger:69 - Inside User Delete Class for Removing User
+2020-06-09 19:20:51 INFO  Log4jLogger:72 - Trying to remove User
+2020-06-09 19:20:51 INFO  Log4jLogger:81 - User Removed from DB
+2020-06-09 19:20:58 INFO  Log4jLogger:24 - Inside User Add Class for Interceptor
+2020-06-09 19:20:58 INFO  Log4jLogger:26 - Trying to Register User into DB
+2020-06-09 19:20:58 INFO  Log4jLogger:35 - User Registered into DB
+2020-06-09 19:21:09 INFO  Log4jLogger:49 - Inside Opportunity Get Class
+2020-06-09 19:21:09 INFO  Log4jLogger:50 - verifying user
+2020-06-09 19:21:09 INFO  Log4jLogger:53 - Trying to Find User in DB by retreiving all data
+2020-06-09 19:21:09 INFO  Log4jLogger:63 - Found User Returning its Data
+2020-06-09 19:21:09 INFO  Log4jLogger:65 - Trying to Find User in DB by retreiving all data
+2020-06-09 19:21:09 INFO  Log4jLogger:67 - Found Opportunities Returning its Data
+2020-06-09 19:21:56 INFO  Log4jLogger:69 - Inside User Delete Class for Removing User
+2020-06-09 19:21:56 INFO  Log4jLogger:72 - Trying to remove User
+2020-06-09 19:21:57 INFO  Log4jLogger:81 - User Removed from DB
+2020-06-09 19:22:10 INFO  Log4jLogger:24 - Inside User Add Class for Interceptor
+2020-06-09 19:22:10 INFO  Log4jLogger:26 - Trying to Register User into DB
+2020-06-09 19:22:11 INFO  Log4jLogger:35 - User Registered into DB
+2020-06-09 19:28:14 INFO  Log4jLogger:69 - Inside User Delete Class for Removing User
+2020-06-09 19:28:14 INFO  Log4jLogger:72 - Trying to remove User
+2020-06-09 19:28:15 INFO  Log4jLogger:81 - User Removed from DB
+2020-06-09 19:28:25 INFO  Log4jLogger:24 - Inside User Add Class for Interceptor
+2020-06-09 19:28:25 INFO  Log4jLogger:26 - Trying to Register User into DB
+2020-06-09 19:28:25 INFO  Log4jLogger:35 - User Registered into DB
+2020-06-09 19:36:31 INFO  Log4jLogger:49 - Inside Opportunity Get Class
+2020-06-09 19:36:31 INFO  Log4jLogger:50 - verifying user
+2020-06-09 19:36:31 INFO  Log4jLogger:53 - Trying to Find User in DB by retreiving all data
+2020-06-09 19:36:32 INFO  Log4jLogger:63 - Found User Returning its Data
+2020-06-09 19:36:32 INFO  Log4jLogger:65 - Trying to Find User in DB by retreiving all data
+2020-06-09 19:36:33 INFO  Log4jLogger:67 - Found Opportunities Returning its Data
+2020-06-09 19:36:36 INFO  Log4jLogger:69 - Inside User Delete Class for Removing User
+2020-06-09 19:36:36 INFO  Log4jLogger:72 - Trying to remove User
+2020-06-09 19:36:36 INFO  Log4jLogger:81 - User Removed from DB
+2020-06-09 19:36:45 INFO  Log4jLogger:24 - Inside User Add Class for Interceptor
+2020-06-09 19:36:45 INFO  Log4jLogger:26 - Trying to Register User into DB
+2020-06-09 19:36:46 INFO  Log4jLogger:35 - User Registered into DB
+2020-06-09 19:38:13 INFO  Log4jLogger:49 - Inside Opportunity Get Class
+2020-06-09 19:38:13 INFO  Log4jLogger:50 - verifying user
+2020-06-09 19:38:13 INFO  Log4jLogger:53 - Trying to Find User in DB by retreiving all data
+2020-06-09 19:38:13 INFO  Log4jLogger:63 - Found User Returning its Data
+2020-06-09 19:38:13 INFO  Log4jLogger:65 - Trying to Find User in DB by retreiving all data
+2020-06-09 19:38:13 INFO  Log4jLogger:67 - Found Opportunities Returning its Data
+2020-06-09 19:38:14 INFO  Log4jLogger:69 - Inside User Delete Class for Removing User
+2020-06-09 19:38:14 INFO  Log4jLogger:72 - Trying to remove User
+2020-06-09 19:38:15 INFO  Log4jLogger:81 - User Removed from DB
+2020-06-09 19:38:20 INFO  Log4jLogger:24 - Inside User Add Class for Interceptor
+2020-06-09 19:38:20 INFO  Log4jLogger:26 - Trying to Register User into DB
+2020-06-09 19:38:20 INFO  Log4jLogger:35 - User Registered into DB
+2020-06-09 19:38:38 INFO  Log4jLogger:43 - Inside User Get Class for finding User by EmailId
+2020-06-09 19:38:38 INFO  Log4jLogger:46 - Trying to Find User in DB by retreiving all data
+2020-06-09 19:38:38 INFO  Log4jLogger:56 - Found User Returning its Data
+2020-06-09 19:38:41 INFO  Log4jLogger:88 - Inside User Update Class for Updating User
+2020-06-09 19:38:41 INFO  Log4jLogger:90 - Trying to Update User
+2020-06-09 19:38:43 INFO  Log4jLogger:98 - User Updated in DB
+2020-06-09 19:40:18 INFO  Log4jLogger:24 - Inside User Add Class for Interceptor
+2020-06-09 19:40:18 INFO  Log4jLogger:26 - Trying to Register User into DB
+2020-06-09 19:40:22 WARN  Log4jLogger:31 - Exception Occured while Adding
+2020-06-09 19:40:22 ERROR Log4jLogger:32 - Error in Adding User:org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [emailid]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+2020-06-09 19:40:22 INFO  Log4jLogger:35 - User Registered into DB
+2020-06-09 19:40:56 INFO  Log4jLogger:24 - Inside User Add Class for Interceptor
+2020-06-09 19:40:56 INFO  Log4jLogger:26 - Trying to Register User into DB
+2020-06-09 19:40:57 WARN  Log4jLogger:31 - Exception Occured while Adding
+2020-06-09 19:40:57 ERROR Log4jLogger:32 - Error in Adding User:org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [emailid]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+2020-06-09 19:40:57 INFO  Log4jLogger:35 - User Registered into DB
+2020-06-09 19:54:36 INFO  Log4jLogger:49 - Inside Opportunity Get Class
+2020-06-09 19:54:36 INFO  Log4jLogger:50 - verifying user
+2020-06-09 19:54:36 INFO  Log4jLogger:53 - Trying to Find User in DB by retreiving all data
+2020-06-09 19:54:36 INFO  Log4jLogger:63 - Found User Returning its Data
+2020-06-09 19:54:36 INFO  Log4jLogger:65 - Trying to Find User in DB by retreiving all data
+2020-06-09 19:54:36 INFO  Log4jLogger:67 - Found Opportunities Returning its Data
+2020-06-09 19:54:39 INFO  Log4jLogger:69 - Inside User Delete Class for Removing User
+2020-06-09 19:54:39 INFO  Log4jLogger:72 - Trying to remove User
+2020-06-09 19:54:39 INFO  Log4jLogger:81 - User Removed from DB
+2020-06-09 19:57:14 INFO  Log4jLogger:24 - Inside User Add Class for Interceptor
+2020-06-09 19:57:14 INFO  Log4jLogger:26 - Trying to Register User into DB
+2020-06-09 19:57:14 INFO  Log4jLogger:35 - User Registered into DB
+2020-06-09 19:57:16 INFO  Log4jLogger:49 - Inside Opportunity Get Class
+2020-06-09 19:57:16 INFO  Log4jLogger:50 - verifying user
+2020-06-09 19:57:16 INFO  Log4jLogger:53 - Trying to Find User in DB by retreiving all data
+2020-06-09 19:57:16 INFO  Log4jLogger:63 - Found User Returning its Data
+2020-06-09 19:57:16 INFO  Log4jLogger:65 - Trying to Find User in DB by retreiving all data
+2020-06-09 19:57:16 INFO  Log4jLogger:67 - Found Opportunities Returning its Data
+2020-06-09 19:57:22 INFO  Log4jLogger:69 - Inside User Delete Class for Removing User
+2020-06-09 19:57:22 INFO  Log4jLogger:72 - Trying to remove User
+2020-06-09 19:57:22 INFO  Log4jLogger:81 - User Removed from DB
+2020-06-09 19:57:28 INFO  Log4jLogger:24 - Inside User Add Class for Interceptor
+2020-06-09 19:57:28 INFO  Log4jLogger:26 - Trying to Register User into DB
+2020-06-09 19:57:28 INFO  Log4jLogger:35 - User Registered into DB
+2020-06-09 19:57:29 INFO  Log4jLogger:49 - Inside Opportunity Get Class
+2020-06-09 19:57:29 INFO  Log4jLogger:50 - verifying user
+2020-06-09 19:57:29 INFO  Log4jLogger:53 - Trying to Find User in DB by retreiving all data
+2020-06-09 19:57:29 INFO  Log4jLogger:63 - Found User Returning its Data
+2020-06-09 19:57:29 INFO  Log4jLogger:65 - Trying to Find User in DB by retreiving all data
+2020-06-09 19:57:29 INFO  Log4jLogger:67 - Found Opportunities Returning its Data
+2020-06-09 19:58:51 INFO  Log4jLogger:69 - Inside User Delete Class for Removing User
+2020-06-09 19:58:51 INFO  Log4jLogger:72 - Trying to remove User
+2020-06-09 19:58:51 INFO  Log4jLogger:81 - User Removed from DB
+2020-06-09 20:00:55 INFO  Log4jLogger:24 - Inside User Add Class for Interceptor
+2020-06-09 20:00:55 INFO  Log4jLogger:26 - Trying to Register User into DB
+2020-06-09 20:00:55 INFO  Log4jLogger:35 - User Registered into DB
+2020-06-09 20:00:56 INFO  Log4jLogger:50 - Inside Opportunity Get Class
+2020-06-09 20:00:56 INFO  Log4jLogger:51 - verifying user
+2020-06-09 20:00:56 INFO  Log4jLogger:54 - Trying to Find User in DB by retreiving all data
+2020-06-09 20:00:56 INFO  Log4jLogger:64 - Found User Returning its Data
+2020-06-09 20:00:56 INFO  Log4jLogger:66 - Trying to Find User in DB by retreiving all data
+2020-06-09 20:00:57 INFO  Log4jLogger:68 - Found Opportunities Returning its Data
+2020-06-09 21:17:27 INFO  Log4jLogger:43 - Inside User Get Class for finding User by EmailId
+2020-06-09 21:17:27 INFO  Log4jLogger:46 - Trying to Find User in DB by retreiving all data
+2020-06-09 21:17:28 INFO  Log4jLogger:24 - Inside User Add Class for Interceptor
+2020-06-09 21:17:28 INFO  Log4jLogger:26 - Trying to Register User into DB
+2020-06-09 21:17:29 INFO  Log4jLogger:56 - Found User Returning its Data
+2020-06-09 21:17:29 WARN  Log4jLogger:31 - Exception Occured while Adding
+2020-06-09 21:17:29 ERROR Log4jLogger:32 - Error in Adding User:org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [emailid]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+2020-06-09 21:17:29 INFO  Log4jLogger:35 - User Registered into DB
+2020-06-09 21:17:31 INFO  Log4jLogger:88 - Inside User Update Class for Updating User
+2020-06-09 21:17:31 INFO  Log4jLogger:90 - Trying to Update User
+2020-06-09 21:17:32 INFO  Log4jLogger:98 - User Updated in DB
+2020-06-09 21:17:33 INFO  Log4jLogger:59 - Inside Opportunity Get Class
+2020-06-09 21:17:33 INFO  Log4jLogger:60 - verifying user
+2020-06-09 21:17:33 INFO  Log4jLogger:21 - verifying user
+2020-06-09 21:17:33 INFO  Log4jLogger:24 - Trying to Find User in DB by retreiving all Users
+2020-06-09 21:17:33 INFO  Log4jLogger:34 - Found User
+2020-06-09 21:17:33 INFO  Log4jLogger:65 - Trying to Find User in DB by retreiving all data
+2020-06-09 21:17:33 INFO  Log4jLogger:67 - Found Opportunities Returning its Data
+2020-06-09 21:17:37 INFO  Log4jLogger:69 - Inside User Delete Class for Removing User
+2020-06-09 21:17:37 INFO  Log4jLogger:72 - Trying to remove User
+2020-06-09 21:17:37 INFO  Log4jLogger:81 - User Removed from DB
+2020-06-09 21:17:45 INFO  Log4jLogger:24 - Inside User Add Class for Interceptor
+2020-06-09 21:17:45 INFO  Log4jLogger:26 - Trying to Register User into DB
+2020-06-09 21:17:45 INFO  Log4jLogger:35 - User Registered into DB
+2020-06-09 21:17:46 INFO  Log4jLogger:59 - Inside Opportunity Get Class
+2020-06-09 21:17:46 INFO  Log4jLogger:60 - verifying user
+2020-06-09 21:17:46 INFO  Log4jLogger:21 - verifying user
+2020-06-09 21:17:46 INFO  Log4jLogger:24 - Trying to Find User in DB by retreiving all Users
+2020-06-09 21:17:46 INFO  Log4jLogger:34 - Found User
+2020-06-09 21:17:46 INFO  Log4jLogger:65 - Trying to Find User in DB by retreiving all data
+2020-06-09 21:17:46 INFO  Log4jLogger:67 - Found Opportunities Returning its Data
+2020-06-09 21:30:06 INFO  Log4jLogger:69 - Inside User Delete Class for Removing User
+2020-06-09 21:30:06 INFO  Log4jLogger:72 - Trying to remove User
+2020-06-09 21:30:07 INFO  Log4jLogger:81 - User Removed from DB
+2020-06-09 21:30:32 INFO  Log4jLogger:24 - Inside User Add Class for Interceptor
+2020-06-09 21:30:32 INFO  Log4jLogger:26 - Trying to Register User into DB
+2020-06-09 21:30:34 INFO  Log4jLogger:35 - User Registered into DB
+2020-06-09 21:30:37 INFO  Log4jLogger:59 - Inside Opportunity Get Class
+2020-06-09 21:30:37 INFO  Log4jLogger:60 - verifying user
+2020-06-09 21:30:37 INFO  Log4jLogger:21 - verifying user
+2020-06-09 21:30:37 INFO  Log4jLogger:24 - Trying to Find User in DB by retreiving all Users
+2020-06-09 21:30:37 INFO  Log4jLogger:34 - Found User
+2020-06-09 21:30:37 INFO  Log4jLogger:65 - Trying to Find User in DB by retreiving all data
+2020-06-09 21:30:37 INFO  Log4jLogger:67 - Found Opportunities Returning its Data
+2020-06-09 21:30:39 INFO  Log4jLogger:69 - Inside User Delete Class for Removing User
+2020-06-09 21:30:39 INFO  Log4jLogger:72 - Trying to remove User
+2020-06-09 21:30:40 INFO  Log4jLogger:81 - User Removed from DB
+2020-06-09 21:42:47 INFO  Log4jLogger:24 - Inside User Add Class for Interceptor
+2020-06-09 21:42:47 INFO  Log4jLogger:26 - Trying to Register User into DB
+2020-06-09 21:42:48 INFO  Log4jLogger:35 - User Registered into DB
+2020-06-09 21:42:51 INFO  Log4jLogger:59 - Inside Opportunity Get Class
+2020-06-09 21:42:51 INFO  Log4jLogger:60 - verifying user
+2020-06-09 21:42:51 INFO  Log4jLogger:21 - verifying user
+2020-06-09 21:42:51 INFO  Log4jLogger:24 - Trying to Find User in DB by retreiving all Users
+2020-06-09 21:42:51 INFO  Log4jLogger:34 - Found User
+2020-06-09 21:42:51 INFO  Log4jLogger:65 - Trying to Find User in DB by retreiving all data
+2020-06-09 21:42:51 INFO  Log4jLogger:67 - Found Opportunities Returning its Data
+2020-06-09 22:02:09 INFO  Log4jLogger:43 - Inside User Get Class for finding User by EmailId
+2020-06-09 22:02:09 INFO  Log4jLogger:46 - Trying to Find User in DB by retreiving all data
+2020-06-09 22:02:09 INFO  Log4jLogger:24 - Inside User Add Class for Interceptor
+2020-06-09 22:02:09 INFO  Log4jLogger:26 - Trying to Register User into DB
+2020-06-09 22:02:10 INFO  Log4jLogger:35 - User Registered into DB
+2020-06-09 22:02:10 INFO  Log4jLogger:56 - Found User Returning its Data
+2020-06-09 22:02:13 INFO  Log4jLogger:68 - Inside Opportunity Get Class
+2020-06-09 22:02:13 INFO  Log4jLogger:69 - verifying user
+2020-06-09 22:02:13 INFO  Log4jLogger:21 - verifying user
+2020-06-09 22:02:13 INFO  Log4jLogger:24 - Trying to Find User in DB by retreiving all Users
+2020-06-09 22:02:13 INFO  Log4jLogger:34 - Found User
+2020-06-09 22:02:13 INFO  Log4jLogger:74 - Trying to Find User in DB by retreiving all data
+2020-06-09 22:02:14 INFO  Log4jLogger:76 - Found Opportunities Returning its Data
+2020-06-09 22:03:23 INFO  Log4jLogger:39 - Inside Opportunity Add Class
+2020-06-09 22:03:23 INFO  Log4jLogger:40 - verifying user
+2020-06-09 22:03:23 INFO  Log4jLogger:21 - verifying user
+2020-06-09 22:03:23 INFO  Log4jLogger:24 - Trying to Find User in DB by retreiving all Users
+2020-06-09 22:03:23 INFO  Log4jLogger:34 - Found User
+2020-06-09 22:03:23 INFO  Log4jLogger:49 - Opportunity Registered into DB
+2020-06-09 22:04:38 INFO  Log4jLogger:127 - Inside Opportunity Update Class
+2020-06-09 22:04:38 INFO  Log4jLogger:21 - verifying user
+2020-06-09 22:04:38 INFO  Log4jLogger:24 - Trying to Find User in DB by retreiving all Users
+2020-06-09 22:04:38 INFO  Log4jLogger:34 - Found User
+2020-06-09 22:04:38 INFO  Log4jLogger:131 - Trying to Update Opportunity
+2020-06-09 22:04:38 INFO  Log4jLogger:141 - Opportunity Updated in DB
+2020-06-09 22:05:17 INFO  Log4jLogger:100 - Inside Opportunity Delete Class
+2020-06-09 22:05:17 INFO  Log4jLogger:101 - Verifying User
+2020-06-09 22:05:17 INFO  Log4jLogger:21 - verifying user
+2020-06-09 22:05:17 INFO  Log4jLogger:24 - Trying to Find User in DB by retreiving all Users
+2020-06-09 22:05:17 INFO  Log4jLogger:34 - Found User
+2020-06-09 22:05:17 INFO  Log4jLogger:104 - User Verified
+2020-06-09 22:05:17 INFO  Log4jLogger:106 - Trying to remove opportunity
+2020-06-09 22:05:17 INFO  Log4jLogger:115 - Opportunity Removed from DB
+2020-06-09 22:05:34 INFO  Log4jLogger:69 - Inside User Delete Class for Removing User
+2020-06-09 22:05:34 INFO  Log4jLogger:72 - Trying to remove User
+2020-06-09 22:05:34 INFO  Log4jLogger:81 - User Removed from DB
