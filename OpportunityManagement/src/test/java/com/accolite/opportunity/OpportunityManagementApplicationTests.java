@@ -36,10 +36,10 @@ import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 import org.springframework.web.context.WebApplicationContext;
 
+import com.accolite.opportunity.exception.OpportunityExceptionHandler;
 import com.accolite.opportunity.model.Opportunity;
 import com.accolite.opportunity.mysql.dao.OpportunityDao;
 import com.accolite.opportunity.web.controller.OpportunityController;
-import com.accolite.response.Response;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.JsonMappingException;

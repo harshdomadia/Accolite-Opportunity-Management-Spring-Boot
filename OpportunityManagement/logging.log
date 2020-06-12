@@ -1814,3 +1814,526 @@ For more info see javadoc for Matchers class.
 2020-06-09 22:05:34 INFO  Log4jLogger:69 - Inside User Delete Class for Removing User
 2020-06-09 22:05:34 INFO  Log4jLogger:72 - Trying to remove User
 2020-06-09 22:05:34 INFO  Log4jLogger:81 - User Removed from DB
+2020-06-10 14:18:07 INFO  Log4jLogger:24 - Inside User Add Class for Interceptor
+2020-06-10 14:18:07 INFO  Log4jLogger:26 - Trying to Register User into DB
+2020-06-10 14:18:09 INFO  Log4jLogger:35 - User Registered into DB
+2020-06-10 14:18:16 INFO  Log4jLogger:68 - Inside Opportunity Get Class
+2020-06-10 14:18:16 INFO  Log4jLogger:69 - verifying user
+2020-06-10 14:18:16 INFO  Log4jLogger:21 - verifying user
+2020-06-10 14:18:16 INFO  Log4jLogger:24 - Trying to Find User in DB by retreiving all Users
+2020-06-10 14:18:16 INFO  Log4jLogger:34 - Found User
+2020-06-10 14:18:16 INFO  Log4jLogger:74 - Trying to Find User in DB by retreiving all data
+2020-06-10 14:18:16 INFO  Log4jLogger:76 - Found Opportunities Returning its Data
+2020-06-10 14:21:43 INFO  Log4jLogger:100 - Inside Opportunity Delete Class
+2020-06-10 14:21:43 INFO  Log4jLogger:101 - Verifying User
+2020-06-10 14:21:43 INFO  Log4jLogger:21 - verifying user
+2020-06-10 14:21:43 INFO  Log4jLogger:24 - Trying to Find User in DB by retreiving all Users
+2020-06-10 14:21:43 INFO  Log4jLogger:34 - Found User
+2020-06-10 14:21:43 INFO  Log4jLogger:104 - User Verified
+2020-06-10 14:21:43 INFO  Log4jLogger:106 - Trying to remove opportunity
+2020-06-10 14:21:46 INFO  Log4jLogger:115 - Opportunity Removed from DB
+2020-06-10 14:22:01 INFO  Log4jLogger:68 - Inside Opportunity Get Class
+2020-06-10 14:22:01 INFO  Log4jLogger:69 - verifying user
+2020-06-10 14:22:01 INFO  Log4jLogger:21 - verifying user
+2020-06-10 14:22:01 INFO  Log4jLogger:24 - Trying to Find User in DB by retreiving all Users
+2020-06-10 14:22:01 INFO  Log4jLogger:34 - Found User
+2020-06-10 14:22:01 INFO  Log4jLogger:74 - Trying to Find User in DB by retreiving all data
+2020-06-10 14:22:01 INFO  Log4jLogger:76 - Found Opportunities Returning its Data
+2020-06-10 14:23:04 INFO  Log4jLogger:39 - Inside Opportunity Add Class
+2020-06-10 14:23:04 INFO  Log4jLogger:40 - verifying user
+2020-06-10 14:23:04 INFO  Log4jLogger:21 - verifying user
+2020-06-10 14:23:04 INFO  Log4jLogger:24 - Trying to Find User in DB by retreiving all Users
+2020-06-10 14:23:04 INFO  Log4jLogger:34 - Found User
+2020-06-10 14:23:04 INFO  Log4jLogger:49 - Opportunity Registered into DB
+2020-06-10 14:23:14 INFO  Log4jLogger:69 - Inside User Delete Class for Removing User
+2020-06-10 14:23:14 INFO  Log4jLogger:72 - Trying to remove User
+2020-06-10 14:23:14 INFO  Log4jLogger:81 - User Removed from DB
+2020-06-11 16:03:46 INFO  Log4jLogger:43 - Inside User Get Class for finding User by EmailId
+2020-06-11 16:03:46 INFO  Log4jLogger:46 - Trying to Find User in DB by retreiving all data
+2020-06-11 16:03:46 INFO  Log4jLogger:56 - Found User Returning its Data
+2020-06-11 16:06:06 INFO  Log4jLogger:43 - Inside User Get Class for finding User by EmailId
+2020-06-11 16:06:06 INFO  Log4jLogger:46 - Trying to Find User in DB by retreiving all data
+2020-06-11 16:06:06 INFO  Log4jLogger:56 - Found User Returning its Data
+2020-06-11 16:06:34 INFO  Log4jLogger:43 - Inside User Get Class for finding User by EmailId
+2020-06-11 16:06:34 INFO  Log4jLogger:46 - Trying to Find User in DB by retreiving all data
+2020-06-11 16:06:34 INFO  Log4jLogger:56 - Found User Returning its Data
+2020-06-11 16:06:48 INFO  Log4jLogger:37 - Inside Opportunity Get Class
+2020-06-11 16:06:48 INFO  Log4jLogger:38 - verifying user
+2020-06-11 16:06:48 INFO  Log4jLogger:21 - verifying user
+2020-06-11 16:06:48 INFO  Log4jLogger:24 - Trying to Find User in DB by retreiving all Users
+2020-06-11 16:06:48 INFO  Log4jLogger:34 - Found User
+2020-06-11 16:06:48 INFO  Log4jLogger:43 - Trying to Find User in DB by retreiving all data
+2020-06-11 16:06:48 WARN  Log4jLogger:49 - Exception Occured while Finding
+2020-06-11 16:06:48 ERROR Log4jLogger:50 - Error in Finding Opportunity:java.lang.NullPointerException
+2020-06-11 16:06:48 WARN  Log4jLogger:53 - No Opportunity Found
+2020-06-11 16:07:04 INFO  Log4jLogger:37 - Inside Opportunity Get Class
+2020-06-11 16:07:04 INFO  Log4jLogger:38 - verifying user
+2020-06-11 16:07:04 INFO  Log4jLogger:21 - verifying user
+2020-06-11 16:07:04 INFO  Log4jLogger:24 - Trying to Find User in DB by retreiving all Users
+2020-06-11 16:07:04 INFO  Log4jLogger:34 - Found User
+2020-06-11 16:07:04 INFO  Log4jLogger:43 - Trying to Find User in DB by retreiving all data
+2020-06-11 16:07:04 WARN  Log4jLogger:49 - Exception Occured while Finding
+2020-06-11 16:07:04 ERROR Log4jLogger:50 - Error in Finding Opportunity:java.lang.NullPointerException
+2020-06-11 16:07:04 WARN  Log4jLogger:53 - No Opportunity Found
+2020-06-11 16:09:05 INFO  Log4jLogger:68 - Inside Opportunity Get Class
+2020-06-11 16:09:05 INFO  Log4jLogger:69 - verifying user
+2020-06-11 16:09:05 INFO  Log4jLogger:21 - verifying user
+2020-06-11 16:09:05 INFO  Log4jLogger:24 - Trying to Find User in DB by retreiving all Users
+2020-06-11 16:09:05 INFO  Log4jLogger:34 - Found User
+2020-06-11 16:09:05 INFO  Log4jLogger:74 - Trying to Find User in DB by retreiving all data
+2020-06-11 16:09:05 INFO  Log4jLogger:76 - Found Opportunities Returning its Data
+2020-06-11 16:10:16 INFO  Log4jLogger:68 - Inside Opportunity Get Class
+2020-06-11 16:10:16 INFO  Log4jLogger:69 - verifying user
+2020-06-11 16:10:16 INFO  Log4jLogger:21 - verifying user
+2020-06-11 16:10:16 INFO  Log4jLogger:24 - Trying to Find User in DB by retreiving all Users
+2020-06-11 16:10:16 INFO  Log4jLogger:34 - Found User
+2020-06-11 16:10:16 INFO  Log4jLogger:74 - Trying to Find User in DB by retreiving all data
+2020-06-11 16:10:16 INFO  Log4jLogger:76 - Found Opportunities Returning its Data
+2020-06-11 16:10:21 INFO  Log4jLogger:37 - Inside Opportunity Get Class
+2020-06-11 16:10:21 INFO  Log4jLogger:38 - verifying user
+2020-06-11 16:10:21 INFO  Log4jLogger:21 - verifying user
+2020-06-11 16:10:21 INFO  Log4jLogger:24 - Trying to Find User in DB by retreiving all Users
+2020-06-11 16:10:21 INFO  Log4jLogger:34 - Found User
+2020-06-11 16:10:21 INFO  Log4jLogger:43 - Trying to Find User in DB by retreiving all data
+2020-06-11 16:10:21 WARN  Log4jLogger:49 - Exception Occured while Finding
+2020-06-11 16:10:21 ERROR Log4jLogger:50 - Error in Finding Opportunity:java.lang.NullPointerException
+2020-06-11 16:10:21 WARN  Log4jLogger:53 - No Opportunity Found
+2020-06-11 16:13:54 INFO  Log4jLogger:37 - Inside Opportunity Get Class
+2020-06-11 16:13:54 INFO  Log4jLogger:38 - verifying user
+2020-06-11 16:13:54 INFO  Log4jLogger:21 - verifying user
+2020-06-11 16:13:54 INFO  Log4jLogger:24 - Trying to Find User in DB by retreiving all Users
+2020-06-11 16:13:54 INFO  Log4jLogger:34 - Found User
+2020-06-11 16:13:54 INFO  Log4jLogger:43 - Trying to Find User in DB by retreiving all data
+2020-06-11 16:13:54 WARN  Log4jLogger:49 - Exception Occured while Finding
+2020-06-11 16:13:54 ERROR Log4jLogger:50 - Error in Finding Opportunity:java.lang.NullPointerException
+2020-06-11 16:13:54 WARN  Log4jLogger:53 - No Opportunity Found
+2020-06-11 16:14:36 INFO  Log4jLogger:37 - Inside Opportunity Get Class
+2020-06-11 16:14:36 INFO  Log4jLogger:38 - verifying user
+2020-06-11 16:14:36 INFO  Log4jLogger:21 - verifying user
+2020-06-11 16:14:36 INFO  Log4jLogger:24 - Trying to Find User in DB by retreiving all Users
+2020-06-11 16:14:36 INFO  Log4jLogger:34 - Found User
+2020-06-11 16:14:36 INFO  Log4jLogger:43 - Trying to Find User in DB by retreiving all data
+2020-06-11 16:14:36 WARN  Log4jLogger:49 - Exception Occured while Finding
+2020-06-11 16:14:36 ERROR Log4jLogger:50 - Error in Finding Opportunity:java.lang.NullPointerException
+2020-06-11 16:14:36 WARN  Log4jLogger:53 - No Opportunity Found
+2020-06-11 16:16:57 INFO  Log4jLogger:68 - Inside Opportunity Get Class
+2020-06-11 16:16:57 INFO  Log4jLogger:69 - verifying user
+2020-06-11 16:16:57 INFO  Log4jLogger:21 - verifying user
+2020-06-11 16:16:57 INFO  Log4jLogger:24 - Trying to Find User in DB by retreiving all Users
+2020-06-11 16:16:57 INFO  Log4jLogger:34 - Found User
+2020-06-11 16:16:57 INFO  Log4jLogger:74 - Trying to Find User in DB by retreiving all data
+2020-06-11 16:16:57 INFO  Log4jLogger:76 - Found Opportunities Returning its Data
+2020-06-11 16:17:09 INFO  Log4jLogger:37 - Inside Opportunity Get Class
+2020-06-11 16:17:09 INFO  Log4jLogger:38 - verifying user
+2020-06-11 16:17:09 INFO  Log4jLogger:21 - verifying user
+2020-06-11 16:17:09 INFO  Log4jLogger:24 - Trying to Find User in DB by retreiving all Users
+2020-06-11 16:17:09 INFO  Log4jLogger:34 - Found User
+2020-06-11 16:17:09 INFO  Log4jLogger:43 - Trying to Find User in DB by retreiving all data
+2020-06-11 16:17:09 WARN  Log4jLogger:49 - Exception Occured while Finding
+2020-06-11 16:17:09 ERROR Log4jLogger:50 - Error in Finding Opportunity:java.lang.NullPointerException
+2020-06-11 16:17:09 WARN  Log4jLogger:53 - No Opportunity Found
+2020-06-11 16:30:19 INFO  Log4jLogger:37 - Inside Opportunity Get Class
+2020-06-11 16:30:19 INFO  Log4jLogger:38 - verifying user
+2020-06-11 16:30:19 INFO  Log4jLogger:21 - verifying user
+2020-06-11 16:30:19 INFO  Log4jLogger:24 - Trying to Find User in DB by retreiving all Users
+2020-06-11 16:30:19 INFO  Log4jLogger:34 - Found User
+2020-06-11 16:30:19 INFO  Log4jLogger:43 - Trying to Find User in DB by retreiving all data
+2020-06-11 16:30:19 INFO  Log4jLogger:68 - Inside Opportunity Get Class
+2020-06-11 16:30:19 INFO  Log4jLogger:69 - verifying user
+2020-06-11 16:30:19 INFO  Log4jLogger:21 - verifying user
+2020-06-11 16:30:19 INFO  Log4jLogger:24 - Trying to Find User in DB by retreiving all Users
+2020-06-11 16:30:19 INFO  Log4jLogger:34 - Found User
+2020-06-11 16:30:19 INFO  Log4jLogger:74 - Trying to Find User in DB by retreiving all data
+2020-06-11 16:30:19 INFO  Log4jLogger:76 - Found Opportunities Returning its Data
+2020-06-11 16:30:19 WARN  Log4jLogger:49 - Exception Occured while Finding
+2020-06-11 16:30:19 ERROR Log4jLogger:50 - Error in Finding Opportunity:java.lang.NullPointerException
+2020-06-11 16:30:19 WARN  Log4jLogger:53 - No Opportunity Found
+2020-06-11 16:31:33 INFO  Log4jLogger:37 - Inside Opportunity Get Class
+2020-06-11 16:31:33 INFO  Log4jLogger:38 - verifying user
+2020-06-11 16:31:33 INFO  Log4jLogger:21 - verifying user
+2020-06-11 16:31:33 INFO  Log4jLogger:24 - Trying to Find User in DB by retreiving all Users
+2020-06-11 16:31:33 INFO  Log4jLogger:34 - Found User
+2020-06-11 16:31:33 INFO  Log4jLogger:43 - Trying to Find User in DB by retreiving all data
+2020-06-11 16:31:33 INFO  Log4jLogger:68 - Inside Opportunity Get Class
+2020-06-11 16:31:33 INFO  Log4jLogger:69 - verifying user
+2020-06-11 16:31:33 INFO  Log4jLogger:21 - verifying user
+2020-06-11 16:31:33 INFO  Log4jLogger:24 - Trying to Find User in DB by retreiving all Users
+2020-06-11 16:31:33 INFO  Log4jLogger:34 - Found User
+2020-06-11 16:31:33 INFO  Log4jLogger:74 - Trying to Find User in DB by retreiving all data
+2020-06-11 16:31:33 INFO  Log4jLogger:77 - Found Opportunities Returning its Data
+2020-06-11 16:31:33 WARN  Log4jLogger:49 - Exception Occured while Finding
+2020-06-11 16:31:33 ERROR Log4jLogger:50 - Error in Finding Opportunity:java.lang.NullPointerException
+2020-06-11 16:31:33 WARN  Log4jLogger:53 - No Opportunity Found
+2020-06-11 16:32:53 INFO  Log4jLogger:37 - Inside Opportunity Get Class
+2020-06-11 16:32:53 INFO  Log4jLogger:38 - verifying user
+2020-06-11 16:32:53 INFO  Log4jLogger:21 - verifying user
+2020-06-11 16:32:53 INFO  Log4jLogger:24 - Trying to Find User in DB by retreiving all Users
+2020-06-11 16:32:53 INFO  Log4jLogger:34 - Found User
+2020-06-11 16:32:53 INFO  Log4jLogger:43 - Trying to Find User in DB by retreiving all data
+2020-06-11 16:32:53 INFO  Log4jLogger:68 - Inside Opportunity Get Class
+2020-06-11 16:32:53 INFO  Log4jLogger:69 - verifying user
+2020-06-11 16:32:53 INFO  Log4jLogger:21 - verifying user
+2020-06-11 16:32:53 INFO  Log4jLogger:24 - Trying to Find User in DB by retreiving all Users
+2020-06-11 16:32:53 INFO  Log4jLogger:34 - Found User
+2020-06-11 16:32:53 INFO  Log4jLogger:74 - Trying to Find User in DB by retreiving all data
+2020-06-11 16:32:53 INFO  Log4jLogger:77 - Found Opportunities Returning its Data
+2020-06-11 16:32:53 WARN  Log4jLogger:49 - Exception Occured while Finding
+2020-06-11 16:32:53 ERROR Log4jLogger:50 - Error in Finding Opportunity:java.lang.NullPointerException
+2020-06-11 16:32:53 WARN  Log4jLogger:53 - No Opportunity Found
+2020-06-11 16:34:30 INFO  Log4jLogger:37 - Inside Opportunity Get Class
+2020-06-11 16:34:30 INFO  Log4jLogger:38 - verifying user
+2020-06-11 16:34:30 INFO  Log4jLogger:21 - verifying user
+2020-06-11 16:34:30 INFO  Log4jLogger:24 - Trying to Find User in DB by retreiving all Users
+2020-06-11 16:34:30 INFO  Log4jLogger:34 - Found User
+2020-06-11 16:34:30 INFO  Log4jLogger:43 - Trying to Find User in DB by retreiving all data
+2020-06-11 16:34:30 INFO  Log4jLogger:68 - Inside Opportunity Get Class
+2020-06-11 16:34:30 INFO  Log4jLogger:69 - verifying user
+2020-06-11 16:34:30 INFO  Log4jLogger:21 - verifying user
+2020-06-11 16:34:30 INFO  Log4jLogger:24 - Trying to Find User in DB by retreiving all Users
+2020-06-11 16:34:30 INFO  Log4jLogger:34 - Found User
+2020-06-11 16:34:30 INFO  Log4jLogger:74 - Trying to Find User in DB by retreiving all data
+2020-06-11 16:34:30 INFO  Log4jLogger:77 - Found Opportunities Returning its Data
+2020-06-11 16:34:30 WARN  Log4jLogger:49 - Exception Occured while Finding
+2020-06-11 16:34:30 ERROR Log4jLogger:50 - Error in Finding Opportunity:java.lang.NullPointerException
+2020-06-11 16:34:30 WARN  Log4jLogger:53 - No Opportunity Found
+2020-06-11 16:39:32 INFO  Log4jLogger:37 - Inside Opportunity Get Class
+2020-06-11 16:39:32 INFO  Log4jLogger:38 - verifying user
+2020-06-11 16:39:32 INFO  Log4jLogger:21 - verifying user
+2020-06-11 16:39:32 INFO  Log4jLogger:24 - Trying to Find User in DB by retreiving all Users
+2020-06-11 16:39:32 INFO  Log4jLogger:34 - Found User
+2020-06-11 16:39:32 INFO  Log4jLogger:43 - Trying to Find User in DB by retreiving all data
+2020-06-11 16:39:32 INFO  Log4jLogger:68 - Inside Opportunity Get Class
+2020-06-11 16:39:32 INFO  Log4jLogger:69 - verifying user
+2020-06-11 16:39:32 INFO  Log4jLogger:21 - verifying user
+2020-06-11 16:39:32 INFO  Log4jLogger:24 - Trying to Find User in DB by retreiving all Users
+2020-06-11 16:39:32 INFO  Log4jLogger:34 - Found User
+2020-06-11 16:39:32 INFO  Log4jLogger:74 - Trying to Find User in DB by retreiving all data
+2020-06-11 16:39:32 INFO  Log4jLogger:77 - Found Opportunities Returning its Data
+2020-06-11 16:39:32 WARN  Log4jLogger:49 - Exception Occured while Finding
+2020-06-11 16:39:32 ERROR Log4jLogger:50 - Error in Finding Opportunity:java.lang.NullPointerException
+2020-06-11 16:39:32 WARN  Log4jLogger:53 - No Opportunity Found
+2020-06-11 16:41:53 INFO  Log4jLogger:37 - Inside Opportunity Get Class
+2020-06-11 16:41:53 INFO  Log4jLogger:38 - verifying user
+2020-06-11 16:41:53 INFO  Log4jLogger:21 - verifying user
+2020-06-11 16:41:53 INFO  Log4jLogger:24 - Trying to Find User in DB by retreiving all Users
+2020-06-11 16:41:53 INFO  Log4jLogger:34 - Found User
+2020-06-11 16:41:53 INFO  Log4jLogger:43 - Trying to Find User in DB by retreiving all data
+2020-06-11 16:41:53 INFO  Log4jLogger:68 - Inside Opportunity Get Class
+2020-06-11 16:41:53 INFO  Log4jLogger:69 - verifying user
+2020-06-11 16:41:53 INFO  Log4jLogger:21 - verifying user
+2020-06-11 16:41:53 INFO  Log4jLogger:24 - Trying to Find User in DB by retreiving all Users
+2020-06-11 16:41:53 INFO  Log4jLogger:34 - Found User
+2020-06-11 16:41:53 INFO  Log4jLogger:74 - Trying to Find User in DB by retreiving all data
+2020-06-11 16:41:53 INFO  Log4jLogger:77 - Found Opportunities Returning its Data
+2020-06-11 16:41:53 WARN  Log4jLogger:49 - Exception Occured while Finding
+2020-06-11 16:41:53 ERROR Log4jLogger:50 - Error in Finding Opportunity:java.lang.NullPointerException
+2020-06-11 16:41:53 WARN  Log4jLogger:53 - No Opportunity Found
+2020-06-11 16:44:19 INFO  Log4jLogger:37 - Inside Opportunity Get Class
+2020-06-11 16:44:19 INFO  Log4jLogger:38 - verifying user
+2020-06-11 16:44:19 INFO  Log4jLogger:21 - verifying user
+2020-06-11 16:44:19 INFO  Log4jLogger:24 - Trying to Find User in DB by retreiving all Users
+2020-06-11 16:44:19 INFO  Log4jLogger:34 - Found User
+2020-06-11 16:44:19 INFO  Log4jLogger:43 - Trying to Find User in DB by retreiving all data
+2020-06-11 16:44:19 INFO  Log4jLogger:68 - Inside Opportunity Get Class
+2020-06-11 16:44:19 INFO  Log4jLogger:69 - verifying user
+2020-06-11 16:44:19 INFO  Log4jLogger:21 - verifying user
+2020-06-11 16:44:19 INFO  Log4jLogger:24 - Trying to Find User in DB by retreiving all Users
+2020-06-11 16:44:19 INFO  Log4jLogger:34 - Found User
+2020-06-11 16:44:19 INFO  Log4jLogger:74 - Trying to Find User in DB by retreiving all data
+2020-06-11 16:44:19 INFO  Log4jLogger:77 - Found Opportunities Returning its Data
+2020-06-11 16:44:19 INFO  Log4jLogger:45 - Found Opportunities Returning its Data
+2020-06-11 16:45:41 INFO  Log4jLogger:37 - Inside Opportunity Get Class
+2020-06-11 16:45:41 INFO  Log4jLogger:38 - verifying user
+2020-06-11 16:45:41 INFO  Log4jLogger:21 - verifying user
+2020-06-11 16:45:41 INFO  Log4jLogger:24 - Trying to Find User in DB by retreiving all Users
+2020-06-11 16:45:41 INFO  Log4jLogger:34 - Found User
+2020-06-11 16:45:41 INFO  Log4jLogger:43 - Trying to Find User in DB by retreiving all data
+2020-06-11 16:45:42 INFO  Log4jLogger:45 - Found Opportunities Returning its Data
+2020-06-11 16:58:44 INFO  Log4jLogger:68 - Inside Opportunity Get Class
+2020-06-11 16:58:44 INFO  Log4jLogger:69 - verifying user
+2020-06-11 16:58:44 INFO  Log4jLogger:21 - verifying user
+2020-06-11 16:58:44 INFO  Log4jLogger:24 - Trying to Find User in DB by retreiving all Users
+2020-06-11 16:58:44 INFO  Log4jLogger:34 - Found User
+2020-06-11 16:58:44 INFO  Log4jLogger:74 - Trying to Find User in DB by retreiving all data
+2020-06-11 16:58:44 INFO  Log4jLogger:77 - Found Opportunities Returning its Data
+2020-06-11 17:04:18 INFO  Log4jLogger:37 - Inside Opportunity Get Class
+2020-06-11 17:04:18 INFO  Log4jLogger:38 - verifying user
+2020-06-11 17:04:18 INFO  Log4jLogger:21 - verifying user
+2020-06-11 17:04:18 INFO  Log4jLogger:24 - Trying to Find User in DB by retreiving all Users
+2020-06-11 17:04:18 INFO  Log4jLogger:34 - Found User
+2020-06-11 17:04:18 INFO  Log4jLogger:43 - Trying to Find User in DB by retreiving all data
+2020-06-11 17:04:18 INFO  Log4jLogger:45 - Found Opportunities Returning its Data
+2020-06-11 19:01:17 INFO  Log4jLogger:24 - Inside User Add Class for Interceptor
+2020-06-11 19:01:17 INFO  Log4jLogger:26 - Trying to Register User into DB
+2020-06-11 19:01:43 INFO  Log4jLogger:24 - Inside User Add Class for Interceptor
+2020-06-11 19:01:43 INFO  Log4jLogger:26 - Trying to Register User into DB
+2020-06-11 19:01:53 INFO  Log4jLogger:35 - User Registered into DB
+2020-06-11 19:01:58 WARN  Log4jLogger:31 - Exception Occured while Adding
+2020-06-11 19:01:58 ERROR Log4jLogger:32 - Error in Adding User:org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [emailid]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+2020-06-11 19:01:58 INFO  Log4jLogger:35 - User Registered into DB
+2020-06-11 19:01:59 INFO  Log4jLogger:68 - Inside Opportunity Get Class
+2020-06-11 19:01:59 INFO  Log4jLogger:69 - verifying user
+2020-06-11 19:01:59 INFO  Log4jLogger:21 - verifying user
+2020-06-11 19:01:59 INFO  Log4jLogger:24 - Trying to Find User in DB by retreiving all Users
+2020-06-11 19:01:59 INFO  Log4jLogger:34 - Found User
+2020-06-11 19:01:59 INFO  Log4jLogger:74 - Trying to Find User in DB by retreiving all data
+2020-06-11 19:01:59 INFO  Log4jLogger:77 - Found Opportunities Returning its Data
+2020-06-11 19:02:09 INFO  Log4jLogger:37 - Inside Opportunity Get Class
+2020-06-11 19:02:09 INFO  Log4jLogger:38 - verifying user
+2020-06-11 19:02:09 INFO  Log4jLogger:21 - verifying user
+2020-06-11 19:02:09 INFO  Log4jLogger:24 - Trying to Find User in DB by retreiving all Users
+2020-06-11 19:02:09 INFO  Log4jLogger:34 - Found User
+2020-06-11 19:02:09 INFO  Log4jLogger:43 - Trying to Find User in DB by retreiving all data
+2020-06-11 19:02:09 INFO  Log4jLogger:45 - Found Opportunities Returning its Data
+2020-06-11 19:03:18 INFO  Log4jLogger:69 - Inside User Delete Class for Removing User
+2020-06-11 19:03:18 INFO  Log4jLogger:72 - Trying to remove User
+2020-06-11 19:03:26 INFO  Log4jLogger:81 - User Removed from DB
+2020-06-11 19:05:08 INFO  Log4jLogger:24 - Inside User Add Class for Interceptor
+2020-06-11 19:05:08 INFO  Log4jLogger:26 - Trying to Register User into DB
+2020-06-11 19:05:09 INFO  Log4jLogger:35 - User Registered into DB
+2020-06-11 19:05:12 INFO  Log4jLogger:68 - Inside Opportunity Get Class
+2020-06-11 19:05:12 INFO  Log4jLogger:69 - verifying user
+2020-06-11 19:05:12 INFO  Log4jLogger:21 - verifying user
+2020-06-11 19:05:12 INFO  Log4jLogger:24 - Trying to Find User in DB by retreiving all Users
+2020-06-11 19:05:12 INFO  Log4jLogger:34 - Found User
+2020-06-11 19:05:12 INFO  Log4jLogger:74 - Trying to Find User in DB by retreiving all data
+2020-06-11 19:05:12 INFO  Log4jLogger:77 - Found Opportunities Returning its Data
+2020-06-11 19:05:17 INFO  Log4jLogger:37 - Inside Opportunity Get Class
+2020-06-11 19:05:17 INFO  Log4jLogger:38 - verifying user
+2020-06-11 19:05:17 INFO  Log4jLogger:21 - verifying user
+2020-06-11 19:05:17 INFO  Log4jLogger:24 - Trying to Find User in DB by retreiving all Users
+2020-06-11 19:05:17 INFO  Log4jLogger:34 - Found User
+2020-06-11 19:05:17 INFO  Log4jLogger:43 - Trying to Find User in DB by retreiving all data
+2020-06-11 19:05:17 INFO  Log4jLogger:45 - Found Opportunities Returning its Data
+2020-06-11 19:07:55 INFO  Log4jLogger:37 - Inside Opportunity Get Class
+2020-06-11 19:07:55 INFO  Log4jLogger:38 - verifying user
+2020-06-11 19:07:55 INFO  Log4jLogger:21 - verifying user
+2020-06-11 19:07:55 INFO  Log4jLogger:24 - Trying to Find User in DB by retreiving all Users
+2020-06-11 19:07:55 INFO  Log4jLogger:34 - Found User
+2020-06-11 19:07:55 INFO  Log4jLogger:43 - Trying to Find User in DB by retreiving all data
+2020-06-11 19:07:55 INFO  Log4jLogger:45 - Found Opportunities Returning its Data
+2020-06-11 19:08:12 INFO  Log4jLogger:68 - Inside Opportunity Get Class
+2020-06-11 19:08:12 INFO  Log4jLogger:69 - verifying user
+2020-06-11 19:08:12 INFO  Log4jLogger:21 - verifying user
+2020-06-11 19:08:12 INFO  Log4jLogger:24 - Trying to Find User in DB by retreiving all Users
+2020-06-11 19:08:12 INFO  Log4jLogger:34 - Found User
+2020-06-11 19:08:12 INFO  Log4jLogger:74 - Trying to Find User in DB by retreiving all data
+2020-06-11 19:08:12 INFO  Log4jLogger:77 - Found Opportunities Returning its Data
+2020-06-11 19:08:15 INFO  Log4jLogger:37 - Inside Opportunity Get Class
+2020-06-11 19:08:15 INFO  Log4jLogger:38 - verifying user
+2020-06-11 19:08:15 INFO  Log4jLogger:21 - verifying user
+2020-06-11 19:08:15 INFO  Log4jLogger:24 - Trying to Find User in DB by retreiving all Users
+2020-06-11 19:08:15 INFO  Log4jLogger:34 - Found User
+2020-06-11 19:08:15 INFO  Log4jLogger:43 - Trying to Find User in DB by retreiving all data
+2020-06-11 19:08:17 INFO  Log4jLogger:45 - Found Opportunities Returning its Data
+2020-06-11 19:10:24 INFO  Log4jLogger:37 - Inside Opportunity Get Class
+2020-06-11 19:10:24 INFO  Log4jLogger:38 - verifying user
+2020-06-11 19:10:24 INFO  Log4jLogger:21 - verifying user
+2020-06-11 19:10:24 INFO  Log4jLogger:24 - Trying to Find User in DB by retreiving all Users
+2020-06-11 19:10:26 INFO  Log4jLogger:34 - Found User
+2020-06-11 19:10:26 INFO  Log4jLogger:43 - Trying to Find User in DB by retreiving all data
+2020-06-11 19:10:34 INFO  Log4jLogger:45 - Found Opportunities Returning its Data
+2020-06-11 19:15:51 INFO  Log4jLogger:37 - Inside Opportunity Get Class
+2020-06-11 19:15:51 INFO  Log4jLogger:38 - verifying user
+2020-06-11 19:15:51 INFO  Log4jLogger:21 - verifying user
+2020-06-11 19:15:51 INFO  Log4jLogger:24 - Trying to Find User in DB by retreiving all Users
+2020-06-11 19:15:51 INFO  Log4jLogger:34 - Found User
+2020-06-11 19:15:51 INFO  Log4jLogger:43 - Trying to Find User in DB by retreiving all data
+2020-06-11 19:15:51 INFO  Log4jLogger:45 - Found Opportunities Returning its Data
+2020-06-11 19:47:12 INFO  Log4jLogger:37 - Inside Opportunity Get Class
+2020-06-11 19:47:13 INFO  Log4jLogger:38 - verifying user
+2020-06-11 19:47:13 INFO  Log4jLogger:21 - verifying user
+2020-06-11 19:47:13 INFO  Log4jLogger:24 - Trying to Find User in DB by retreiving all Users
+2020-06-11 19:47:19 INFO  Log4jLogger:34 - Found User
+2020-06-11 19:47:19 INFO  Log4jLogger:43 - Trying to Find User in DB by retreiving all data
+2020-06-11 19:47:21 INFO  Log4jLogger:45 - Found Opportunities Returning its Data
+2020-06-11 19:49:34 INFO  Log4jLogger:37 - Inside Opportunity Get Class
+2020-06-11 19:49:34 INFO  Log4jLogger:38 - verifying user
+2020-06-11 19:49:34 INFO  Log4jLogger:21 - verifying user
+2020-06-11 19:49:34 INFO  Log4jLogger:24 - Trying to Find User in DB by retreiving all Users
+2020-06-11 19:49:36 INFO  Log4jLogger:34 - Found User
+2020-06-11 19:49:36 INFO  Log4jLogger:43 - Trying to Find User in DB by retreiving all data
+2020-06-11 19:49:37 INFO  Log4jLogger:45 - Found Opportunities Returning its Data
+2020-06-11 19:53:08 INFO  Log4jLogger:37 - Inside Opportunity Get Class
+2020-06-11 19:53:08 INFO  Log4jLogger:38 - verifying user
+2020-06-11 19:53:08 INFO  Log4jLogger:21 - verifying user
+2020-06-11 19:53:08 INFO  Log4jLogger:24 - Trying to Find User in DB by retreiving all Users
+2020-06-11 19:53:08 INFO  Log4jLogger:34 - Found User
+2020-06-11 19:53:08 INFO  Log4jLogger:43 - Trying to Find User in DB by retreiving all data
+2020-06-11 19:53:08 INFO  Log4jLogger:45 - Found Opportunities Returning its Data
+2020-06-11 19:54:19 INFO  Log4jLogger:37 - Inside Opportunity Get Class
+2020-06-11 19:54:19 INFO  Log4jLogger:38 - verifying user
+2020-06-11 19:54:19 INFO  Log4jLogger:21 - verifying user
+2020-06-11 19:54:19 INFO  Log4jLogger:24 - Trying to Find User in DB by retreiving all Users
+2020-06-11 19:54:19 INFO  Log4jLogger:34 - Found User
+2020-06-11 19:54:19 INFO  Log4jLogger:43 - Trying to Find User in DB by retreiving all data
+2020-06-11 19:54:20 INFO  Log4jLogger:45 - Found Opportunities Returning its Data
+2020-06-11 20:00:31 INFO  Log4jLogger:37 - Inside Opportunity Get Class
+2020-06-11 20:00:31 INFO  Log4jLogger:38 - verifying user
+2020-06-11 20:00:31 INFO  Log4jLogger:21 - verifying user
+2020-06-11 20:00:31 INFO  Log4jLogger:24 - Trying to Find User in DB by retreiving all Users
+2020-06-11 20:00:31 INFO  Log4jLogger:34 - Found User
+2020-06-11 20:00:31 INFO  Log4jLogger:43 - Trying to Find User in DB by retreiving all data
+2020-06-11 20:00:31 INFO  Log4jLogger:45 - Found Opportunities Returning its Data
+2020-06-11 20:02:54 INFO  Log4jLogger:37 - Inside Opportunity Get Class
+2020-06-11 20:02:54 INFO  Log4jLogger:38 - verifying user
+2020-06-11 20:02:54 INFO  Log4jLogger:21 - verifying user
+2020-06-11 20:02:54 INFO  Log4jLogger:24 - Trying to Find User in DB by retreiving all Users
+2020-06-11 20:02:59 INFO  Log4jLogger:34 - Found User
+2020-06-11 20:02:59 INFO  Log4jLogger:43 - Trying to Find User in DB by retreiving all data
+2020-06-11 20:02:59 INFO  Log4jLogger:45 - Found Opportunities Returning its Data
+2020-06-11 20:08:11 INFO  Log4jLogger:37 - Inside Opportunity Get Class
+2020-06-11 20:08:11 INFO  Log4jLogger:38 - verifying user
+2020-06-11 20:08:11 INFO  Log4jLogger:21 - verifying user
+2020-06-11 20:08:11 INFO  Log4jLogger:24 - Trying to Find User in DB by retreiving all Users
+2020-06-11 20:08:13 INFO  Log4jLogger:34 - Found User
+2020-06-11 20:08:13 INFO  Log4jLogger:43 - Trying to Find User in DB by retreiving all data
+2020-06-11 20:08:14 INFO  Log4jLogger:45 - Found Opportunities Returning its Data
+2020-06-11 20:12:09 INFO  Log4jLogger:37 - Inside Opportunity Get Class
+2020-06-11 20:12:09 INFO  Log4jLogger:38 - verifying user
+2020-06-11 20:12:09 INFO  Log4jLogger:21 - verifying user
+2020-06-11 20:12:09 INFO  Log4jLogger:24 - Trying to Find User in DB by retreiving all Users
+2020-06-11 20:12:09 INFO  Log4jLogger:34 - Found User
+2020-06-11 20:12:09 INFO  Log4jLogger:43 - Trying to Find User in DB by retreiving all data
+2020-06-11 20:12:09 INFO  Log4jLogger:45 - Found Opportunities Returning its Data
+2020-06-11 20:12:58 INFO  Log4jLogger:37 - Inside Opportunity Get Class
+2020-06-11 20:12:58 INFO  Log4jLogger:38 - verifying user
+2020-06-11 20:12:58 INFO  Log4jLogger:21 - verifying user
+2020-06-11 20:12:58 INFO  Log4jLogger:24 - Trying to Find User in DB by retreiving all Users
+2020-06-11 20:13:02 INFO  Log4jLogger:34 - Found User
+2020-06-11 20:13:02 INFO  Log4jLogger:43 - Trying to Find User in DB by retreiving all data
+2020-06-11 20:13:04 INFO  Log4jLogger:45 - Found Opportunities Returning its Data
+2020-06-11 20:13:43 INFO  Log4jLogger:37 - Inside Opportunity Get Class
+2020-06-11 20:13:43 INFO  Log4jLogger:38 - verifying user
+2020-06-11 20:13:43 INFO  Log4jLogger:21 - verifying user
+2020-06-11 20:13:43 INFO  Log4jLogger:24 - Trying to Find User in DB by retreiving all Users
+2020-06-11 20:13:43 INFO  Log4jLogger:34 - Found User
+2020-06-11 20:13:43 INFO  Log4jLogger:43 - Trying to Find User in DB by retreiving all data
+2020-06-11 20:13:44 INFO  Log4jLogger:45 - Found Opportunities Returning its Data
+2020-06-11 20:19:47 INFO  Log4jLogger:37 - Inside Opportunity Get Class
+2020-06-11 20:19:47 INFO  Log4jLogger:38 - verifying user
+2020-06-11 20:19:47 INFO  Log4jLogger:21 - verifying user
+2020-06-11 20:19:47 INFO  Log4jLogger:24 - Trying to Find User in DB by retreiving all Users
+2020-06-11 20:19:48 INFO  Log4jLogger:34 - Found User
+2020-06-11 20:19:48 INFO  Log4jLogger:43 - Trying to Find User in DB by retreiving all data
+2020-06-11 20:19:48 INFO  Log4jLogger:45 - Found Opportunities Returning its Data
+2020-06-11 20:20:31 INFO  Log4jLogger:37 - Inside Opportunity Get Class
+2020-06-11 20:20:31 INFO  Log4jLogger:38 - verifying user
+2020-06-11 20:20:31 INFO  Log4jLogger:21 - verifying user
+2020-06-11 20:20:31 INFO  Log4jLogger:24 - Trying to Find User in DB by retreiving all Users
+2020-06-11 20:20:31 INFO  Log4jLogger:34 - Found User
+2020-06-11 20:20:31 INFO  Log4jLogger:43 - Trying to Find User in DB by retreiving all data
+2020-06-11 20:20:31 INFO  Log4jLogger:45 - Found Opportunities Returning its Data
+2020-06-11 20:21:22 INFO  Log4jLogger:68 - Inside Opportunity Get Class
+2020-06-11 20:21:22 INFO  Log4jLogger:69 - verifying user
+2020-06-11 20:21:22 INFO  Log4jLogger:21 - verifying user
+2020-06-11 20:21:22 INFO  Log4jLogger:24 - Trying to Find User in DB by retreiving all Users
+2020-06-11 20:21:22 INFO  Log4jLogger:34 - Found User
+2020-06-11 20:21:22 INFO  Log4jLogger:74 - Trying to Find User in DB by retreiving all data
+2020-06-11 20:21:22 INFO  Log4jLogger:77 - Found Opportunities Returning its Data
+2020-06-11 20:22:55 INFO  Log4jLogger:68 - Inside Opportunity Get Class
+2020-06-11 20:22:55 INFO  Log4jLogger:69 - verifying user
+2020-06-11 20:22:55 INFO  Log4jLogger:21 - verifying user
+2020-06-11 20:22:55 INFO  Log4jLogger:24 - Trying to Find User in DB by retreiving all Users
+2020-06-11 20:22:55 INFO  Log4jLogger:34 - Found User
+2020-06-11 20:22:55 INFO  Log4jLogger:74 - Trying to Find User in DB by retreiving all data
+2020-06-11 20:22:55 INFO  Log4jLogger:77 - Found Opportunities Returning its Data
+2020-06-11 20:23:00 INFO  Log4jLogger:37 - Inside Opportunity Get Class
+2020-06-11 20:23:00 INFO  Log4jLogger:38 - verifying user
+2020-06-11 20:23:00 INFO  Log4jLogger:21 - verifying user
+2020-06-11 20:23:00 INFO  Log4jLogger:24 - Trying to Find User in DB by retreiving all Users
+2020-06-11 20:23:00 INFO  Log4jLogger:34 - Found User
+2020-06-11 20:23:00 INFO  Log4jLogger:43 - Trying to Find User in DB by retreiving all data
+2020-06-11 20:23:00 INFO  Log4jLogger:45 - Found Opportunities Returning its Data
+2020-06-11 20:23:59 INFO  Log4jLogger:37 - Inside Opportunity Get Class
+2020-06-11 20:23:59 INFO  Log4jLogger:38 - verifying user
+2020-06-11 20:23:59 INFO  Log4jLogger:21 - verifying user
+2020-06-11 20:23:59 INFO  Log4jLogger:24 - Trying to Find User in DB by retreiving all Users
+2020-06-11 20:24:00 INFO  Log4jLogger:34 - Found User
+2020-06-11 20:24:00 INFO  Log4jLogger:43 - Trying to Find User in DB by retreiving all data
+2020-06-11 20:24:01 INFO  Log4jLogger:45 - Found Opportunities Returning its Data
+2020-06-11 21:17:33 INFO  Log4jLogger:37 - Inside Opportunity Get Class
+2020-06-11 21:17:35 INFO  Log4jLogger:38 - verifying user
+2020-06-11 21:17:35 INFO  Log4jLogger:21 - verifying user
+2020-06-11 21:17:35 INFO  Log4jLogger:24 - Trying to Find User in DB by retreiving all Users
+2020-06-11 21:17:47 INFO  Log4jLogger:34 - Found User
+2020-06-11 21:17:47 INFO  Log4jLogger:43 - Trying to Find User in DB by retreiving all data
+2020-06-11 21:17:48 INFO  Log4jLogger:45 - Found Opportunities Returning its Data
+2020-06-12 00:45:47 INFO  Log4jLogger:37 - Inside Opportunity Get Class
+2020-06-12 00:45:48 INFO  Log4jLogger:38 - verifying user
+2020-06-12 00:45:48 INFO  Log4jLogger:21 - verifying user
+2020-06-12 00:45:48 INFO  Log4jLogger:24 - Trying to Find User in DB by retreiving all Users
+2020-06-12 00:45:57 INFO  Log4jLogger:34 - Found User
+2020-06-12 00:45:57 INFO  Log4jLogger:43 - Trying to Find User in DB by retreiving all data
+2020-06-12 00:45:58 INFO  Log4jLogger:45 - Found Opportunities Returning its Data
+2020-06-12 09:06:53 INFO  Log4jLogger:71 - Inside Opportunity Get Class
+2020-06-12 09:06:53 INFO  Log4jLogger:72 - verifying user
+2020-06-12 09:06:53 INFO  Log4jLogger:21 - verifying user
+2020-06-12 09:06:53 INFO  Log4jLogger:24 - Trying to Find User in DB by retreiving all Users
+2020-06-12 09:06:54 INFO  Log4jLogger:34 - Found User
+2020-06-12 09:06:54 INFO  Log4jLogger:77 - Trying to Find User in DB by retreiving all data
+2020-06-12 09:06:54 INFO  Log4jLogger:80 - Found Opportunities Returning its Data
+2020-06-12 09:15:04 INFO  Log4jLogger:135 - Inside Opportunity Update Class
+2020-06-12 09:15:04 INFO  Log4jLogger:21 - verifying user
+2020-06-12 09:15:04 INFO  Log4jLogger:24 - Trying to Find User in DB by retreiving all Users
+2020-06-12 09:15:04 INFO  Log4jLogger:34 - Found User
+2020-06-12 09:15:04 INFO  Log4jLogger:139 - Trying to Update Opportunity
+2020-06-12 09:15:04 INFO  Log4jLogger:150 - Opportunity Updated in DB
+2020-06-12 09:35:38 INFO  Log4jLogger:140 - Inside Opportunity Update Class
+2020-06-12 09:35:38 INFO  Log4jLogger:21 - verifying user
+2020-06-12 09:35:38 INFO  Log4jLogger:24 - Trying to Find User in DB by retreiving all Users
+2020-06-12 09:35:38 INFO  Log4jLogger:34 - Found User
+2020-06-12 09:35:38 INFO  Log4jLogger:144 - Trying to Update Opportunity
+2020-06-12 09:35:38 WARN  Log4jLogger:151 - Exception Occured while Updating
+2020-06-12 09:35:38 ERROR Log4jLogger:152 - Error in Updating Opportunity:com.accolite.opportunity.exception.OpportunityNotFoundException
+2020-06-12 09:35:38 INFO  Log4jLogger:157 - Opportunity Updated in DB
+2020-06-12 09:36:25 INFO  Log4jLogger:140 - Inside Opportunity Update Class
+2020-06-12 09:36:25 INFO  Log4jLogger:21 - verifying user
+2020-06-12 09:36:25 INFO  Log4jLogger:24 - Trying to Find User in DB by retreiving all Users
+2020-06-12 09:36:25 INFO  Log4jLogger:34 - Found User
+2020-06-12 09:36:25 INFO  Log4jLogger:144 - Trying to Update Opportunity
+2020-06-12 09:36:25 WARN  Log4jLogger:151 - Exception Occured while Updating
+2020-06-12 09:36:25 ERROR Log4jLogger:152 - Error in Updating Opportunity:com.accolite.opportunity.exception.OpportunityNotFoundException
+2020-06-12 09:36:25 INFO  Log4jLogger:157 - Opportunity Updated in DB
+2020-06-12 09:39:48 INFO  Log4jLogger:24 - Inside User Add Class for Interceptor
+2020-06-12 09:39:48 INFO  Log4jLogger:26 - Trying to Register User into DB
+2020-06-12 09:39:48 INFO  Log4jLogger:35 - User Registered into DB
+2020-06-12 09:39:48 INFO  Log4jLogger:69 - Inside User Delete Class for Removing User
+2020-06-12 09:39:48 INFO  Log4jLogger:72 - Trying to remove User
+2020-06-12 09:39:48 INFO  Log4jLogger:81 - User Removed from DB
+2020-06-12 09:39:48 INFO  Log4jLogger:88 - Inside User Update Class for Updating User
+2020-06-12 09:39:48 INFO  Log4jLogger:90 - Trying to Update User
+2020-06-12 09:39:48 INFO  Log4jLogger:98 - User Updated in DB
+2020-06-12 09:41:21 INFO  Log4jLogger:24 - Inside User Add Class for Interceptor
+2020-06-12 09:41:21 INFO  Log4jLogger:26 - Trying to Register User into DB
+2020-06-12 09:41:21 INFO  Log4jLogger:35 - User Registered into DB
+2020-06-12 09:41:21 INFO  Log4jLogger:69 - Inside User Delete Class for Removing User
+2020-06-12 09:41:21 INFO  Log4jLogger:72 - Trying to remove User
+2020-06-12 09:41:21 INFO  Log4jLogger:81 - User Removed from DB
+2020-06-12 09:41:21 INFO  Log4jLogger:88 - Inside User Update Class for Updating User
+2020-06-12 09:41:21 INFO  Log4jLogger:90 - Trying to Update User
+2020-06-12 09:41:21 INFO  Log4jLogger:98 - User Updated in DB
+2020-06-12 09:52:25 INFO  Log4jLogger:73 - Inside Opportunity Get Class
+2020-06-12 09:52:25 INFO  Log4jLogger:74 - verifying user
+2020-06-12 09:52:25 INFO  Log4jLogger:21 - verifying user
+2020-06-12 09:52:25 INFO  Log4jLogger:24 - Trying to Find User in DB by retreiving all Users
+2020-06-12 09:52:25 INFO  Log4jLogger:34 - Found User
+2020-06-12 09:52:25 INFO  Log4jLogger:79 - Trying to Find User in DB by retreiving all data
+2020-06-12 09:52:25 INFO  Log4jLogger:82 - Found Opportunities Returning its Data
+2020-06-12 09:52:36 INFO  Log4jLogger:140 - Inside Opportunity Update Class
+2020-06-12 09:52:36 INFO  Log4jLogger:21 - verifying user
+2020-06-12 09:52:36 INFO  Log4jLogger:24 - Trying to Find User in DB by retreiving all Users
+2020-06-12 09:52:36 INFO  Log4jLogger:34 - Found User
+2020-06-12 09:52:36 INFO  Log4jLogger:144 - Trying to Update Opportunity
+2020-06-12 09:52:36 WARN  Log4jLogger:151 - Exception Occured while Updating
+2020-06-12 09:52:36 ERROR Log4jLogger:152 - Error in Updating Opportunity:com.accolite.opportunity.exception.OpportunityNotFoundException
+2020-06-12 09:52:36 INFO  Log4jLogger:157 - Opportunity Updated in DB
+2020-06-12 10:02:08 INFO  Log4jLogger:24 - Inside User Add Class for Interceptor
+2020-06-12 10:02:08 INFO  Log4jLogger:26 - Trying to Register User into DB
+2020-06-12 10:02:08 INFO  Log4jLogger:35 - User Registered into DB
+2020-06-12 10:02:09 INFO  Log4jLogger:69 - Inside User Delete Class for Removing User
+2020-06-12 10:02:09 INFO  Log4jLogger:72 - Trying to remove User
+2020-06-12 10:02:09 INFO  Log4jLogger:81 - User Removed from DB
+2020-06-12 10:02:09 INFO  Log4jLogger:88 - Inside User Update Class for Updating User
+2020-06-12 10:02:09 INFO  Log4jLogger:90 - Trying to Update User
+2020-06-12 10:02:09 INFO  Log4jLogger:98 - User Updated in DB

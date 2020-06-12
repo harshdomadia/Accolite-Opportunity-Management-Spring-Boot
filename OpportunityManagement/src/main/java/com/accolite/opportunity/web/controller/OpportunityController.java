@@ -6,6 +6,8 @@ import org.apache.log4j.PropertyConfigurator;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import com.accolite.logging.Log4jLogger;
+import com.accolite.opportunity.exception.OpportunityNotFoundException;
+import com.accolite.opportunity.exception.OpportunityServiceErrorException;
 import com.accolite.opportunity.interceptor.Interceptors;
 import com.accolite.opportunity.model.Opportunity;
 
@@ -41,10 +43,13 @@ public class OpportunityController {
 		if(interceptor.verfiyUser(emailid, token)) {
 		try {
 		//dao.save(opportunity);
-			opportunityService.addOpportunity(opportunity);
+			if(opportunityService.addOpportunity(opportunity)==false) {
+				throw new OpportunityServiceErrorException();
+			}
 		}catch(Exception e) {
 			LOG.warn("Exception Occured while Adding");
 			LOG.error("Error in Adding Opportunityr:"+e.toString());
+			//throw new OpportunityServiceErrorException();
 		}
 		LOG.info("Opportunity Registered into DB");
 		return opportunityService.getAllOpportunities();
@@ -73,22 +78,27 @@ public class OpportunityController {
 		try {
 			LOG.info("Trying to Find User in DB by retreiving all data");
 			allOpportunity = opportunityService.getAllOpportunities();
+			System.out.println(allOpportunity);
 			LOG.info("Found Opportunities Returning its Data");
 			return allOpportunity;
 		}
 		catch(Exception e) {
-			LOG.warn("Exception Occured while Finding");
+			LOG.warn("No Opportunity Found");
+			LOG.warn("Exception Occured while Finding1");
 			LOG.error("Error in Finding Opportunity:"+e.toString());
+			//throw new OpportunityNotFoundException();
+			
 			
 		}
-		LOG.warn("No Opportunity Found");
-		return null;
+		
+		
 		}
 		else {
 			LOG.warn("User not verified");
 			return null;
 			
 		}
+	return null;
 		
 		
 	}
@@ -105,12 +115,15 @@ public class OpportunityController {
 		try {
 			LOG.info("Trying to remove opportunity");
 		//dao.deleteById(id);
-			opportunityService.deleteOpportunity(id);
+			if(opportunityService.deleteOpportunity(id)==false) {
+				throw new OpportunityServiceErrorException();
+			}
 		}
 		catch(Exception e) {
+			
 			LOG.warn("Exception Occured while Deleting");
 			LOG.error("Error in Deleting Opportunity:"+e.toString());
-		
+			
 		}
 		LOG.info("Opportunity Removed from DB");
 		return (List<Opportunity>) dao.findAll();
@@ -130,11 +143,14 @@ public class OpportunityController {
 		try {
 			LOG.info("Trying to Update Opportunity");
 		//dao.save(opportunity);
-			opportunityService.updateOpportunity(opportunity);
+			if(opportunityService.updateOpportunity(opportunity)==false) {
+				throw new OpportunityNotFoundException();
+			}
 		}
 		catch(Exception e) {
 			LOG.warn("Exception Occured while Updating");
 			LOG.error("Error in Updating Opportunity:"+e.toString());
+			
 		
 			
 		}

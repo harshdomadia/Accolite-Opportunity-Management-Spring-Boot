@@ -78,7 +78,7 @@ public class OpportunityControllerTest {
 			jsonRequest = om.writeValueAsString(opp);
 			System.out.println("req = "+jsonRequest);
 			
-			mockMvc.perform(post("/api/create").content(jsonRequest).contentType(MediaType.APPLICATION_JSON_VALUE));
+			mockMvc.perform(post("/api/create").header("emailid", "harshdoamdia@accoliteindia.com").header("token", "pdhifhighighweghoifwwghoifhgihfgihrghiehgqaehrgihfigoag'orega").content(jsonRequest).contentType(MediaType.APPLICATION_JSON_VALUE));
 			//andExpect(status().isOk());
 		
 		
@@ -106,7 +106,7 @@ public class OpportunityControllerTest {
 	public void deleteTheOpportunityById() throws Exception{
 		when(mockDao.findAll()).thenReturn(Mockito.anyList());
 		
-		String results = mockMvc.perform(MockMvcRequestBuilders.delete("/api/delete/2"))
+		String results = mockMvc.perform(MockMvcRequestBuilders.delete("/api/delete/2").header("emailid", "harshdoamdia@accoliteindia.com").header("token", "pdhifhighighweghoifwwghoifhgihfgihrghiehgqaehrgihfigoag'orega"))
 		.andExpect(MockMvcResultMatchers.status().isOk())
 		.andDo(print())
 		.andReturn().getResponse().getContentAsString();
@@ -139,7 +139,7 @@ public class OpportunityControllerTest {
 			jsonRequest = om.writeValueAsString(opp);
 			System.out.println("req1 = "+jsonRequest);
 			
-			mockMvc.perform(put("/api/update").content(jsonRequest).contentType(MediaType.APPLICATION_JSON_VALUE));
+			mockMvc.perform(put("/api/update").header("emailid", "harshdoamdia@accoliteindia.com").header("token", "pdhifhighighweghoifwwghoifhgihfgihrghiehgqaehrgihfigoag'orega").content(jsonRequest).contentType(MediaType.APPLICATION_JSON_VALUE));
 			//andExpect(status().isOk());
 		
 		
