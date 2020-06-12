@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.*;
 //import com.accolite.opportunity.interceptor.Interceptors;
 
 
-@CrossOrigin(origins = "*", allowedHeaders = "*")
+@CrossOrigin(origins = "${allowedorigin}", allowedHeaders = "*")
 @RestController
 public class OpportunityController {
 	private static final Logger LOG = Log4jLogger.log;
@@ -33,7 +33,7 @@ public class OpportunityController {
 	private OpportunityService opportunityService;
 	
 	@PostMapping("/api/create")
-	@CrossOrigin(origins = "http://localhost:4200")
+	//@CrossOrigin(origins = "http://localhost:4200")
 	public List<Opportunity> addData(@RequestBody Opportunity opportunity,@RequestHeader("emailid") String emailid, @RequestHeader("token") String token) {
 		
 		
@@ -64,7 +64,7 @@ public class OpportunityController {
 		
 	}
 	@GetMapping("/api/get")
-	@CrossOrigin(origins = "http://localhost:4200")
+	//@CrossOrigin(origins = "http://localhost:4200")
 	public List<Opportunity> getData(@RequestHeader("emailid") String emailid, @RequestHeader("token") String token){
 //		String log4jConfPath = "C:/Users/wel/eclipse-workspace/OpportunityManagement/log4j.properties";
 //		PropertyConfigurator.configure(log4jConfPath);
@@ -105,7 +105,7 @@ public class OpportunityController {
 	
 	
 	@DeleteMapping("/api/delete/{id}")
-	@CrossOrigin(origins = "http://localhost:4200")
+	//@CrossOrigin(origins = "http://localhost:4200")
 	public List<Opportunity> deleteData(@PathVariable Integer id,@RequestHeader("emailid") String emailid, @RequestHeader("token") String token) {
 		LOG.info("Inside Opportunity Delete Class");
 		LOG.info("Verifying User");
@@ -115,8 +115,8 @@ public class OpportunityController {
 		try {
 			LOG.info("Trying to remove opportunity");
 		//dao.deleteById(id);
-			if(opportunityService.deleteOpportunity(id)==false) {
-				throw new OpportunityServiceErrorException();
+			if(!opportunityService.deleteOpportunity(id)) {
+				LOG.warn("Entry not deleted");
 			}
 		}
 		catch(Exception e) {
@@ -135,7 +135,7 @@ public class OpportunityController {
 	}
 	
 	@PutMapping("/api/update")
-	@CrossOrigin(origins = "http://localhost:4200")
+	//@CrossOrigin(origins = "http://localhost:4200")
 	public List<Opportunity> updateData(@RequestBody Opportunity opportunity,@RequestHeader("emailid") String emailid, @RequestHeader("token") String token){
 		LOG.info("Inside Opportunity Update Class");
 		
@@ -143,7 +143,7 @@ public class OpportunityController {
 		try {
 			LOG.info("Trying to Update Opportunity");
 		//dao.save(opportunity);
-			if(opportunityService.updateOpportunity(opportunity)==false) {
+			if(!opportunityService.updateOpportunity(opportunity)) {
 				throw new OpportunityNotFoundException();
 			}
 		}

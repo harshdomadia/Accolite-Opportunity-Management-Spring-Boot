@@ -35,7 +35,7 @@ public class OpportunityService {
 		public List<Opportunity> getAllOpportunities() {
 			List<Opportunity> opportunities = new ArrayList<>();
 			System.out.println("Inside opportunity Service");
-		opportunityDao.findAll().forEach(opportunities::add);
+		//opportunityDao.findAll().forEach(opportunities::add);
 			return (List<Opportunity>) opportunityDao.findAll();
 		}
 		
@@ -48,10 +48,13 @@ public class OpportunityService {
 		public boolean addOpportunity(Opportunity opportunity) {
 			boolean isAdded = false;
 			try {
-			opportunityDao.save(opportunity);
+			 if(opportunityDao.save(opportunity) == null)
+			 {
+				 throw new OpportunityServiceErrorException();
+				 
+			 }
 			isAdded = true;
 			}catch(OpportunityServiceErrorException e) {
-				throw new OpportunityServiceErrorException();
 				
 			}
 			return isAdded;
@@ -61,10 +64,12 @@ public class OpportunityService {
 		public boolean updateOpportunity( Opportunity opportunity) {
 			boolean isUpdated = false;
 			Optional<Opportunity> opd = opportunityDao.findById(opportunity.getOpportunityid());
-			
+			System.out.println(opd);
 			try {
 				if(opd.isPresent()) {
-				opportunityDao.save(opportunity);
+				if(opportunityDao.save(opportunity) == null) {
+					throw new OpportunityNotFoundException();
+				}
 				
 				isUpdated = true;
 				}

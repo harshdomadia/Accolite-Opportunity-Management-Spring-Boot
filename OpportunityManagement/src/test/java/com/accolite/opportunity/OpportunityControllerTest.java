@@ -1,12 +1,13 @@
 package com.accolite.opportunity;
 
+import static org.mockito.Mockito.*;
 import static org.mockito.Mockito.when;
 
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.put;
 import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
 
-
+import java.util.ArrayList;
 
 import org.junit.Before;
 import org.junit.jupiter.api.Test;
@@ -24,8 +25,10 @@ import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 
+import com.accolite.opportunity.interceptor.Interceptors;
 import com.accolite.opportunity.model.Opportunity;
 import com.accolite.opportunity.mysql.dao.OpportunityDao;
+import com.accolite.opportunity.services.OpportunityService;
 import com.accolite.opportunity.web.controller.OpportunityController;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
@@ -38,6 +41,13 @@ public class OpportunityControllerTest {
 	
 	@MockBean
 	private OpportunityDao mockDao;
+	
+	
+	@MockBean
+	private Interceptors mockinterceptor;
+	
+	@MockBean
+	private OpportunityService mockService;
 	
 
 	
@@ -60,6 +70,8 @@ public class OpportunityControllerTest {
 	}
 	@Test
 	public void addOpportunityDataTest() throws Exception {
+		when(mockinterceptor.verfiyUser("harshdoamdia@accoliteindia.com", "pdhifhighighweghoifwwghoifhgihfgihrghiehgqaehrgihfigoag'orega")).thenReturn(true);
+		
 		Opportunity opp = new Opportunity();
 		opp.setOpportunityid(1);
 		opp.setOpportunitydescription("Kotlin Project");
@@ -92,10 +104,11 @@ public class OpportunityControllerTest {
 	public void getAllTheOpportunity() throws Exception{
 		
 		
-		when(mockDao.findAll()).thenReturn(Mockito.anyList());
+		when(mockDao.findAll()).thenReturn(new ArrayList<Opportunity>());
+		when(mockinterceptor.verfiyUser("harshdoamdia@accoliteindia.com", "pdhifhighighweghoifwwghoifhgihfgihrghiehgqaehrgihfigoag'orega")).thenReturn(Boolean.TRUE);
 		
 		
-	String results = mockMvc.perform(MockMvcRequestBuilders.get("/api/get"))
+	String results = mockMvc.perform(MockMvcRequestBuilders.get("/api/get").header("emailid", "harshdoamdia@accoliteindia.com").header("token", "pdhifhighighweghoifwwghoifhgihfgihrghiehgqaehrgihfigoag'orega"))
 		.andExpect(MockMvcResultMatchers.status().isOk())
 		.andDo(print())
 		.andReturn().getResponse().getContentAsString();
@@ -104,7 +117,9 @@ public class OpportunityControllerTest {
 	
 	@Test
 	public void deleteTheOpportunityById() throws Exception{
-		when(mockDao.findAll()).thenReturn(Mockito.anyList());
+		when(mockDao.findAll()).thenReturn(new ArrayList<Opportunity>());
+		when(mockinterceptor.verfiyUser("harshdoamdia@accoliteindia.com", "pdhifhighighweghoifwwghoifhgihfgihrghiehgqaehrgihfigoag'orega")).thenReturn(true);
+		
 		
 		String results = mockMvc.perform(MockMvcRequestBuilders.delete("/api/delete/2").header("emailid", "harshdoamdia@accoliteindia.com").header("token", "pdhifhighighweghoifwwghoifhgihfgihrghiehgqaehrgihfigoag'orega"))
 		.andExpect(MockMvcResultMatchers.status().isOk())
@@ -134,6 +149,7 @@ public class OpportunityControllerTest {
 		opp.setManageremail("harshdomadia1@accoliteindia.com");
 		opp.setCreateremail("harshdomadia@accoliteindia.com");
 		String jsonRequest = null;
+		when(mockinterceptor.verfiyUser("harshdoamdia@accoliteindia.com", "pdhifhighighweghoifwwghoifhgihfgihrghiehgqaehrgihfigoag'orega")).thenReturn(true);
 		
 		
 			jsonRequest = om.writeValueAsString(opp);

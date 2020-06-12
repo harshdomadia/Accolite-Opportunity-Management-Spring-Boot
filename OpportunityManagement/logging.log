@@ -2337,3 +2337,744 @@ For more info see javadoc for Matchers class.
 2020-06-12 10:02:09 INFO  Log4jLogger:88 - Inside User Update Class for Updating User
 2020-06-12 10:02:09 INFO  Log4jLogger:90 - Trying to Update User
 2020-06-12 10:02:09 INFO  Log4jLogger:98 - User Updated in DB
+2020-06-12 10:14:15 INFO  Log4jLogger:73 - Inside Opportunity Get Class
+2020-06-12 10:14:15 INFO  Log4jLogger:74 - verifying user
+2020-06-12 10:14:15 INFO  Log4jLogger:21 - verifying user
+2020-06-12 10:14:15 INFO  Log4jLogger:24 - Trying to Find User in DB by retreiving all Users
+2020-06-12 10:14:15 INFO  Log4jLogger:34 - Found User
+2020-06-12 10:14:15 INFO  Log4jLogger:79 - Trying to Find User in DB by retreiving all data
+2020-06-12 10:14:15 INFO  Log4jLogger:82 - Found Opportunities Returning its Data
+2020-06-12 10:16:41 INFO  Log4jLogger:24 - Inside User Add Class for Interceptor
+2020-06-12 10:16:41 INFO  Log4jLogger:26 - Trying to Register User into DB
+2020-06-12 10:16:41 INFO  Log4jLogger:35 - User Registered into DB
+2020-06-12 10:16:41 INFO  Log4jLogger:69 - Inside User Delete Class for Removing User
+2020-06-12 10:16:41 INFO  Log4jLogger:72 - Trying to remove User
+2020-06-12 10:16:41 INFO  Log4jLogger:81 - User Removed from DB
+2020-06-12 10:16:41 INFO  Log4jLogger:88 - Inside User Update Class for Updating User
+2020-06-12 10:16:41 INFO  Log4jLogger:90 - Trying to Update User
+2020-06-12 10:16:41 INFO  Log4jLogger:98 - User Updated in DB
+2020-06-12 10:26:06 INFO  Log4jLogger:24 - Inside User Add Class for Interceptor
+2020-06-12 10:26:06 INFO  Log4jLogger:26 - Trying to Register User into DB
+2020-06-12 10:26:07 INFO  Log4jLogger:35 - User Registered into DB
+2020-06-12 10:26:07 INFO  Log4jLogger:69 - Inside User Delete Class for Removing User
+2020-06-12 10:26:07 INFO  Log4jLogger:72 - Trying to remove User
+2020-06-12 10:26:07 INFO  Log4jLogger:81 - User Removed from DB
+2020-06-12 10:26:07 INFO  Log4jLogger:88 - Inside User Update Class for Updating User
+2020-06-12 10:26:07 INFO  Log4jLogger:90 - Trying to Update User
+2020-06-12 10:26:07 INFO  Log4jLogger:98 - User Updated in DB
+2020-06-12 10:28:29 INFO  Log4jLogger:41 - Inside Opportunity Add Class
+2020-06-12 10:28:29 INFO  Log4jLogger:42 - verifying user
+2020-06-12 10:28:29 WARN  Log4jLogger:50 - Exception Occured while Adding
+2020-06-12 10:28:29 ERROR Log4jLogger:51 - Error in Adding Opportunityr:com.accolite.opportunity.exception.OpportunityServiceErrorException
+2020-06-12 10:28:29 INFO  Log4jLogger:54 - Opportunity Registered into DB
+2020-06-12 10:28:29 INFO  Log4jLogger:41 - Inside Opportunity Add Class
+2020-06-12 10:28:29 INFO  Log4jLogger:42 - verifying user
+2020-06-12 10:28:29 WARN  Log4jLogger:50 - Exception Occured while Adding
+2020-06-12 10:28:29 ERROR Log4jLogger:51 - Error in Adding Opportunityr:com.accolite.opportunity.exception.OpportunityServiceErrorException
+2020-06-12 10:28:29 INFO  Log4jLogger:54 - Opportunity Registered into DB
+2020-06-12 10:28:29 INFO  Log4jLogger:140 - Inside Opportunity Update Class
+2020-06-12 10:28:29 INFO  Log4jLogger:144 - Trying to Update Opportunity
+2020-06-12 10:28:29 WARN  Log4jLogger:151 - Exception Occured while Updating
+2020-06-12 10:28:29 ERROR Log4jLogger:152 - Error in Updating Opportunity:com.accolite.opportunity.exception.OpportunityNotFoundException
+2020-06-12 10:28:29 INFO  Log4jLogger:157 - Opportunity Updated in DB
+2020-06-12 10:28:30 INFO  Log4jLogger:140 - Inside Opportunity Update Class
+2020-06-12 10:28:30 INFO  Log4jLogger:144 - Trying to Update Opportunity
+2020-06-12 10:28:30 WARN  Log4jLogger:151 - Exception Occured while Updating
+2020-06-12 10:28:30 ERROR Log4jLogger:152 - Error in Updating Opportunity:com.accolite.opportunity.exception.OpportunityNotFoundException
+2020-06-12 10:28:30 INFO  Log4jLogger:157 - Opportunity Updated in DB
+2020-06-12 10:31:27 INFO  Log4jLogger:41 - Inside Opportunity Add Class
+2020-06-12 10:31:27 INFO  Log4jLogger:42 - verifying user
+2020-06-12 10:31:27 WARN  Log4jLogger:50 - Exception Occured while Adding
+2020-06-12 10:31:27 ERROR Log4jLogger:51 - Error in Adding Opportunityr:com.accolite.opportunity.exception.OpportunityServiceErrorException
+2020-06-12 10:31:27 INFO  Log4jLogger:54 - Opportunity Registered into DB
+2020-06-12 10:31:28 INFO  Log4jLogger:140 - Inside Opportunity Update Class
+2020-06-12 10:31:28 INFO  Log4jLogger:144 - Trying to Update Opportunity
+2020-06-12 10:31:28 WARN  Log4jLogger:151 - Exception Occured while Updating
+2020-06-12 10:31:28 ERROR Log4jLogger:152 - Error in Updating Opportunity:com.accolite.opportunity.exception.OpportunityNotFoundException
+2020-06-12 10:31:28 INFO  Log4jLogger:157 - Opportunity Updated in DB
+2020-06-12 10:36:41 INFO  Log4jLogger:41 - Inside Opportunity Add Class
+2020-06-12 10:36:41 INFO  Log4jLogger:42 - verifying user
+2020-06-12 10:36:41 WARN  Log4jLogger:50 - Exception Occured while Adding
+2020-06-12 10:36:41 ERROR Log4jLogger:51 - Error in Adding Opportunityr:com.accolite.opportunity.exception.OpportunityServiceErrorException
+2020-06-12 10:36:41 INFO  Log4jLogger:54 - Opportunity Registered into DB
+2020-06-12 10:36:41 INFO  Log4jLogger:140 - Inside Opportunity Update Class
+2020-06-12 10:36:41 INFO  Log4jLogger:144 - Trying to Update Opportunity
+2020-06-12 10:36:41 WARN  Log4jLogger:151 - Exception Occured while Updating
+2020-06-12 10:36:41 ERROR Log4jLogger:152 - Error in Updating Opportunity:com.accolite.opportunity.exception.OpportunityNotFoundException
+2020-06-12 10:36:41 INFO  Log4jLogger:157 - Opportunity Updated in DB
+2020-06-12 10:42:03 INFO  Log4jLogger:41 - Inside Opportunity Add Class
+2020-06-12 10:42:03 INFO  Log4jLogger:42 - verifying user
+2020-06-12 10:42:03 WARN  Log4jLogger:50 - Exception Occured while Adding
+2020-06-12 10:42:03 ERROR Log4jLogger:51 - Error in Adding Opportunityr:com.accolite.opportunity.exception.OpportunityServiceErrorException
+2020-06-12 10:42:03 INFO  Log4jLogger:54 - Opportunity Registered into DB
+2020-06-12 10:42:03 INFO  Log4jLogger:140 - Inside Opportunity Update Class
+2020-06-12 10:42:03 INFO  Log4jLogger:144 - Trying to Update Opportunity
+2020-06-12 10:42:03 WARN  Log4jLogger:151 - Exception Occured while Updating
+2020-06-12 10:42:03 ERROR Log4jLogger:152 - Error in Updating Opportunity:com.accolite.opportunity.exception.OpportunityNotFoundException
+2020-06-12 10:42:03 INFO  Log4jLogger:157 - Opportunity Updated in DB
+2020-06-12 10:42:51 INFO  Log4jLogger:41 - Inside Opportunity Add Class
+2020-06-12 10:42:51 INFO  Log4jLogger:42 - verifying user
+2020-06-12 10:42:51 WARN  Log4jLogger:50 - Exception Occured while Adding
+2020-06-12 10:42:51 ERROR Log4jLogger:51 - Error in Adding Opportunityr:com.accolite.opportunity.exception.OpportunityServiceErrorException
+2020-06-12 10:42:51 INFO  Log4jLogger:54 - Opportunity Registered into DB
+2020-06-12 10:42:51 INFO  Log4jLogger:140 - Inside Opportunity Update Class
+2020-06-12 10:42:51 INFO  Log4jLogger:144 - Trying to Update Opportunity
+2020-06-12 10:42:51 WARN  Log4jLogger:151 - Exception Occured while Updating
+2020-06-12 10:42:51 ERROR Log4jLogger:152 - Error in Updating Opportunity:com.accolite.opportunity.exception.OpportunityNotFoundException
+2020-06-12 10:42:51 INFO  Log4jLogger:157 - Opportunity Updated in DB
+2020-06-12 10:43:11 INFO  Log4jLogger:24 - Inside User Add Class for Interceptor
+2020-06-12 10:43:11 INFO  Log4jLogger:26 - Trying to Register User into DB
+2020-06-12 10:43:11 INFO  Log4jLogger:35 - User Registered into DB
+2020-06-12 10:43:11 INFO  Log4jLogger:69 - Inside User Delete Class for Removing User
+2020-06-12 10:43:11 INFO  Log4jLogger:72 - Trying to remove User
+2020-06-12 10:43:11 INFO  Log4jLogger:81 - User Removed from DB
+2020-06-12 10:43:11 INFO  Log4jLogger:88 - Inside User Update Class for Updating User
+2020-06-12 10:43:11 INFO  Log4jLogger:90 - Trying to Update User
+2020-06-12 10:43:11 INFO  Log4jLogger:98 - User Updated in DB
+2020-06-12 10:43:45 INFO  Log4jLogger:24 - Inside User Add Class for Interceptor
+2020-06-12 10:43:45 INFO  Log4jLogger:26 - Trying to Register User into DB
+2020-06-12 10:43:45 INFO  Log4jLogger:35 - User Registered into DB
+2020-06-12 10:43:45 INFO  Log4jLogger:69 - Inside User Delete Class for Removing User
+2020-06-12 10:43:45 INFO  Log4jLogger:72 - Trying to remove User
+2020-06-12 10:43:45 INFO  Log4jLogger:81 - User Removed from DB
+2020-06-12 10:43:45 INFO  Log4jLogger:88 - Inside User Update Class for Updating User
+2020-06-12 10:43:45 INFO  Log4jLogger:90 - Trying to Update User
+2020-06-12 10:43:45 INFO  Log4jLogger:98 - User Updated in DB
+2020-06-12 10:44:22 INFO  Log4jLogger:24 - Inside User Add Class for Interceptor
+2020-06-12 10:44:22 INFO  Log4jLogger:26 - Trying to Register User into DB
+2020-06-12 10:44:22 INFO  Log4jLogger:35 - User Registered into DB
+2020-06-12 10:44:23 INFO  Log4jLogger:69 - Inside User Delete Class for Removing User
+2020-06-12 10:44:23 INFO  Log4jLogger:72 - Trying to remove User
+2020-06-12 10:44:23 INFO  Log4jLogger:81 - User Removed from DB
+2020-06-12 10:44:23 INFO  Log4jLogger:88 - Inside User Update Class for Updating User
+2020-06-12 10:44:23 INFO  Log4jLogger:90 - Trying to Update User
+2020-06-12 10:44:23 INFO  Log4jLogger:98 - User Updated in DB
+2020-06-12 10:46:42 INFO  Log4jLogger:41 - Inside Opportunity Add Class
+2020-06-12 10:46:42 INFO  Log4jLogger:42 - verifying user
+2020-06-12 10:46:42 WARN  Log4jLogger:50 - Exception Occured while Adding
+2020-06-12 10:46:42 ERROR Log4jLogger:51 - Error in Adding Opportunityr:com.accolite.opportunity.exception.OpportunityServiceErrorException
+2020-06-12 10:46:42 INFO  Log4jLogger:54 - Opportunity Registered into DB
+2020-06-12 10:46:42 INFO  Log4jLogger:140 - Inside Opportunity Update Class
+2020-06-12 10:46:42 INFO  Log4jLogger:144 - Trying to Update Opportunity
+2020-06-12 10:46:42 WARN  Log4jLogger:151 - Exception Occured while Updating
+2020-06-12 10:46:42 ERROR Log4jLogger:152 - Error in Updating Opportunity:com.accolite.opportunity.exception.OpportunityNotFoundException
+2020-06-12 10:46:42 INFO  Log4jLogger:157 - Opportunity Updated in DB
+2020-06-12 10:46:43 INFO  Log4jLogger:24 - Inside User Add Class for Interceptor
+2020-06-12 10:46:43 INFO  Log4jLogger:26 - Trying to Register User into DB
+2020-06-12 10:46:43 INFO  Log4jLogger:35 - User Registered into DB
+2020-06-12 10:46:44 INFO  Log4jLogger:69 - Inside User Delete Class for Removing User
+2020-06-12 10:46:44 INFO  Log4jLogger:72 - Trying to remove User
+2020-06-12 10:46:44 INFO  Log4jLogger:81 - User Removed from DB
+2020-06-12 10:46:44 INFO  Log4jLogger:88 - Inside User Update Class for Updating User
+2020-06-12 10:46:44 INFO  Log4jLogger:90 - Trying to Update User
+2020-06-12 10:46:44 INFO  Log4jLogger:98 - User Updated in DB
+2020-06-12 10:49:16 INFO  Log4jLogger:41 - Inside Opportunity Add Class
+2020-06-12 10:49:16 INFO  Log4jLogger:42 - verifying user
+2020-06-12 10:49:16 WARN  Log4jLogger:50 - Exception Occured while Adding
+2020-06-12 10:49:16 ERROR Log4jLogger:51 - Error in Adding Opportunityr:com.accolite.opportunity.exception.OpportunityServiceErrorException
+2020-06-12 10:49:16 INFO  Log4jLogger:54 - Opportunity Registered into DB
+2020-06-12 10:49:16 INFO  Log4jLogger:140 - Inside Opportunity Update Class
+2020-06-12 10:49:16 INFO  Log4jLogger:144 - Trying to Update Opportunity
+2020-06-12 10:49:16 WARN  Log4jLogger:151 - Exception Occured while Updating
+2020-06-12 10:49:16 ERROR Log4jLogger:152 - Error in Updating Opportunity:com.accolite.opportunity.exception.OpportunityNotFoundException
+2020-06-12 10:49:16 INFO  Log4jLogger:157 - Opportunity Updated in DB
+2020-06-12 10:49:18 INFO  Log4jLogger:24 - Inside User Add Class for Interceptor
+2020-06-12 10:49:18 INFO  Log4jLogger:26 - Trying to Register User into DB
+2020-06-12 10:49:18 INFO  Log4jLogger:35 - User Registered into DB
+2020-06-12 10:49:18 INFO  Log4jLogger:69 - Inside User Delete Class for Removing User
+2020-06-12 10:49:18 INFO  Log4jLogger:72 - Trying to remove User
+2020-06-12 10:49:18 INFO  Log4jLogger:81 - User Removed from DB
+2020-06-12 10:49:18 INFO  Log4jLogger:88 - Inside User Update Class for Updating User
+2020-06-12 10:49:18 INFO  Log4jLogger:90 - Trying to Update User
+2020-06-12 10:49:18 INFO  Log4jLogger:98 - User Updated in DB
+2020-06-12 10:50:02 INFO  Log4jLogger:41 - Inside Opportunity Add Class
+2020-06-12 10:50:02 INFO  Log4jLogger:42 - verifying user
+2020-06-12 10:50:02 WARN  Log4jLogger:50 - Exception Occured while Adding
+2020-06-12 10:50:02 ERROR Log4jLogger:51 - Error in Adding Opportunityr:com.accolite.opportunity.exception.OpportunityServiceErrorException
+2020-06-12 10:50:02 INFO  Log4jLogger:54 - Opportunity Registered into DB
+2020-06-12 10:50:02 INFO  Log4jLogger:140 - Inside Opportunity Update Class
+2020-06-12 10:50:02 INFO  Log4jLogger:144 - Trying to Update Opportunity
+2020-06-12 10:50:02 WARN  Log4jLogger:151 - Exception Occured while Updating
+2020-06-12 10:50:02 ERROR Log4jLogger:152 - Error in Updating Opportunity:com.accolite.opportunity.exception.OpportunityNotFoundException
+2020-06-12 10:50:02 INFO  Log4jLogger:157 - Opportunity Updated in DB
+2020-06-12 10:50:03 INFO  Log4jLogger:24 - Inside User Add Class for Interceptor
+2020-06-12 10:50:03 INFO  Log4jLogger:26 - Trying to Register User into DB
+2020-06-12 10:50:03 INFO  Log4jLogger:35 - User Registered into DB
+2020-06-12 10:50:03 INFO  Log4jLogger:69 - Inside User Delete Class for Removing User
+2020-06-12 10:50:03 INFO  Log4jLogger:72 - Trying to remove User
+2020-06-12 10:50:03 INFO  Log4jLogger:81 - User Removed from DB
+2020-06-12 10:50:03 INFO  Log4jLogger:88 - Inside User Update Class for Updating User
+2020-06-12 10:50:03 INFO  Log4jLogger:90 - Trying to Update User
+2020-06-12 10:50:03 INFO  Log4jLogger:98 - User Updated in DB
+2020-06-12 10:50:44 INFO  Log4jLogger:41 - Inside Opportunity Add Class
+2020-06-12 10:50:44 INFO  Log4jLogger:42 - verifying user
+2020-06-12 10:50:44 WARN  Log4jLogger:50 - Exception Occured while Adding
+2020-06-12 10:50:44 ERROR Log4jLogger:51 - Error in Adding Opportunityr:com.accolite.opportunity.exception.OpportunityServiceErrorException
+2020-06-12 10:50:44 INFO  Log4jLogger:54 - Opportunity Registered into DB
+2020-06-12 10:50:44 INFO  Log4jLogger:140 - Inside Opportunity Update Class
+2020-06-12 10:50:44 INFO  Log4jLogger:144 - Trying to Update Opportunity
+2020-06-12 10:50:44 WARN  Log4jLogger:151 - Exception Occured while Updating
+2020-06-12 10:50:44 ERROR Log4jLogger:152 - Error in Updating Opportunity:com.accolite.opportunity.exception.OpportunityNotFoundException
+2020-06-12 10:50:44 INFO  Log4jLogger:157 - Opportunity Updated in DB
+2020-06-12 10:50:46 INFO  Log4jLogger:24 - Inside User Add Class for Interceptor
+2020-06-12 10:50:46 INFO  Log4jLogger:26 - Trying to Register User into DB
+2020-06-12 10:50:46 INFO  Log4jLogger:35 - User Registered into DB
+2020-06-12 10:50:46 INFO  Log4jLogger:69 - Inside User Delete Class for Removing User
+2020-06-12 10:50:46 INFO  Log4jLogger:72 - Trying to remove User
+2020-06-12 10:50:46 INFO  Log4jLogger:81 - User Removed from DB
+2020-06-12 10:50:46 INFO  Log4jLogger:88 - Inside User Update Class for Updating User
+2020-06-12 10:50:46 INFO  Log4jLogger:90 - Trying to Update User
+2020-06-12 10:50:46 INFO  Log4jLogger:98 - User Updated in DB
+2020-06-12 10:51:24 INFO  Log4jLogger:41 - Inside Opportunity Add Class
+2020-06-12 10:51:24 INFO  Log4jLogger:42 - verifying user
+2020-06-12 10:51:24 WARN  Log4jLogger:50 - Exception Occured while Adding
+2020-06-12 10:51:24 ERROR Log4jLogger:51 - Error in Adding Opportunityr:com.accolite.opportunity.exception.OpportunityServiceErrorException
+2020-06-12 10:51:24 INFO  Log4jLogger:54 - Opportunity Registered into DB
+2020-06-12 10:51:25 INFO  Log4jLogger:140 - Inside Opportunity Update Class
+2020-06-12 10:51:25 INFO  Log4jLogger:144 - Trying to Update Opportunity
+2020-06-12 10:51:25 WARN  Log4jLogger:151 - Exception Occured while Updating
+2020-06-12 10:51:25 ERROR Log4jLogger:152 - Error in Updating Opportunity:com.accolite.opportunity.exception.OpportunityNotFoundException
+2020-06-12 10:51:25 INFO  Log4jLogger:157 - Opportunity Updated in DB
+2020-06-12 10:51:26 INFO  Log4jLogger:24 - Inside User Add Class for Interceptor
+2020-06-12 10:51:26 INFO  Log4jLogger:26 - Trying to Register User into DB
+2020-06-12 10:51:26 INFO  Log4jLogger:35 - User Registered into DB
+2020-06-12 10:51:26 INFO  Log4jLogger:69 - Inside User Delete Class for Removing User
+2020-06-12 10:51:26 INFO  Log4jLogger:72 - Trying to remove User
+2020-06-12 10:51:26 INFO  Log4jLogger:81 - User Removed from DB
+2020-06-12 10:51:26 INFO  Log4jLogger:88 - Inside User Update Class for Updating User
+2020-06-12 10:51:26 INFO  Log4jLogger:90 - Trying to Update User
+2020-06-12 10:51:26 INFO  Log4jLogger:98 - User Updated in DB
+2020-06-12 10:57:30 INFO  Log4jLogger:41 - Inside Opportunity Add Class
+2020-06-12 10:57:30 INFO  Log4jLogger:42 - verifying user
+2020-06-12 10:57:30 WARN  Log4jLogger:50 - Exception Occured while Adding
+2020-06-12 10:57:30 ERROR Log4jLogger:51 - Error in Adding Opportunityr:com.accolite.opportunity.exception.OpportunityServiceErrorException
+2020-06-12 10:57:30 INFO  Log4jLogger:54 - Opportunity Registered into DB
+2020-06-12 10:57:30 INFO  Log4jLogger:140 - Inside Opportunity Update Class
+2020-06-12 10:57:30 INFO  Log4jLogger:144 - Trying to Update Opportunity
+2020-06-12 10:57:30 WARN  Log4jLogger:151 - Exception Occured while Updating
+2020-06-12 10:57:30 ERROR Log4jLogger:152 - Error in Updating Opportunity:com.accolite.opportunity.exception.OpportunityNotFoundException
+2020-06-12 10:57:30 INFO  Log4jLogger:157 - Opportunity Updated in DB
+2020-06-12 10:57:32 INFO  Log4jLogger:24 - Inside User Add Class for Interceptor
+2020-06-12 10:57:32 INFO  Log4jLogger:26 - Trying to Register User into DB
+2020-06-12 10:57:32 INFO  Log4jLogger:35 - User Registered into DB
+2020-06-12 10:57:32 INFO  Log4jLogger:69 - Inside User Delete Class for Removing User
+2020-06-12 10:57:32 INFO  Log4jLogger:72 - Trying to remove User
+2020-06-12 10:57:32 INFO  Log4jLogger:81 - User Removed from DB
+2020-06-12 10:57:32 INFO  Log4jLogger:88 - Inside User Update Class for Updating User
+2020-06-12 10:57:32 INFO  Log4jLogger:90 - Trying to Update User
+2020-06-12 10:57:32 INFO  Log4jLogger:98 - User Updated in DB
+2020-06-12 10:58:05 INFO  Log4jLogger:41 - Inside Opportunity Add Class
+2020-06-12 10:58:05 INFO  Log4jLogger:42 - verifying user
+2020-06-12 10:58:05 WARN  Log4jLogger:50 - Exception Occured while Adding
+2020-06-12 10:58:05 ERROR Log4jLogger:51 - Error in Adding Opportunityr:com.accolite.opportunity.exception.OpportunityServiceErrorException
+2020-06-12 10:58:05 INFO  Log4jLogger:54 - Opportunity Registered into DB
+2020-06-12 10:58:05 INFO  Log4jLogger:140 - Inside Opportunity Update Class
+2020-06-12 10:58:05 INFO  Log4jLogger:144 - Trying to Update Opportunity
+2020-06-12 10:58:05 WARN  Log4jLogger:151 - Exception Occured while Updating
+2020-06-12 10:58:05 ERROR Log4jLogger:152 - Error in Updating Opportunity:com.accolite.opportunity.exception.OpportunityNotFoundException
+2020-06-12 10:58:05 INFO  Log4jLogger:157 - Opportunity Updated in DB
+2020-06-12 10:58:07 INFO  Log4jLogger:24 - Inside User Add Class for Interceptor
+2020-06-12 10:58:07 INFO  Log4jLogger:26 - Trying to Register User into DB
+2020-06-12 10:58:07 INFO  Log4jLogger:35 - User Registered into DB
+2020-06-12 10:58:07 INFO  Log4jLogger:69 - Inside User Delete Class for Removing User
+2020-06-12 10:58:07 INFO  Log4jLogger:72 - Trying to remove User
+2020-06-12 10:58:07 INFO  Log4jLogger:81 - User Removed from DB
+2020-06-12 10:58:07 INFO  Log4jLogger:88 - Inside User Update Class for Updating User
+2020-06-12 10:58:07 INFO  Log4jLogger:90 - Trying to Update User
+2020-06-12 10:58:07 INFO  Log4jLogger:98 - User Updated in DB
+2020-06-12 11:00:38 INFO  Log4jLogger:41 - Inside Opportunity Add Class
+2020-06-12 11:00:38 INFO  Log4jLogger:42 - verifying user
+2020-06-12 11:00:38 WARN  Log4jLogger:50 - Exception Occured while Adding
+2020-06-12 11:00:38 ERROR Log4jLogger:51 - Error in Adding Opportunityr:com.accolite.opportunity.exception.OpportunityServiceErrorException
+2020-06-12 11:00:38 INFO  Log4jLogger:54 - Opportunity Registered into DB
+2020-06-12 11:00:38 INFO  Log4jLogger:140 - Inside Opportunity Update Class
+2020-06-12 11:00:38 INFO  Log4jLogger:144 - Trying to Update Opportunity
+2020-06-12 11:00:38 WARN  Log4jLogger:151 - Exception Occured while Updating
+2020-06-12 11:00:38 ERROR Log4jLogger:152 - Error in Updating Opportunity:com.accolite.opportunity.exception.OpportunityNotFoundException
+2020-06-12 11:00:38 INFO  Log4jLogger:157 - Opportunity Updated in DB
+2020-06-12 11:00:40 INFO  Log4jLogger:24 - Inside User Add Class for Interceptor
+2020-06-12 11:00:40 INFO  Log4jLogger:26 - Trying to Register User into DB
+2020-06-12 11:00:40 INFO  Log4jLogger:35 - User Registered into DB
+2020-06-12 11:00:40 INFO  Log4jLogger:69 - Inside User Delete Class for Removing User
+2020-06-12 11:00:40 INFO  Log4jLogger:72 - Trying to remove User
+2020-06-12 11:00:40 INFO  Log4jLogger:81 - User Removed from DB
+2020-06-12 11:00:40 INFO  Log4jLogger:88 - Inside User Update Class for Updating User
+2020-06-12 11:00:40 INFO  Log4jLogger:90 - Trying to Update User
+2020-06-12 11:00:40 INFO  Log4jLogger:98 - User Updated in DB
+2020-06-12 11:01:46 INFO  Log4jLogger:41 - Inside Opportunity Add Class
+2020-06-12 11:01:46 INFO  Log4jLogger:42 - verifying user
+2020-06-12 11:01:46 WARN  Log4jLogger:50 - Exception Occured while Adding
+2020-06-12 11:01:46 ERROR Log4jLogger:51 - Error in Adding Opportunityr:com.accolite.opportunity.exception.OpportunityServiceErrorException
+2020-06-12 11:01:46 INFO  Log4jLogger:54 - Opportunity Registered into DB
+2020-06-12 11:01:46 INFO  Log4jLogger:140 - Inside Opportunity Update Class
+2020-06-12 11:01:46 INFO  Log4jLogger:144 - Trying to Update Opportunity
+2020-06-12 11:01:46 WARN  Log4jLogger:151 - Exception Occured while Updating
+2020-06-12 11:01:46 ERROR Log4jLogger:152 - Error in Updating Opportunity:com.accolite.opportunity.exception.OpportunityNotFoundException
+2020-06-12 11:01:46 INFO  Log4jLogger:157 - Opportunity Updated in DB
+2020-06-12 11:01:47 INFO  Log4jLogger:24 - Inside User Add Class for Interceptor
+2020-06-12 11:01:47 INFO  Log4jLogger:26 - Trying to Register User into DB
+2020-06-12 11:01:47 INFO  Log4jLogger:35 - User Registered into DB
+2020-06-12 11:01:47 INFO  Log4jLogger:69 - Inside User Delete Class for Removing User
+2020-06-12 11:01:47 INFO  Log4jLogger:72 - Trying to remove User
+2020-06-12 11:01:47 INFO  Log4jLogger:81 - User Removed from DB
+2020-06-12 11:01:47 INFO  Log4jLogger:88 - Inside User Update Class for Updating User
+2020-06-12 11:01:47 INFO  Log4jLogger:90 - Trying to Update User
+2020-06-12 11:01:47 INFO  Log4jLogger:98 - User Updated in DB
+2020-06-12 11:12:13 INFO  Log4jLogger:41 - Inside Opportunity Add Class
+2020-06-12 11:12:13 INFO  Log4jLogger:42 - verifying user
+2020-06-12 11:12:13 WARN  Log4jLogger:50 - Exception Occured while Adding
+2020-06-12 11:12:13 ERROR Log4jLogger:51 - Error in Adding Opportunityr:com.accolite.opportunity.exception.OpportunityServiceErrorException
+2020-06-12 11:12:13 INFO  Log4jLogger:54 - Opportunity Registered into DB
+2020-06-12 11:12:13 INFO  Log4jLogger:140 - Inside Opportunity Update Class
+2020-06-12 11:12:13 INFO  Log4jLogger:144 - Trying to Update Opportunity
+2020-06-12 11:12:13 WARN  Log4jLogger:151 - Exception Occured while Updating
+2020-06-12 11:12:13 ERROR Log4jLogger:152 - Error in Updating Opportunity:com.accolite.opportunity.exception.OpportunityNotFoundException
+2020-06-12 11:12:13 INFO  Log4jLogger:157 - Opportunity Updated in DB
+2020-06-12 11:12:16 INFO  Log4jLogger:24 - Inside User Add Class for Interceptor
+2020-06-12 11:12:16 INFO  Log4jLogger:26 - Trying to Register User into DB
+2020-06-12 11:12:16 INFO  Log4jLogger:35 - User Registered into DB
+2020-06-12 11:12:16 INFO  Log4jLogger:69 - Inside User Delete Class for Removing User
+2020-06-12 11:12:16 INFO  Log4jLogger:72 - Trying to remove User
+2020-06-12 11:12:16 INFO  Log4jLogger:81 - User Removed from DB
+2020-06-12 11:12:16 INFO  Log4jLogger:88 - Inside User Update Class for Updating User
+2020-06-12 11:12:16 INFO  Log4jLogger:90 - Trying to Update User
+2020-06-12 11:12:16 INFO  Log4jLogger:98 - User Updated in DB
+2020-06-12 11:14:20 INFO  Log4jLogger:41 - Inside Opportunity Add Class
+2020-06-12 11:14:20 INFO  Log4jLogger:42 - verifying user
+2020-06-12 11:14:20 WARN  Log4jLogger:50 - Exception Occured while Adding
+2020-06-12 11:14:20 ERROR Log4jLogger:51 - Error in Adding Opportunityr:com.accolite.opportunity.exception.OpportunityServiceErrorException
+2020-06-12 11:14:20 INFO  Log4jLogger:54 - Opportunity Registered into DB
+2020-06-12 11:14:20 INFO  Log4jLogger:110 - Inside Opportunity Delete Class
+2020-06-12 11:14:20 INFO  Log4jLogger:111 - Verifying User
+2020-06-12 11:14:20 INFO  Log4jLogger:114 - User Verified
+2020-06-12 11:14:20 INFO  Log4jLogger:116 - Trying to remove opportunity
+2020-06-12 11:14:20 WARN  Log4jLogger:124 - Exception Occured while Deleting
+2020-06-12 11:14:20 ERROR Log4jLogger:125 - Error in Deleting Opportunity:com.accolite.opportunity.exception.OpportunityServiceErrorException
+2020-06-12 11:14:20 INFO  Log4jLogger:128 - Opportunity Removed from DB
+2020-06-12 11:14:20 INFO  Log4jLogger:140 - Inside Opportunity Update Class
+2020-06-12 11:14:20 INFO  Log4jLogger:144 - Trying to Update Opportunity
+2020-06-12 11:14:20 WARN  Log4jLogger:151 - Exception Occured while Updating
+2020-06-12 11:14:20 ERROR Log4jLogger:152 - Error in Updating Opportunity:com.accolite.opportunity.exception.OpportunityNotFoundException
+2020-06-12 11:14:20 INFO  Log4jLogger:157 - Opportunity Updated in DB
+2020-06-12 11:15:17 INFO  Log4jLogger:41 - Inside Opportunity Add Class
+2020-06-12 11:15:17 INFO  Log4jLogger:42 - verifying user
+2020-06-12 11:15:17 WARN  Log4jLogger:50 - Exception Occured while Adding
+2020-06-12 11:15:17 ERROR Log4jLogger:51 - Error in Adding Opportunityr:com.accolite.opportunity.exception.OpportunityServiceErrorException
+2020-06-12 11:15:17 INFO  Log4jLogger:54 - Opportunity Registered into DB
+2020-06-12 11:15:17 INFO  Log4jLogger:110 - Inside Opportunity Delete Class
+2020-06-12 11:15:17 INFO  Log4jLogger:111 - Verifying User
+2020-06-12 11:15:17 INFO  Log4jLogger:114 - User Verified
+2020-06-12 11:15:17 INFO  Log4jLogger:116 - Trying to remove opportunity
+2020-06-12 11:15:17 WARN  Log4jLogger:124 - Exception Occured while Deleting
+2020-06-12 11:15:17 ERROR Log4jLogger:125 - Error in Deleting Opportunity:com.accolite.opportunity.exception.OpportunityServiceErrorException
+2020-06-12 11:15:17 INFO  Log4jLogger:128 - Opportunity Removed from DB
+2020-06-12 11:15:17 INFO  Log4jLogger:73 - Inside Opportunity Get Class
+2020-06-12 11:15:17 INFO  Log4jLogger:74 - verifying user
+2020-06-12 11:15:17 INFO  Log4jLogger:79 - Trying to Find User in DB by retreiving all data
+2020-06-12 11:15:17 INFO  Log4jLogger:82 - Found Opportunities Returning its Data
+2020-06-12 11:15:17 INFO  Log4jLogger:140 - Inside Opportunity Update Class
+2020-06-12 11:15:17 INFO  Log4jLogger:144 - Trying to Update Opportunity
+2020-06-12 11:15:17 WARN  Log4jLogger:151 - Exception Occured while Updating
+2020-06-12 11:15:17 ERROR Log4jLogger:152 - Error in Updating Opportunity:com.accolite.opportunity.exception.OpportunityNotFoundException
+2020-06-12 11:15:17 INFO  Log4jLogger:157 - Opportunity Updated in DB
+2020-06-12 11:17:00 INFO  Log4jLogger:41 - Inside Opportunity Add Class
+2020-06-12 11:17:00 INFO  Log4jLogger:42 - verifying user
+2020-06-12 11:17:00 WARN  Log4jLogger:50 - Exception Occured while Adding
+2020-06-12 11:17:00 ERROR Log4jLogger:51 - Error in Adding Opportunityr:com.accolite.opportunity.exception.OpportunityServiceErrorException
+2020-06-12 11:17:00 INFO  Log4jLogger:54 - Opportunity Registered into DB
+2020-06-12 11:17:00 INFO  Log4jLogger:110 - Inside Opportunity Delete Class
+2020-06-12 11:17:00 INFO  Log4jLogger:111 - Verifying User
+2020-06-12 11:17:00 INFO  Log4jLogger:114 - User Verified
+2020-06-12 11:17:00 INFO  Log4jLogger:116 - Trying to remove opportunity
+2020-06-12 11:17:00 WARN  Log4jLogger:124 - Exception Occured while Deleting
+2020-06-12 11:17:00 ERROR Log4jLogger:125 - Error in Deleting Opportunity:com.accolite.opportunity.exception.OpportunityServiceErrorException
+2020-06-12 11:17:00 INFO  Log4jLogger:128 - Opportunity Removed from DB
+2020-06-12 11:17:00 INFO  Log4jLogger:73 - Inside Opportunity Get Class
+2020-06-12 11:17:00 INFO  Log4jLogger:74 - verifying user
+2020-06-12 11:17:00 INFO  Log4jLogger:79 - Trying to Find User in DB by retreiving all data
+2020-06-12 11:17:00 INFO  Log4jLogger:82 - Found Opportunities Returning its Data
+2020-06-12 11:17:00 INFO  Log4jLogger:140 - Inside Opportunity Update Class
+2020-06-12 11:17:00 INFO  Log4jLogger:144 - Trying to Update Opportunity
+2020-06-12 11:17:00 WARN  Log4jLogger:151 - Exception Occured while Updating
+2020-06-12 11:17:00 ERROR Log4jLogger:152 - Error in Updating Opportunity:com.accolite.opportunity.exception.OpportunityNotFoundException
+2020-06-12 11:17:00 INFO  Log4jLogger:157 - Opportunity Updated in DB
+2020-06-12 11:17:03 INFO  Log4jLogger:24 - Inside User Add Class for Interceptor
+2020-06-12 11:17:03 INFO  Log4jLogger:26 - Trying to Register User into DB
+2020-06-12 11:17:03 INFO  Log4jLogger:35 - User Registered into DB
+2020-06-12 11:17:04 INFO  Log4jLogger:69 - Inside User Delete Class for Removing User
+2020-06-12 11:17:04 INFO  Log4jLogger:72 - Trying to remove User
+2020-06-12 11:17:04 INFO  Log4jLogger:81 - User Removed from DB
+2020-06-12 11:17:04 INFO  Log4jLogger:88 - Inside User Update Class for Updating User
+2020-06-12 11:17:04 INFO  Log4jLogger:90 - Trying to Update User
+2020-06-12 11:17:04 INFO  Log4jLogger:98 - User Updated in DB
+2020-06-12 11:21:30 INFO  Log4jLogger:41 - Inside Opportunity Add Class
+2020-06-12 11:21:30 INFO  Log4jLogger:42 - verifying user
+2020-06-12 11:21:30 WARN  Log4jLogger:50 - Exception Occured while Adding
+2020-06-12 11:21:30 ERROR Log4jLogger:51 - Error in Adding Opportunityr:com.accolite.opportunity.exception.OpportunityServiceErrorException
+2020-06-12 11:21:30 INFO  Log4jLogger:54 - Opportunity Registered into DB
+2020-06-12 11:21:31 INFO  Log4jLogger:110 - Inside Opportunity Delete Class
+2020-06-12 11:21:31 INFO  Log4jLogger:111 - Verifying User
+2020-06-12 11:21:31 INFO  Log4jLogger:114 - User Verified
+2020-06-12 11:21:31 INFO  Log4jLogger:116 - Trying to remove opportunity
+2020-06-12 11:21:31 WARN  Log4jLogger:124 - Exception Occured while Deleting
+2020-06-12 11:21:31 ERROR Log4jLogger:125 - Error in Deleting Opportunity:com.accolite.opportunity.exception.OpportunityServiceErrorException
+2020-06-12 11:21:31 INFO  Log4jLogger:128 - Opportunity Removed from DB
+2020-06-12 11:21:31 INFO  Log4jLogger:73 - Inside Opportunity Get Class
+2020-06-12 11:21:31 INFO  Log4jLogger:74 - verifying user
+2020-06-12 11:21:31 INFO  Log4jLogger:79 - Trying to Find User in DB by retreiving all data
+2020-06-12 11:21:31 INFO  Log4jLogger:82 - Found Opportunities Returning its Data
+2020-06-12 11:21:31 INFO  Log4jLogger:140 - Inside Opportunity Update Class
+2020-06-12 11:21:31 INFO  Log4jLogger:144 - Trying to Update Opportunity
+2020-06-12 11:21:31 WARN  Log4jLogger:151 - Exception Occured while Updating
+2020-06-12 11:21:31 ERROR Log4jLogger:152 - Error in Updating Opportunity:com.accolite.opportunity.exception.OpportunityNotFoundException
+2020-06-12 11:21:31 INFO  Log4jLogger:157 - Opportunity Updated in DB
+2020-06-12 11:21:33 INFO  Log4jLogger:24 - Inside User Add Class for Interceptor
+2020-06-12 11:21:33 INFO  Log4jLogger:26 - Trying to Register User into DB
+2020-06-12 11:21:33 INFO  Log4jLogger:35 - User Registered into DB
+2020-06-12 11:21:33 INFO  Log4jLogger:69 - Inside User Delete Class for Removing User
+2020-06-12 11:21:33 INFO  Log4jLogger:72 - Trying to remove User
+2020-06-12 11:21:33 INFO  Log4jLogger:81 - User Removed from DB
+2020-06-12 11:21:33 INFO  Log4jLogger:88 - Inside User Update Class for Updating User
+2020-06-12 11:21:33 INFO  Log4jLogger:90 - Trying to Update User
+2020-06-12 11:21:33 INFO  Log4jLogger:98 - User Updated in DB
+2020-06-12 11:48:03 INFO  Log4jLogger:73 - Inside Opportunity Get Class
+2020-06-12 11:48:04 INFO  Log4jLogger:74 - verifying user
+2020-06-12 11:48:04 INFO  Log4jLogger:21 - verifying user
+2020-06-12 11:48:04 INFO  Log4jLogger:24 - Trying to Find User in DB by retreiving all Users
+2020-06-12 11:48:05 INFO  Log4jLogger:34 - Found User
+2020-06-12 11:48:05 INFO  Log4jLogger:79 - Trying to Find User in DB by retreiving all data
+2020-06-12 11:48:05 INFO  Log4jLogger:82 - Found Opportunities Returning its Data
+2020-06-12 12:00:44 INFO  Log4jLogger:43 - Inside User Get Class for finding User by EmailId
+2020-06-12 12:00:45 INFO  Log4jLogger:46 - Trying to Find User in DB by retreiving all data
+2020-06-12 12:00:57 INFO  Log4jLogger:24 - Inside User Add Class for Interceptor
+2020-06-12 12:00:57 INFO  Log4jLogger:26 - Trying to Register User into DB
+2020-06-12 12:00:58 INFO  Log4jLogger:56 - Found User Returning its Data
+2020-06-12 12:01:01 INFO  Log4jLogger:88 - Inside User Update Class for Updating User
+2020-06-12 12:01:01 INFO  Log4jLogger:90 - Trying to Update User
+2020-06-12 12:01:04 INFO  Log4jLogger:98 - User Updated in DB
+2020-06-12 12:01:06 WARN  Log4jLogger:31 - Exception Occured while Adding
+2020-06-12 12:01:06 ERROR Log4jLogger:32 - Error in Adding User:org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [emailid]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+2020-06-12 12:01:06 INFO  Log4jLogger:35 - User Registered into DB
+2020-06-12 12:01:07 INFO  Log4jLogger:73 - Inside Opportunity Get Class
+2020-06-12 12:01:07 INFO  Log4jLogger:74 - verifying user
+2020-06-12 12:01:07 INFO  Log4jLogger:21 - verifying user
+2020-06-12 12:01:07 INFO  Log4jLogger:24 - Trying to Find User in DB by retreiving all Users
+2020-06-12 12:01:07 INFO  Log4jLogger:34 - Found User
+2020-06-12 12:01:07 INFO  Log4jLogger:79 - Trying to Find User in DB by retreiving all data
+2020-06-12 12:01:07 INFO  Log4jLogger:82 - Found Opportunities Returning its Data
+2020-06-12 12:01:57 INFO  Log4jLogger:41 - Inside Opportunity Add Class
+2020-06-12 12:01:57 INFO  Log4jLogger:42 - verifying user
+2020-06-12 12:01:57 INFO  Log4jLogger:21 - verifying user
+2020-06-12 12:01:57 INFO  Log4jLogger:24 - Trying to Find User in DB by retreiving all Users
+2020-06-12 12:01:57 INFO  Log4jLogger:34 - Found User
+2020-06-12 12:01:57 INFO  Log4jLogger:54 - Opportunity Registered into DB
+2020-06-12 12:10:55 INFO  Log4jLogger:41 - Inside Opportunity Add Class
+2020-06-12 12:10:55 INFO  Log4jLogger:42 - verifying user
+2020-06-12 12:10:55 WARN  Log4jLogger:50 - Exception Occured while Adding
+2020-06-12 12:10:55 ERROR Log4jLogger:51 - Error in Adding Opportunityr:com.accolite.opportunity.exception.OpportunityServiceErrorException
+2020-06-12 12:10:55 INFO  Log4jLogger:54 - Opportunity Registered into DB
+2020-06-12 12:10:55 INFO  Log4jLogger:110 - Inside Opportunity Delete Class
+2020-06-12 12:10:55 INFO  Log4jLogger:111 - Verifying User
+2020-06-12 12:10:55 INFO  Log4jLogger:114 - User Verified
+2020-06-12 12:10:55 INFO  Log4jLogger:116 - Trying to remove opportunity
+2020-06-12 12:10:55 WARN  Log4jLogger:119 - Entry not deleted
+2020-06-12 12:10:55 INFO  Log4jLogger:128 - Opportunity Removed from DB
+2020-06-12 12:10:55 INFO  Log4jLogger:73 - Inside Opportunity Get Class
+2020-06-12 12:10:55 INFO  Log4jLogger:74 - verifying user
+2020-06-12 12:10:55 INFO  Log4jLogger:79 - Trying to Find User in DB by retreiving all data
+2020-06-12 12:10:55 INFO  Log4jLogger:82 - Found Opportunities Returning its Data
+2020-06-12 12:10:55 INFO  Log4jLogger:140 - Inside Opportunity Update Class
+2020-06-12 12:10:55 INFO  Log4jLogger:144 - Trying to Update Opportunity
+2020-06-12 12:10:55 WARN  Log4jLogger:151 - Exception Occured while Updating
+2020-06-12 12:10:55 ERROR Log4jLogger:152 - Error in Updating Opportunity:com.accolite.opportunity.exception.OpportunityNotFoundException
+2020-06-12 12:10:55 INFO  Log4jLogger:157 - Opportunity Updated in DB
+2020-06-12 12:10:57 INFO  Log4jLogger:24 - Inside User Add Class for Interceptor
+2020-06-12 12:10:57 INFO  Log4jLogger:26 - Trying to Register User into DB
+2020-06-12 12:10:57 INFO  Log4jLogger:35 - User Registered into DB
+2020-06-12 12:10:57 INFO  Log4jLogger:69 - Inside User Delete Class for Removing User
+2020-06-12 12:10:57 INFO  Log4jLogger:72 - Trying to remove User
+2020-06-12 12:10:57 INFO  Log4jLogger:81 - User Removed from DB
+2020-06-12 12:10:57 INFO  Log4jLogger:88 - Inside User Update Class for Updating User
+2020-06-12 12:10:57 INFO  Log4jLogger:90 - Trying to Update User
+2020-06-12 12:10:57 INFO  Log4jLogger:98 - User Updated in DB
+2020-06-12 12:14:51 INFO  Log4jLogger:41 - Inside Opportunity Add Class
+2020-06-12 12:14:51 INFO  Log4jLogger:42 - verifying user
+2020-06-12 12:14:51 WARN  Log4jLogger:50 - Exception Occured while Adding
+2020-06-12 12:14:51 ERROR Log4jLogger:51 - Error in Adding Opportunityr:com.accolite.opportunity.exception.OpportunityServiceErrorException
+2020-06-12 12:14:51 INFO  Log4jLogger:54 - Opportunity Registered into DB
+2020-06-12 12:14:51 INFO  Log4jLogger:110 - Inside Opportunity Delete Class
+2020-06-12 12:14:51 INFO  Log4jLogger:111 - Verifying User
+2020-06-12 12:14:51 INFO  Log4jLogger:114 - User Verified
+2020-06-12 12:14:51 INFO  Log4jLogger:116 - Trying to remove opportunity
+2020-06-12 12:14:51 WARN  Log4jLogger:119 - Entry not deleted
+2020-06-12 12:14:51 INFO  Log4jLogger:128 - Opportunity Removed from DB
+2020-06-12 12:14:51 INFO  Log4jLogger:73 - Inside Opportunity Get Class
+2020-06-12 12:14:51 INFO  Log4jLogger:74 - verifying user
+2020-06-12 12:14:51 INFO  Log4jLogger:79 - Trying to Find User in DB by retreiving all data
+2020-06-12 12:14:51 INFO  Log4jLogger:82 - Found Opportunities Returning its Data
+2020-06-12 12:14:51 INFO  Log4jLogger:140 - Inside Opportunity Update Class
+2020-06-12 12:14:51 INFO  Log4jLogger:144 - Trying to Update Opportunity
+2020-06-12 12:14:51 WARN  Log4jLogger:151 - Exception Occured while Updating
+2020-06-12 12:14:51 ERROR Log4jLogger:152 - Error in Updating Opportunity:com.accolite.opportunity.exception.OpportunityNotFoundException
+2020-06-12 12:14:51 INFO  Log4jLogger:157 - Opportunity Updated in DB
+2020-06-12 12:14:53 INFO  Log4jLogger:24 - Inside User Add Class for Interceptor
+2020-06-12 12:14:53 INFO  Log4jLogger:26 - Trying to Register User into DB
+2020-06-12 12:14:53 INFO  Log4jLogger:35 - User Registered into DB
+2020-06-12 12:14:53 INFO  Log4jLogger:69 - Inside User Delete Class for Removing User
+2020-06-12 12:14:53 INFO  Log4jLogger:72 - Trying to remove User
+2020-06-12 12:14:53 INFO  Log4jLogger:81 - User Removed from DB
+2020-06-12 12:14:53 INFO  Log4jLogger:88 - Inside User Update Class for Updating User
+2020-06-12 12:14:53 INFO  Log4jLogger:90 - Trying to Update User
+2020-06-12 12:14:53 INFO  Log4jLogger:98 - User Updated in DB
+2020-06-12 12:16:06 INFO  Log4jLogger:41 - Inside Opportunity Add Class
+2020-06-12 12:16:06 INFO  Log4jLogger:42 - verifying user
+2020-06-12 12:16:06 WARN  Log4jLogger:50 - Exception Occured while Adding
+2020-06-12 12:16:06 ERROR Log4jLogger:51 - Error in Adding Opportunityr:com.accolite.opportunity.exception.OpportunityServiceErrorException
+2020-06-12 12:16:06 INFO  Log4jLogger:54 - Opportunity Registered into DB
+2020-06-12 12:16:06 INFO  Log4jLogger:110 - Inside Opportunity Delete Class
+2020-06-12 12:16:06 INFO  Log4jLogger:111 - Verifying User
+2020-06-12 12:16:06 INFO  Log4jLogger:114 - User Verified
+2020-06-12 12:16:06 INFO  Log4jLogger:116 - Trying to remove opportunity
+2020-06-12 12:16:06 WARN  Log4jLogger:119 - Entry not deleted
+2020-06-12 12:16:06 INFO  Log4jLogger:128 - Opportunity Removed from DB
+2020-06-12 12:16:07 INFO  Log4jLogger:73 - Inside Opportunity Get Class
+2020-06-12 12:16:07 INFO  Log4jLogger:74 - verifying user
+2020-06-12 12:16:07 INFO  Log4jLogger:79 - Trying to Find User in DB by retreiving all data
+2020-06-12 12:16:07 INFO  Log4jLogger:82 - Found Opportunities Returning its Data
+2020-06-12 12:16:07 INFO  Log4jLogger:140 - Inside Opportunity Update Class
+2020-06-12 12:16:07 INFO  Log4jLogger:144 - Trying to Update Opportunity
+2020-06-12 12:16:07 WARN  Log4jLogger:151 - Exception Occured while Updating
+2020-06-12 12:16:07 ERROR Log4jLogger:152 - Error in Updating Opportunity:com.accolite.opportunity.exception.OpportunityNotFoundException
+2020-06-12 12:16:07 INFO  Log4jLogger:157 - Opportunity Updated in DB
+2020-06-12 12:16:08 INFO  Log4jLogger:24 - Inside User Add Class for Interceptor
+2020-06-12 12:16:08 INFO  Log4jLogger:26 - Trying to Register User into DB
+2020-06-12 12:16:08 INFO  Log4jLogger:35 - User Registered into DB
+2020-06-12 12:16:08 INFO  Log4jLogger:69 - Inside User Delete Class for Removing User
+2020-06-12 12:16:08 INFO  Log4jLogger:72 - Trying to remove User
+2020-06-12 12:16:08 INFO  Log4jLogger:81 - User Removed from DB
+2020-06-12 12:16:08 INFO  Log4jLogger:88 - Inside User Update Class for Updating User
+2020-06-12 12:16:08 INFO  Log4jLogger:90 - Trying to Update User
+2020-06-12 12:16:08 INFO  Log4jLogger:98 - User Updated in DB
+2020-06-12 12:18:12 INFO  Log4jLogger:37 - Inside Opportunity Get Class
+2020-06-12 12:18:12 INFO  Log4jLogger:38 - verifying user
+2020-06-12 12:18:12 INFO  Log4jLogger:21 - verifying user
+2020-06-12 12:18:12 INFO  Log4jLogger:24 - Trying to Find User in DB by retreiving all Users
+2020-06-12 12:18:13 INFO  Log4jLogger:34 - Found User
+2020-06-12 12:18:13 INFO  Log4jLogger:43 - Trying to Find User in DB by retreiving all data
+2020-06-12 12:18:13 INFO  Log4jLogger:45 - Found Opportunities Returning its Data
+2020-06-12 12:18:37 INFO  Log4jLogger:73 - Inside Opportunity Get Class
+2020-06-12 12:18:37 INFO  Log4jLogger:74 - verifying user
+2020-06-12 12:18:37 INFO  Log4jLogger:21 - verifying user
+2020-06-12 12:18:37 INFO  Log4jLogger:24 - Trying to Find User in DB by retreiving all Users
+2020-06-12 12:18:37 INFO  Log4jLogger:34 - Found User
+2020-06-12 12:18:37 INFO  Log4jLogger:79 - Trying to Find User in DB by retreiving all data
+2020-06-12 12:18:38 INFO  Log4jLogger:82 - Found Opportunities Returning its Data
+2020-06-12 12:19:54 INFO  Log4jLogger:41 - Inside Opportunity Add Class
+2020-06-12 12:19:54 INFO  Log4jLogger:42 - verifying user
+2020-06-12 12:19:54 WARN  Log4jLogger:50 - Exception Occured while Adding
+2020-06-12 12:19:54 ERROR Log4jLogger:51 - Error in Adding Opportunityr:com.accolite.opportunity.exception.OpportunityServiceErrorException
+2020-06-12 12:19:54 INFO  Log4jLogger:54 - Opportunity Registered into DB
+2020-06-12 12:19:54 INFO  Log4jLogger:110 - Inside Opportunity Delete Class
+2020-06-12 12:19:54 INFO  Log4jLogger:111 - Verifying User
+2020-06-12 12:19:54 INFO  Log4jLogger:114 - User Verified
+2020-06-12 12:19:54 INFO  Log4jLogger:116 - Trying to remove opportunity
+2020-06-12 12:19:54 WARN  Log4jLogger:119 - Entry not deleted
+2020-06-12 12:19:54 INFO  Log4jLogger:128 - Opportunity Removed from DB
+2020-06-12 12:19:54 INFO  Log4jLogger:73 - Inside Opportunity Get Class
+2020-06-12 12:19:54 INFO  Log4jLogger:74 - verifying user
+2020-06-12 12:19:54 INFO  Log4jLogger:79 - Trying to Find User in DB by retreiving all data
+2020-06-12 12:19:54 INFO  Log4jLogger:82 - Found Opportunities Returning its Data
+2020-06-12 12:19:54 INFO  Log4jLogger:140 - Inside Opportunity Update Class
+2020-06-12 12:19:54 INFO  Log4jLogger:144 - Trying to Update Opportunity
+2020-06-12 12:19:54 WARN  Log4jLogger:151 - Exception Occured while Updating
+2020-06-12 12:19:54 ERROR Log4jLogger:152 - Error in Updating Opportunity:com.accolite.opportunity.exception.OpportunityNotFoundException
+2020-06-12 12:19:54 INFO  Log4jLogger:157 - Opportunity Updated in DB
+2020-06-12 12:19:56 INFO  Log4jLogger:24 - Inside User Add Class for Interceptor
+2020-06-12 12:19:56 INFO  Log4jLogger:26 - Trying to Register User into DB
+2020-06-12 12:19:56 INFO  Log4jLogger:35 - User Registered into DB
+2020-06-12 12:19:56 INFO  Log4jLogger:69 - Inside User Delete Class for Removing User
+2020-06-12 12:19:56 INFO  Log4jLogger:72 - Trying to remove User
+2020-06-12 12:19:56 INFO  Log4jLogger:81 - User Removed from DB
+2020-06-12 12:19:56 INFO  Log4jLogger:88 - Inside User Update Class for Updating User
+2020-06-12 12:19:56 INFO  Log4jLogger:90 - Trying to Update User
+2020-06-12 12:19:56 INFO  Log4jLogger:98 - User Updated in DB
+2020-06-12 12:21:45 INFO  Log4jLogger:140 - Inside Opportunity Update Class
+2020-06-12 12:21:45 INFO  Log4jLogger:21 - verifying user
+2020-06-12 12:21:45 INFO  Log4jLogger:24 - Trying to Find User in DB by retreiving all Users
+2020-06-12 12:21:45 INFO  Log4jLogger:34 - Found User
+2020-06-12 12:21:45 INFO  Log4jLogger:144 - Trying to Update Opportunity
+2020-06-12 12:21:45 INFO  Log4jLogger:157 - Opportunity Updated in DB
+2020-06-12 12:24:08 INFO  Log4jLogger:41 - Inside Opportunity Add Class
+2020-06-12 12:24:08 INFO  Log4jLogger:42 - verifying user
+2020-06-12 12:24:08 WARN  Log4jLogger:50 - Exception Occured while Adding
+2020-06-12 12:24:08 ERROR Log4jLogger:51 - Error in Adding Opportunityr:com.accolite.opportunity.exception.OpportunityServiceErrorException
+2020-06-12 12:24:08 INFO  Log4jLogger:54 - Opportunity Registered into DB
+2020-06-12 12:24:08 INFO  Log4jLogger:110 - Inside Opportunity Delete Class
+2020-06-12 12:24:08 INFO  Log4jLogger:111 - Verifying User
+2020-06-12 12:24:08 INFO  Log4jLogger:114 - User Verified
+2020-06-12 12:24:08 INFO  Log4jLogger:116 - Trying to remove opportunity
+2020-06-12 12:24:08 WARN  Log4jLogger:119 - Entry not deleted
+2020-06-12 12:24:08 INFO  Log4jLogger:128 - Opportunity Removed from DB
+2020-06-12 12:24:08 INFO  Log4jLogger:73 - Inside Opportunity Get Class
+2020-06-12 12:24:08 INFO  Log4jLogger:74 - verifying user
+2020-06-12 12:24:08 INFO  Log4jLogger:79 - Trying to Find User in DB by retreiving all data
+2020-06-12 12:24:08 INFO  Log4jLogger:82 - Found Opportunities Returning its Data
+2020-06-12 12:24:08 INFO  Log4jLogger:140 - Inside Opportunity Update Class
+2020-06-12 12:24:08 INFO  Log4jLogger:144 - Trying to Update Opportunity
+2020-06-12 12:24:08 WARN  Log4jLogger:151 - Exception Occured while Updating
+2020-06-12 12:24:08 ERROR Log4jLogger:152 - Error in Updating Opportunity:com.accolite.opportunity.exception.OpportunityNotFoundException
+2020-06-12 12:24:08 INFO  Log4jLogger:157 - Opportunity Updated in DB
+2020-06-12 12:24:10 INFO  Log4jLogger:24 - Inside User Add Class for Interceptor
+2020-06-12 12:24:10 INFO  Log4jLogger:26 - Trying to Register User into DB
+2020-06-12 12:24:10 INFO  Log4jLogger:35 - User Registered into DB
+2020-06-12 12:24:10 INFO  Log4jLogger:69 - Inside User Delete Class for Removing User
+2020-06-12 12:24:10 INFO  Log4jLogger:72 - Trying to remove User
+2020-06-12 12:24:10 INFO  Log4jLogger:81 - User Removed from DB
+2020-06-12 12:24:10 INFO  Log4jLogger:88 - Inside User Update Class for Updating User
+2020-06-12 12:24:10 INFO  Log4jLogger:90 - Trying to Update User
+2020-06-12 12:24:10 INFO  Log4jLogger:98 - User Updated in DB
+2020-06-12 12:31:52 INFO  Log4jLogger:41 - Inside Opportunity Add Class
+2020-06-12 12:31:52 INFO  Log4jLogger:42 - verifying user
+2020-06-12 12:31:52 WARN  Log4jLogger:50 - Exception Occured while Adding
+2020-06-12 12:31:52 ERROR Log4jLogger:51 - Error in Adding Opportunityr:com.accolite.opportunity.exception.OpportunityServiceErrorException
+2020-06-12 12:31:52 INFO  Log4jLogger:54 - Opportunity Registered into DB
+2020-06-12 12:31:52 INFO  Log4jLogger:110 - Inside Opportunity Delete Class
+2020-06-12 12:31:52 INFO  Log4jLogger:111 - Verifying User
+2020-06-12 12:31:52 INFO  Log4jLogger:114 - User Verified
+2020-06-12 12:31:52 INFO  Log4jLogger:116 - Trying to remove opportunity
+2020-06-12 12:31:52 WARN  Log4jLogger:119 - Entry not deleted
+2020-06-12 12:31:52 INFO  Log4jLogger:128 - Opportunity Removed from DB
+2020-06-12 12:31:52 INFO  Log4jLogger:73 - Inside Opportunity Get Class
+2020-06-12 12:31:52 INFO  Log4jLogger:74 - verifying user
+2020-06-12 12:31:52 INFO  Log4jLogger:79 - Trying to Find User in DB by retreiving all data
+2020-06-12 12:31:52 INFO  Log4jLogger:82 - Found Opportunities Returning its Data
+2020-06-12 12:31:52 INFO  Log4jLogger:140 - Inside Opportunity Update Class
+2020-06-12 12:31:52 INFO  Log4jLogger:144 - Trying to Update Opportunity
+2020-06-12 12:31:52 WARN  Log4jLogger:151 - Exception Occured while Updating
+2020-06-12 12:31:52 ERROR Log4jLogger:152 - Error in Updating Opportunity:com.accolite.opportunity.exception.OpportunityNotFoundException
+2020-06-12 12:31:52 INFO  Log4jLogger:157 - Opportunity Updated in DB
+2020-06-12 12:31:53 INFO  Log4jLogger:24 - Inside User Add Class for Interceptor
+2020-06-12 12:31:53 INFO  Log4jLogger:26 - Trying to Register User into DB
+2020-06-12 12:31:53 INFO  Log4jLogger:35 - User Registered into DB
+2020-06-12 12:31:53 INFO  Log4jLogger:69 - Inside User Delete Class for Removing User
+2020-06-12 12:31:53 INFO  Log4jLogger:72 - Trying to remove User
+2020-06-12 12:31:53 INFO  Log4jLogger:81 - User Removed from DB
+2020-06-12 12:31:53 INFO  Log4jLogger:88 - Inside User Update Class for Updating User
+2020-06-12 12:31:53 INFO  Log4jLogger:90 - Trying to Update User
+2020-06-12 12:31:53 INFO  Log4jLogger:98 - User Updated in DB
+2020-06-12 12:34:11 INFO  Log4jLogger:41 - Inside Opportunity Add Class
+2020-06-12 12:34:11 INFO  Log4jLogger:42 - verifying user
+2020-06-12 12:34:11 WARN  Log4jLogger:50 - Exception Occured while Adding
+2020-06-12 12:34:11 ERROR Log4jLogger:51 - Error in Adding Opportunityr:com.accolite.opportunity.exception.OpportunityServiceErrorException
+2020-06-12 12:34:11 INFO  Log4jLogger:54 - Opportunity Registered into DB
+2020-06-12 12:34:11 INFO  Log4jLogger:110 - Inside Opportunity Delete Class
+2020-06-12 12:34:11 INFO  Log4jLogger:111 - Verifying User
+2020-06-12 12:34:11 INFO  Log4jLogger:114 - User Verified
+2020-06-12 12:34:11 INFO  Log4jLogger:116 - Trying to remove opportunity
+2020-06-12 12:34:11 WARN  Log4jLogger:119 - Entry not deleted
+2020-06-12 12:34:11 INFO  Log4jLogger:128 - Opportunity Removed from DB
+2020-06-12 12:34:11 INFO  Log4jLogger:73 - Inside Opportunity Get Class
+2020-06-12 12:34:11 INFO  Log4jLogger:74 - verifying user
+2020-06-12 12:34:11 INFO  Log4jLogger:79 - Trying to Find User in DB by retreiving all data
+2020-06-12 12:34:11 INFO  Log4jLogger:82 - Found Opportunities Returning its Data
+2020-06-12 12:34:11 INFO  Log4jLogger:140 - Inside Opportunity Update Class
+2020-06-12 12:34:11 INFO  Log4jLogger:144 - Trying to Update Opportunity
+2020-06-12 12:34:11 WARN  Log4jLogger:151 - Exception Occured while Updating
+2020-06-12 12:34:11 ERROR Log4jLogger:152 - Error in Updating Opportunity:com.accolite.opportunity.exception.OpportunityNotFoundException
+2020-06-12 12:34:11 INFO  Log4jLogger:157 - Opportunity Updated in DB
+2020-06-12 12:34:13 INFO  Log4jLogger:24 - Inside User Add Class for Interceptor
+2020-06-12 12:34:13 INFO  Log4jLogger:26 - Trying to Register User into DB
+2020-06-12 12:34:13 INFO  Log4jLogger:35 - User Registered into DB
+2020-06-12 12:34:13 INFO  Log4jLogger:69 - Inside User Delete Class for Removing User
+2020-06-12 12:34:13 INFO  Log4jLogger:72 - Trying to remove User
+2020-06-12 12:34:13 INFO  Log4jLogger:81 - User Removed from DB
+2020-06-12 12:34:13 INFO  Log4jLogger:88 - Inside User Update Class for Updating User
+2020-06-12 12:34:13 INFO  Log4jLogger:90 - Trying to Update User
+2020-06-12 12:34:13 INFO  Log4jLogger:98 - User Updated in DB
+2020-06-12 12:36:48 INFO  Log4jLogger:41 - Inside Opportunity Add Class
+2020-06-12 12:36:48 INFO  Log4jLogger:42 - verifying user
+2020-06-12 12:36:48 WARN  Log4jLogger:50 - Exception Occured while Adding
+2020-06-12 12:36:48 ERROR Log4jLogger:51 - Error in Adding Opportunityr:com.accolite.opportunity.exception.OpportunityServiceErrorException
+2020-06-12 12:36:48 INFO  Log4jLogger:54 - Opportunity Registered into DB
+2020-06-12 12:36:48 INFO  Log4jLogger:110 - Inside Opportunity Delete Class
+2020-06-12 12:36:48 INFO  Log4jLogger:111 - Verifying User
+2020-06-12 12:36:48 INFO  Log4jLogger:114 - User Verified
+2020-06-12 12:36:48 INFO  Log4jLogger:116 - Trying to remove opportunity
+2020-06-12 12:36:48 WARN  Log4jLogger:119 - Entry not deleted
+2020-06-12 12:36:48 INFO  Log4jLogger:128 - Opportunity Removed from DB
+2020-06-12 12:36:48 INFO  Log4jLogger:73 - Inside Opportunity Get Class
+2020-06-12 12:36:48 INFO  Log4jLogger:74 - verifying user
+2020-06-12 12:36:48 INFO  Log4jLogger:79 - Trying to Find User in DB by retreiving all data
+2020-06-12 12:36:48 INFO  Log4jLogger:82 - Found Opportunities Returning its Data
+2020-06-12 12:36:48 INFO  Log4jLogger:140 - Inside Opportunity Update Class
+2020-06-12 12:36:48 INFO  Log4jLogger:144 - Trying to Update Opportunity
+2020-06-12 12:36:48 WARN  Log4jLogger:151 - Exception Occured while Updating
+2020-06-12 12:36:48 ERROR Log4jLogger:152 - Error in Updating Opportunity:com.accolite.opportunity.exception.OpportunityNotFoundException
+2020-06-12 12:36:48 INFO  Log4jLogger:157 - Opportunity Updated in DB
+2020-06-12 12:36:49 INFO  Log4jLogger:24 - Inside User Add Class for Interceptor
+2020-06-12 12:36:49 INFO  Log4jLogger:26 - Trying to Register User into DB
+2020-06-12 12:36:49 INFO  Log4jLogger:35 - User Registered into DB
+2020-06-12 12:36:49 INFO  Log4jLogger:69 - Inside User Delete Class for Removing User
+2020-06-12 12:36:49 INFO  Log4jLogger:72 - Trying to remove User
+2020-06-12 12:36:49 INFO  Log4jLogger:81 - User Removed from DB
+2020-06-12 12:36:49 INFO  Log4jLogger:88 - Inside User Update Class for Updating User
+2020-06-12 12:36:49 INFO  Log4jLogger:90 - Trying to Update User
+2020-06-12 12:36:49 INFO  Log4jLogger:98 - User Updated in DB
+2020-06-12 12:39:19 INFO  Log4jLogger:41 - Inside Opportunity Add Class
+2020-06-12 12:39:19 INFO  Log4jLogger:42 - verifying user
+2020-06-12 12:39:19 WARN  Log4jLogger:50 - Exception Occured while Adding
+2020-06-12 12:39:19 ERROR Log4jLogger:51 - Error in Adding Opportunityr:com.accolite.opportunity.exception.OpportunityServiceErrorException
+2020-06-12 12:39:19 INFO  Log4jLogger:54 - Opportunity Registered into DB
+2020-06-12 12:39:19 INFO  Log4jLogger:110 - Inside Opportunity Delete Class
+2020-06-12 12:39:19 INFO  Log4jLogger:111 - Verifying User
+2020-06-12 12:39:19 INFO  Log4jLogger:114 - User Verified
+2020-06-12 12:39:19 INFO  Log4jLogger:116 - Trying to remove opportunity
+2020-06-12 12:39:19 WARN  Log4jLogger:119 - Entry not deleted
+2020-06-12 12:39:19 INFO  Log4jLogger:128 - Opportunity Removed from DB
+2020-06-12 12:39:19 INFO  Log4jLogger:73 - Inside Opportunity Get Class
+2020-06-12 12:39:19 INFO  Log4jLogger:74 - verifying user
+2020-06-12 12:39:19 INFO  Log4jLogger:79 - Trying to Find User in DB by retreiving all data
+2020-06-12 12:39:19 INFO  Log4jLogger:82 - Found Opportunities Returning its Data
+2020-06-12 12:39:19 INFO  Log4jLogger:140 - Inside Opportunity Update Class
+2020-06-12 12:39:19 INFO  Log4jLogger:144 - Trying to Update Opportunity
+2020-06-12 12:39:19 WARN  Log4jLogger:151 - Exception Occured while Updating
+2020-06-12 12:39:19 ERROR Log4jLogger:152 - Error in Updating Opportunity:com.accolite.opportunity.exception.OpportunityNotFoundException
+2020-06-12 12:39:19 INFO  Log4jLogger:157 - Opportunity Updated in DB
+2020-06-12 12:39:20 INFO  Log4jLogger:24 - Inside User Add Class for Interceptor
+2020-06-12 12:39:20 INFO  Log4jLogger:26 - Trying to Register User into DB
+2020-06-12 12:39:20 INFO  Log4jLogger:35 - User Registered into DB
+2020-06-12 12:39:20 INFO  Log4jLogger:69 - Inside User Delete Class for Removing User
+2020-06-12 12:39:20 INFO  Log4jLogger:72 - Trying to remove User
+2020-06-12 12:39:20 INFO  Log4jLogger:81 - User Removed from DB
+2020-06-12 12:39:20 INFO  Log4jLogger:88 - Inside User Update Class for Updating User
+2020-06-12 12:39:20 INFO  Log4jLogger:90 - Trying to Update User
+2020-06-12 12:39:20 INFO  Log4jLogger:98 - User Updated in DB
+2020-06-12 12:40:48 INFO  Log4jLogger:41 - Inside Opportunity Add Class
+2020-06-12 12:40:48 INFO  Log4jLogger:42 - verifying user
+2020-06-12 12:40:48 WARN  Log4jLogger:50 - Exception Occured while Adding
+2020-06-12 12:40:48 ERROR Log4jLogger:51 - Error in Adding Opportunityr:com.accolite.opportunity.exception.OpportunityServiceErrorException
+2020-06-12 12:40:48 INFO  Log4jLogger:54 - Opportunity Registered into DB
+2020-06-12 12:40:48 INFO  Log4jLogger:110 - Inside Opportunity Delete Class
+2020-06-12 12:40:48 INFO  Log4jLogger:111 - Verifying User
+2020-06-12 12:40:48 INFO  Log4jLogger:114 - User Verified
+2020-06-12 12:40:48 INFO  Log4jLogger:116 - Trying to remove opportunity
+2020-06-12 12:40:48 WARN  Log4jLogger:119 - Entry not deleted
+2020-06-12 12:40:48 INFO  Log4jLogger:128 - Opportunity Removed from DB
+2020-06-12 12:40:48 INFO  Log4jLogger:73 - Inside Opportunity Get Class
+2020-06-12 12:40:48 INFO  Log4jLogger:74 - verifying user
+2020-06-12 12:40:48 INFO  Log4jLogger:79 - Trying to Find User in DB by retreiving all data
+2020-06-12 12:40:48 INFO  Log4jLogger:82 - Found Opportunities Returning its Data
+2020-06-12 12:40:48 INFO  Log4jLogger:140 - Inside Opportunity Update Class
+2020-06-12 12:40:48 INFO  Log4jLogger:144 - Trying to Update Opportunity
+2020-06-12 12:40:48 WARN  Log4jLogger:151 - Exception Occured while Updating
+2020-06-12 12:40:48 ERROR Log4jLogger:152 - Error in Updating Opportunity:com.accolite.opportunity.exception.OpportunityNotFoundException
+2020-06-12 12:40:48 INFO  Log4jLogger:157 - Opportunity Updated in DB
+2020-06-12 12:40:50 INFO  Log4jLogger:24 - Inside User Add Class for Interceptor
+2020-06-12 12:40:50 INFO  Log4jLogger:26 - Trying to Register User into DB
+2020-06-12 12:40:50 INFO  Log4jLogger:35 - User Registered into DB
+2020-06-12 12:40:50 INFO  Log4jLogger:69 - Inside User Delete Class for Removing User
+2020-06-12 12:40:50 INFO  Log4jLogger:72 - Trying to remove User
+2020-06-12 12:40:50 INFO  Log4jLogger:81 - User Removed from DB
+2020-06-12 12:40:50 INFO  Log4jLogger:88 - Inside User Update Class for Updating User
+2020-06-12 12:40:50 INFO  Log4jLogger:90 - Trying to Update User
+2020-06-12 12:40:50 INFO  Log4jLogger:98 - User Updated in DB
