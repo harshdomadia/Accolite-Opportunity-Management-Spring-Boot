@@ -1,8 +1,5 @@
 package com.accolite.opportunity.trends.models;
 
-import java.util.HashMap;
-import java.util.Map;
-
 public class TrendsLanguageCount {
 
 	private String year;

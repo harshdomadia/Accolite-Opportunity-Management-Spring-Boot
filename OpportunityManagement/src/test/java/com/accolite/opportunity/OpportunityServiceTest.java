@@ -3,38 +3,25 @@ package com.accolite.opportunity;
 import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
-import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
 
 import java.util.ArrayList;
 import java.util.Optional;
 
 import org.junit.jupiter.api.Test;
-import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
-import org.springframework.http.MediaType;
-import org.springframework.test.context.junit4.SpringRunner;
-import org.springframework.test.web.servlet.MockMvc;
-import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
-import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 
-import com.accolite.opportunity.interceptor.Interceptors;
 import com.accolite.opportunity.model.Opportunity;
 import com.accolite.opportunity.mysql.dao.OpportunityDao;
 import com.accolite.opportunity.services.OpportunityService;
-import com.accolite.opportunity.web.controller.OpportunityController;
-import com.fasterxml.jackson.databind.ObjectMapper;
 
 //@RunWith(SpringRunner.class)
 //@WebMvcTest(controllers = {OpportunityService.class})
 @SpringBootTest
 public class OpportunityServiceTest {
 	
-	private static final int Optional = 0;
-
 	@Autowired
 	private OpportunityService opportunityService;
 	

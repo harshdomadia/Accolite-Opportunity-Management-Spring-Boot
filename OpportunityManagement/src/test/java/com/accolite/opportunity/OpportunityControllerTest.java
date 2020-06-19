@@ -1,26 +1,17 @@
 package com.accolite.opportunity;
 
-import static org.mockito.Mockito.*;
 import static org.mockito.Mockito.when;
-
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.put;
 import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
 
 import java.util.ArrayList;
 
-import org.junit.Before;
 import org.junit.jupiter.api.Test;
-import org.junit.runner.RunWith;
-
-import org.mockito.Mockito;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
-
 import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.http.MediaType;
-import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
@@ -32,7 +23,7 @@ import com.accolite.opportunity.services.OpportunityService;
 import com.accolite.opportunity.web.controller.OpportunityController;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-//@RunWith(SpringRunner.class)
+
 @WebMvcTest(controllers = {OpportunityController.class})
 public class OpportunityControllerTest {
 	
@@ -60,14 +51,7 @@ public class OpportunityControllerTest {
 	
 	
 	
-	@Before
-	public void setUp() {
-		
-		 
-		 //mockMvc = MockMvcBuilders.webAppContextSetup(webApplicationContext).build();
-		
-		 
-	}
+	
 	@Test
 	public void addOpportunityDataTest() throws Exception {
 		when(mockinterceptor.verfiyUser("harshdoamdia@accoliteindia.com", "pdhifhighighweghoifwwghoifhgihfgihrghiehgqaehrgihfigoag'orega")).thenReturn(true);
@@ -91,7 +75,7 @@ public class OpportunityControllerTest {
 			System.out.println("req = "+jsonRequest);
 			
 			mockMvc.perform(post("/api/create").header("emailid", "harshdoamdia@accoliteindia.com").header("token", "pdhifhighighweghoifwwghoifhgihfgihrghiehgqaehrgihfigoag'orega").content(jsonRequest).contentType(MediaType.APPLICATION_JSON_VALUE));
-			//andExpect(status().isOk());
+			
 		
 		
 		
@@ -156,7 +140,7 @@ public class OpportunityControllerTest {
 			System.out.println("req1 = "+jsonRequest);
 			
 			mockMvc.perform(put("/api/update").header("emailid", "harshdoamdia@accoliteindia.com").header("token", "pdhifhighighweghoifwwghoifhgihfgihrghiehgqaehrgihfigoag'orega").content(jsonRequest).contentType(MediaType.APPLICATION_JSON_VALUE));
-			//andExpect(status().isOk());
+			
 		
 		
 		
@@ -165,8 +149,6 @@ public class OpportunityControllerTest {
 		
 		
 	}
-	
-	
 	
 	
 	
@@ -178,8 +160,5 @@ public class OpportunityControllerTest {
 	
 	
 
-	@Test
-	void contextLoads() {
-	}
 
 }

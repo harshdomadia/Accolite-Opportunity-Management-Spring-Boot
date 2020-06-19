@@ -1,23 +1,15 @@
 package com.accolite.opportunity.services;
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.Optional;
 
-
-import com.accolite.logging.Log4jLogger;
-
-import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
-
 import org.springframework.stereotype.Service;
 
 import com.accolite.opportunity.model.Opportunity;
-import com.accolite.opportunity.web.controller.OpportunityController;
 
 
-//import com.accolite.opportunity.mysql.dao.UsersDao;
+
 
 @Service
 public class TrendsService {
@@ -25,8 +17,7 @@ public class TrendsService {
 	@Autowired
 	private OpportunityService opportunityService;
 	
-//	@Autowired
-//	private OpportunityController opportunityController;
+
 	
 	public Map<String,Map<String,Integer>> getTrendsForLanguageCount(){
 		Map<String,Map<String,Integer>> trendsCount = new HashMap<>();

@@ -4047,3 +4047,46 @@ For more info see javadoc for Matchers class.
 2020-06-19 20:42:07 INFO  Log4jLogger:88 - Inside User Update Class for Updating User
 2020-06-19 20:42:07 INFO  Log4jLogger:90 - Trying to Update User
 2020-06-19 20:42:07 INFO  Log4jLogger:98 - User Updated in DB
+2020-06-19 20:58:13 INFO  Log4jLogger:33 - Inside Opportunity Get Class
+2020-06-19 20:58:13 INFO  Log4jLogger:34 - verifying user
+2020-06-19 20:58:13 WARN  Log4jLogger:53 - User not verified
+2020-06-19 20:58:13 INFO  Log4jLogger:33 - Inside Opportunity Get Class
+2020-06-19 20:58:13 INFO  Log4jLogger:34 - verifying user
+2020-06-19 20:58:13 INFO  Log4jLogger:39 - Trying to Find User in DB by retreiving all data
+2020-06-19 20:58:13 INFO  Log4jLogger:41 - Found Opportunities Returning its Data
+2020-06-19 20:58:13 INFO  Log4jLogger:33 - Inside Opportunity Get Class
+2020-06-19 20:58:13 INFO  Log4jLogger:34 - verifying user
+2020-06-19 20:58:13 INFO  Log4jLogger:39 - Trying to Find User in DB by retreiving all data
+2020-06-19 20:58:13 INFO  Log4jLogger:41 - Found Opportunities Returning its Data
+2020-06-19 20:58:20 INFO  Log4jLogger:45 - Inside Opportunity Add Class
+2020-06-19 20:58:20 INFO  Log4jLogger:46 - verifying user
+2020-06-19 20:58:20 WARN  Log4jLogger:54 - Exception Occured while Adding
+2020-06-19 20:58:20 ERROR Log4jLogger:55 - Error in Adding Opportunityr:com.accolite.opportunity.exception.OpportunityServiceErrorException
+2020-06-19 20:58:20 INFO  Log4jLogger:57 - Opportunity Registered into DB
+2020-06-19 20:58:20 INFO  Log4jLogger:110 - Inside Opportunity Delete Class
+2020-06-19 20:58:20 INFO  Log4jLogger:111 - Verifying User
+2020-06-19 20:58:20 INFO  Log4jLogger:114 - User Verified
+2020-06-19 20:58:20 INFO  Log4jLogger:116 - Trying to remove opportunity
+2020-06-19 20:58:20 WARN  Log4jLogger:118 - Entry not deleted
+2020-06-19 20:58:20 INFO  Log4jLogger:127 - Opportunity Removed from DB
+2020-06-19 20:58:20 INFO  Log4jLogger:74 - Inside Opportunity Get Class
+2020-06-19 20:58:20 INFO  Log4jLogger:75 - verifying user
+2020-06-19 20:58:20 INFO  Log4jLogger:80 - Trying to Find User in DB by retreiving all data
+2020-06-19 20:58:20 INFO  Log4jLogger:83 - Found Opportunities Returning its Data
+2020-06-19 20:58:20 INFO  Log4jLogger:138 - Inside Opportunity Update Class
+2020-06-19 20:58:20 INFO  Log4jLogger:142 - Trying to Update Opportunity
+2020-06-19 20:58:20 WARN  Log4jLogger:149 - Exception Occured while Updating
+2020-06-19 20:58:20 ERROR Log4jLogger:150 - Error in Updating Opportunity:com.accolite.opportunity.exception.OpportunityNotFoundException
+2020-06-19 20:58:20 INFO  Log4jLogger:155 - Opportunity Updated in DB
+2020-06-19 20:58:21 INFO  Log4jLogger:43 - Inside User Get Class for finding User by EmailId
+2020-06-19 20:58:21 INFO  Log4jLogger:46 - Trying to Find User in DB by retreiving all data
+2020-06-19 20:58:21 INFO  Log4jLogger:62 - User Not Found in DB
+2020-06-19 20:58:21 INFO  Log4jLogger:24 - Inside User Add Class for Interceptor
+2020-06-19 20:58:21 INFO  Log4jLogger:26 - Trying to Register User into DB
+2020-06-19 20:58:21 INFO  Log4jLogger:35 - User Registered into DB
+2020-06-19 20:58:21 INFO  Log4jLogger:69 - Inside User Delete Class for Removing User
+2020-06-19 20:58:21 INFO  Log4jLogger:72 - Trying to remove User
+2020-06-19 20:58:21 INFO  Log4jLogger:81 - User Removed from DB
+2020-06-19 20:58:21 INFO  Log4jLogger:88 - Inside User Update Class for Updating User
+2020-06-19 20:58:21 INFO  Log4jLogger:90 - Trying to Update User
+2020-06-19 20:58:21 INFO  Log4jLogger:98 - User Updated in DB

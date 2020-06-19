@@ -2,21 +2,26 @@ package com.accolite.opportunity.web.controller;
 import java.util.List;
 
 import org.apache.log4j.Logger;
-import org.apache.log4j.PropertyConfigurator;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestHeader;
+import org.springframework.web.bind.annotation.RestController;
 
 import com.accolite.logging.Log4jLogger;
 import com.accolite.opportunity.exception.OpportunityNotFoundException;
 import com.accolite.opportunity.exception.OpportunityServiceErrorException;
 import com.accolite.opportunity.interceptor.Interceptors;
 import com.accolite.opportunity.model.Opportunity;
-
 import com.accolite.opportunity.mysql.dao.OpportunityDao;
 import com.accolite.opportunity.services.OpportunityService;
 
-import org.springframework.web.bind.annotation.*;
 
-//import com.accolite.opportunity.interceptor.Interceptors;
 
 
 @CrossOrigin(origins = "${allowedorigin}", allowedHeaders = "*")
@@ -33,7 +38,6 @@ public class OpportunityController {
 	private OpportunityService opportunityService;
 	
 	@PostMapping("/api/create")
-	//@CrossOrigin(origins = "http://localhost:4200")
 	public List<Opportunity> addData(@RequestBody Opportunity opportunity,@RequestHeader("emailid") String emailid, @RequestHeader("token") String token) {
 		
 		
@@ -42,15 +46,14 @@ public class OpportunityController {
 		LOG.info("verifying user");
 		if(interceptor.verfiyUser(emailid, token)) {
 		try {
-		//dao.save(opportunity);
+		
 			if(opportunityService.addOpportunity(opportunity)==false) {
 				throw new OpportunityServiceErrorException();
 			}
 		}catch(Exception e) {
 			LOG.warn("Exception Occured while Adding");
 			LOG.error("Error in Adding Opportunityr:"+e.toString());
-			//throw new OpportunityServiceErrorException();
-		}
+					}
 		LOG.info("Opportunity Registered into DB");
 		return opportunityService.getAllOpportunities();
 		}
@@ -64,11 +67,9 @@ public class OpportunityController {
 		
 	}
 	@GetMapping("/api/get")
-	//@CrossOrigin(origins = "http://localhost:4200")
+	
 	public List<Opportunity> getData(@RequestHeader("emailid") String emailid, @RequestHeader("token") String token){
-//		String log4jConfPath = "C:/Users/wel/eclipse-workspace/OpportunityManagement/log4j.properties";
-//		PropertyConfigurator.configure(log4jConfPath);
-		
+	
 		
 		LOG.info("Inside Opportunity Get Class");
 		LOG.info("verifying user");
@@ -86,7 +87,7 @@ public class OpportunityController {
 			LOG.warn("No Opportunity Found");
 			LOG.warn("Exception Occured while Finding1");
 			LOG.error("Error in Finding Opportunity:"+e.toString());
-			//throw new OpportunityNotFoundException();
+			
 			
 			
 		}
@@ -105,7 +106,6 @@ public class OpportunityController {
 	
 	
 	@DeleteMapping("/api/delete/{id}")
-	//@CrossOrigin(origins = "http://localhost:4200")
 	public List<Opportunity> deleteData(@PathVariable Integer id,@RequestHeader("emailid") String emailid, @RequestHeader("token") String token) {
 		LOG.info("Inside Opportunity Delete Class");
 		LOG.info("Verifying User");
@@ -114,7 +114,6 @@ public class OpportunityController {
 			LOG.info("User Verified");
 		try {
 			LOG.info("Trying to remove opportunity");
-		//dao.deleteById(id);
 			if(!opportunityService.deleteOpportunity(id)) {
 				LOG.warn("Entry not deleted");
 			}
@@ -135,7 +134,6 @@ public class OpportunityController {
 	}
 	
 	@PutMapping("/api/update")
-	//@CrossOrigin(origins = "http://localhost:4200")
 	public List<Opportunity> updateData(@RequestBody Opportunity opportunity,@RequestHeader("emailid") String emailid, @RequestHeader("token") String token){
 		LOG.info("Inside Opportunity Update Class");
 		

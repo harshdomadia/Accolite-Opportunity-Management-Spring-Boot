@@ -4,38 +4,29 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
-import org.springframework.transaction.annotation.Transactional;
-
-import com.accolite.logging.Log4jLogger;
-
-import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
-
 import org.springframework.stereotype.Service;
 
 import com.accolite.opportunity.exception.OpportunityNotFoundException;
 import com.accolite.opportunity.exception.OpportunityServiceErrorException;
 import com.accolite.opportunity.model.Opportunity;
-
 import com.accolite.opportunity.mysql.dao.OpportunityDao;
 //import com.accolite.opportunity.mysql.dao.UsersDao;
 
 @Service
 public class OpportunityService {
-//	private static final Logger LOG = Log4jLogger.log;
-//	
+
 	@Autowired
 	private OpportunityDao opportunityDao;
 	
-//	@Autowired 
-//	private UsersDao dao1;
+
 	
 	
 	// Retrieve all rows from table and populate list with objects
 		public List<Opportunity> getAllOpportunities() {
 			List<Opportunity> opportunities = new ArrayList<>();
 			System.out.println("Inside opportunity Service");
-		//opportunityDao.findAll().forEach(opportunities::add);
+		
 			return (List<Opportunity>) opportunityDao.findAll();
 		}
 		
