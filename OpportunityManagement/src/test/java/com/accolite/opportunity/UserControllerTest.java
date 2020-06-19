@@ -94,36 +94,28 @@ public class UserControllerTest {
 		
 	}
 	@Test
-	public void getAllTheOpportunity() throws Exception{
+	public void getAllUserstest() throws Exception{
+		
+		Users user = new Users();
+		user.setUserid(12);
+		user.setEmailid("harshdomadia@accoliteindia.com");
+		user.setToken("hfsfiorfgiofhuiadofhdisahfiofhdioshafuisdfodhafusdhguisdhsidudfhidfuidghuiashfiushifgrdia");
+		List<Users> userList = new ArrayList<>();
+		userList.add(user);
+		when(mockDao.findAll()).thenReturn(userList);
 		
 		
-		when(mockDao.findAll()).thenReturn(Mockito.anyList());
 		
 		
-	String results = mockMvc.perform(MockMvcRequestBuilders.get("/api/get"))
+		
+	String results = mockMvc.perform(MockMvcRequestBuilders.get("/api/getUser").param("emailid","harshdoamdia@accoliteindia.com"))
 		.andExpect(MockMvcResultMatchers.status().isOk())
 		.andDo(print())
 		.andReturn().getResponse().getContentAsString();
 		System.out.println("[Result:] "+results);
 	}
 	
-	
-	/*@Test
-	public void getUserWithEmailTest() throws Exception{
-		
-		
-		when(mockDao.findAll()).thenReturn(Mockito.anyList());
-		
-		
-	String results = mockMvc.perform(get("/api/getUser").param("emailid", "harshdoamdia@accoliteindia.com"))
-		.andExpect(status().isOk())
-		.andDo(print())
-		.andReturn().getResponse().getContentAsString();
-		System.out.println("[Result:] "+results);
-		
-		//mockMvc.perform(get("/api/addUser").content(jsonRequest).contentType(MediaType.APPLICATION_JSON_VALUE));
-	}*/
-	
+
 	
 	@Test
 	public void deleteTheUserById() throws Exception{
