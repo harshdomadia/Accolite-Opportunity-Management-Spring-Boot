@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.accolite</groupId>
-	<artifactId>bookstore</artifactId>
+	<artifactId>opportunity_management</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>bookstore</name>
+	<name>opportunity_management</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
